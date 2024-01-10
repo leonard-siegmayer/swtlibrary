@@ -1,0 +1,151 @@
+<!-- card header -->
+<div class="card" [ngClass]="requestError ? 'requestFailed' : ''">
+  <div class="card-header">
+    <div class="header">
+      <input id="input" *ngIf="saved" [formControl]="checkBoxCtrl" type="checkbox" (change)="toggleCheckbox()">
+      <button class="btn btn-block collapseBtn" data-toggle="collapse" [attr.href]="'#cardBody_' + index" role="button"
+        aria-expanded="false" aria-controls="cardBody">
+        <h5 [textContent]="itemFormGroup.controls['title'].value === '' || itemFormGroup.controls['title'].value === null
+          ? item ? '' : 'New Item' : itemFormGroup.controls['title'].value">
+        </h5>
+      </button>
+      <button *ngIf="saved" class="btn btn-link deleteBtn" data-toggle="modal"
+        [attr.data-target]="'#deleteModal_' + index">Delete</button>
+    </div>
+    <!-- alert if server request failed -->
+    <div class="alert alert-danger" role="alert" [hidden]="!deleteError">
+      A problem occurred while deleting this item from your wishlist. Please try again.
+    </div>
+    <div class="alert alert-danger" role="alert" [hidden]="!addError">
+      A problem occurred while adding a new item to your wishlist. Please try again.
+    </div>
+    <div class="alert alert-danger" role="alert" [hidden]="!updateError">
+      A problem occurred while updating this item in your wishlist. Please try again.
+    </div>
+  </div>
+  <!-- card body -->
+  <div class="collapse" [id]="'cardBody_' + index">
+    <div class="card-body">
+      <form [formGroup]="itemFormGroup" autocomplete="off" novalidate>
+        <div class="row">
+          <div class="col-md-6 titleUrl">
+            <div class="form-group ">
+              <label [attr.for]="'#isbn_' + index">ISBN:*</label>
+              <input [id]="'isbn_' + index" type="text" formControlName="isbn" class="form-control"
+                placeholder="Enter a ISBN" required />
+              <button id="autoCompleteButton" class="btn btn-primary" (click)="completeBookDetails()">Auto Complete Book
+                Details</button>
+            </div>
+            <div class="form-group ">
+              <label [attr.for]="'#title_' + index">Title:*</label>
+              <input [id]="'title_' + index" class="form-control"
+                [ngClass]="itemFormGroup.controls['title'].errors && itemFormGroup.controls['title'].touched ? 'is-invalid' : ''"
+                formControlName="title" type="text" placeholder="Enter a title" required>
+              <div class="invalid-feedback">
+                Please provide a title.
+              </div>
+            </div>
+            <div class="form-group ">
+              <label [attr.for]="'#author_' + index">Author:</label>
+              <input [id]="'author_' + index" type="text" formControlName="author" class="form-control"
+                placeholder="Enter Author" />
+            </div>
+            <div class="form-group ">
+              <label [attr.for]="'#publisher_' + index">Publisher:</label>
+              <input [id]="'publisher_' + index" type="text" formControlName="publisher" class="form-control"
+                placeholder="Enter a publisher" />
+            </div>
+            <div class="form-group ">
+              <label [attr.for]="'#year_' + index">Year:</label>
+              <input [id]="'year_' + index" type="text" formControlName="year" class="form-control"
+                placeholder="Enter year" />
+            </div>
+            <div class="form-group ">
+              <label [attr.for]="'#edition_' + index">Edition:</label>
+              <input [id]="'edition_' + index" type="text" formControlName="edition" class="form-control"
+                placeholder="Enter edition" />
+            </div>
+            <div class="form-group ">
+              <label [attr.for]="'#booktitle_' + index">Booktitle:</label>
+              <input [id]="'booktitle_' + index" type="text" formControlName="booktitle" class="form-control"
+                placeholder="Enter booktitle" />
+            </div>
+
+            <div class="form-group" id="url">
+              <label [attr.for]="'#url_' + index">Url:</label>
+              <a [href]="itemFormGroup.controls['url'].value" target="_blank"
+                [hidden]="itemFormGroup.controls['url'].value === ''">(open in new tab)</a>
+              <input [id]="'url_' + index" type="url" class="form-control" formControlName="url"
+                placeholder="Enter an URL (optional)">
+            </div>
+            <!-- btns for medium and more screens -->
+            <div class="mdBtnContainer d-none d-md-block">
+              <ng-container [ngTemplateOutlet]="submitBtn"></ng-container>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label [attr.for]="'#priority_' + index">Priority:*</label>
+              <select formControlName="priority" class="form-control" type="text" [id]="'priority_' + index" required>
+                <option value="" disabled selected>Select priority</option>
+                <option [value]="priority" *ngFor="let priority of priorities">
+                  {{priority}}
+                </option>
+              </select>
+            </div>
+            <div *ngIf="saved">
+              <div class="form-group">
+                <!--for displaying date when first created-->
+                <label>Reported: </label>
+                <div fromControlName="currentDate"> {{currentDate}} </div>
+              </div>
+              <div class="form-group">
+                <label>Numbers of reports: </label>
+                <div fromControlName="counter" class="formControl"> {{getCounter()}} </div>
+              </div>
+            </div>
+            <div class="textareaForm form-group">
+              <label [attr.for]="'#note_' + index">Purpose:*</label>
+              <textarea [id]="'note_' + index" class="form-control" formControlName="note" rows="8"
+                placeholder="Enter a purpose" required></textarea>
+            </div>
+          </div>
+        </div>
+        <!-- btns for sm and less sereens -->
+        <div class="smBtnContainer d-block d-md-none mt-3">
+          <ng-container [ngTemplateOutlet]="submitBtn"></ng-container>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- template for submitBtns to allow dynamical and responsive display -->
+<ng-template #submitBtn>
+  <!-- btns for creating item -->
+  <div *ngIf="!saved">
+    <button class="btn btn-dark mr-2" [disabled]="itemFormGroup.invalid" (click)="addItem()">Create
+      Item</button>
+    <button class="btn btn-dark" [disabled]="itemFormGroup.pristine" (click)="resetForm()">Reset</button>
+  </div>
+  <!-- btns for changing item -->
+  <div *ngIf="saved">
+    <button class="btn btn-dark mr-2" [disabled]="itemFormGroup.invalid || itemFormGroup.pristine"
+      (click)="updateItem()">Submit Change</button>
+    <button class="btn btn-dark" [disabled]="itemFormGroup.pristine" (click)="resetForm()">Abort</button>
+  </div>
+</ng-template>
+<!-- modal for deleting a single item -->
+<div class="modal fade" [id]="'deleteModal_' + index" tabindex="-1" data-backdrop="static" role="dialog"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <p>Do you want to delete this item?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-dismiss="modal">No</button>
+        <button type="button" class="btn btn-dark" data-dismiss="modal" (click)="deleteItem()">Yes</button>
+      </div>
+    </div>
+  </div>
+</div>

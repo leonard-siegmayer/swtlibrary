@@ -1,0 +1,331 @@
+{
+    "settings": {
+        "number_of_shards": 1,
+        "number_of_replicas": 1,
+        "analysis": {
+            "char_filter": {
+                "isbn_char_filter": {
+                    "type": "pattern_replace",
+                    "pattern": "\\D+",
+                    "replacement": ""
+                }
+            },
+            "filter": {
+                "four_digits_only": {
+                    "type": "length",
+                    "min": 4,
+                    "max": 4
+                },
+                "exact_numbers": {
+                    "type": "keep_types",
+                    "types": [
+                        "<NUM>"
+                    ]
+                }
+            },
+            "normalizer": {
+                "lowercase_normalizer": {
+                    "type": "custom",
+                    "char_filter": [],
+                    "filter": [
+                        "lowercase"
+                    ]
+                },
+                "type_normalizer": {
+                    "type": "custom",
+                    "char_filter": [],
+                    "filter": [
+                        "lowercase"
+                    ]
+                },
+                "doi_normalizer": {
+                    "type": "custom",
+                    "char_filter": [],
+                    "filter": [
+                        "lowercase"
+                    ]
+                },
+                "isbn_normalizer": {
+                    "type": "custom",
+                    "char_filter": [
+                        "isbn_char_filter"
+                    ]
+                }
+            },
+            "analyzer": {}
+        }
+    },
+    "mappings": {
+        "_source": {
+            "excludes": [
+                "physicals"
+            ]
+        },
+        "properties": {
+            "id": {
+                "type": "integer"
+            },
+            "physicals": {
+                "enabled": false
+            },
+            "coverUrl": {
+                "type": "keyword"
+            },
+            "creationDate": {
+                "type": "date",
+                "format": "yyyy-MM-dd"
+            },
+            "language": {
+                "type": "keyword"
+            },
+            "owner": {
+                "type": "object",
+                "properties": {
+                    "ba": {
+                        "type": "keyword"
+                    },
+                    "name": {
+                        "type": "text"
+                    }
+                }
+            },
+            "authors": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "integer"
+                    },
+                    "name": {
+                        "type": "text",
+                        "fields": {
+                            "raw": {
+                                "type": "keyword"
+                            }
+                        },
+                        "copy_to": [
+                            "authors_and_editors",
+                            "full_info"
+                        ]
+                    }
+                }
+            },
+            "editors": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "integer"
+                    },
+                    "name": {
+                        "type": "text",
+                        "fields": {
+                            "raw": {
+                                "type": "keyword"
+                            }
+                        },
+                        "copy_to": [
+                            "authors_and_editors",
+                            "full_info"
+                        ]
+                    }
+                }
+            },
+            "authors_and_editors": {
+                "type": "text"
+            },
+            "notes": {
+                "type": "object",
+                "properties": {
+                    "note": {
+                        "type": "text"
+                    },
+                    "date": {
+                        "type": "date",
+                        "format": "yyyy-MM-dd"
+                    },
+                    "writtenBy": {
+                        "properties": {
+                            "ba": {
+                                "type": "keyword"
+                            },
+                            "name": {
+                                "type": "text"
+                            }
+                        }
+                    }
+                }
+            },
+            "booktitle": {
+                "type": "text",
+                "copy_to": [
+                    "full_title",
+                    "full_info"
+                ],
+                "fields": {
+                    "ger": {
+                        "type": "text",
+                        "analyzer": "german"
+                    },
+                    "en": {
+                        "type": "text",
+                        "analyzer": "english"
+                    }
+                }
+            },
+            "title": {
+                "type": "text",
+                "copy_to": [
+                    "full_title",
+                    "full_info"
+                ],
+                "fields": {
+                    "ger": {
+                        "type": "text",
+                        "analyzer": "german"
+                    },
+                    "en": {
+                        "type": "text",
+                        "analyzer": "english"
+                    }
+                }
+            },
+            "full_title": {
+                "type": "text",
+                "fields": {
+                    "ger": {
+                        "type": "text",
+                        "analyzer": "german"
+                    },
+                    "en": {
+                        "type": "text",
+                        "analyzer": "english"
+                    }
+                }
+            },
+            "abstract": {
+                "type": "text"
+            },
+            "tags": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "keyword",
+                        "normalizer": "lowercase_normalizer"
+                    },
+                    "description": {
+                        "type": "text"
+                    }
+                }
+            },
+            "keywords": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "keyword",
+                        "normalizer": "lowercase_normalizer"
+                    }
+                }
+            },
+            "address": {
+                "type": "text"
+            },
+            "chapter": {
+                "type": "text",
+                "fields": {
+                    "raw": {
+                        "type": "keyword"
+                    }
+                }
+            },
+            "edition": {
+                "type": "text"
+            },
+            "howPublished": {
+                "type": "text"
+            },
+            "instituion": {
+                "type": "text",
+                "copy_to": "full_info"
+            },
+            "number": {
+                "type": "long"
+            },
+            "volume": {
+                "type": "long"
+            },
+            "organization": {
+                "type": "text",
+                "copy_to": "full_info"
+            },
+            "pages": {
+                "type": "long"
+            },
+            "publisher": {
+                "type": "text",
+                "copy_to": "full_info"
+            },
+            "type": {
+                "type": "keyword",
+                "normalizer": "type_normalizer"
+            },
+            "year": {
+                "type": "integer"
+            },
+            "series": {
+                "type": "text"
+            },
+            "doi": {
+                "type": "keyword",
+                "normalizer": "doi_normalizer",
+                "fields": {
+                    "raw": {
+                        "type": "keyword",
+                        "normalizer": "lowercase_normalizer"
+                    }
+                }
+            },
+            "ean": {
+                "type": "keyword",
+                "normalizer": "isbn_normalizer",
+                "fields": {
+                    "raw": {
+                        "type": "keyword",
+                        "normalizer": "lowercase_normalizer"
+                    }
+                }
+            },
+            "isbn": {
+                "type": "keyword",
+                "normalizer": "isbn_normalizer",
+                "fields": {
+                    "raw": {
+                        "type": "keyword",
+                        "normalizer": "lowercase_normalizer"
+                    }
+                }
+            },
+            "location": {
+                "type": "keyword",
+                "normalizer": "lowercase_normalizer"
+            },
+            "isInHandapparat": {
+                "type": "boolean"
+            },
+            "rvkSignature": {
+                "type": "keyword"
+            },
+            "full_info": {
+                "type": "text",
+                "fields": {
+                    "ger": {
+                        "type": "text",
+                        "analyzer": "german"
+                    },
+                    "en": {
+                        "type": "text",
+                        "analyzer": "english"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,120 @@
+<app-nav></app-nav>
+
+<div class="container mt-5">
+  <!-- alert if user unauthorized -->
+  <div *ngIf="!user || !(user.role === role.ROLE_ADMIN || user.role === role.ROLE_STAFF)" class="alert alert-danger"
+    role="alert">
+    You are not authorized to access the SWT wishlist.
+  </div>
+  <!-- alert if wishlist could not be retrieved -->
+  <div *ngIf="user && !dataReceived" class="alert alert-danger" role="alert">
+    The wishlist could not be retrieved from the server. Please try again.
+  </div>
+  <!-- wishlist retrieved  -->
+  <div *ngIf="dataReceived && user && (user.role === role.ROLE_ADMIN || user.role === role.ROLE_STAFF)">
+    <!-- form for creating new wishlist item -->
+    <h3 class="mb-4">Create New Item</h3>
+    <div class="mb-4">
+      <app-wishlist-item [item]="null" [index]="-1" [selected]="false" (addEvent)="updateWishlist()"
+        (newEvent)="addWishToWishlist()">
+      </app-wishlist-item>
+    </div>
+    <hr class="mb-4">
+    <h3 class="mb-4">Manage Wishlist</h3>
+
+
+
+
+    <!-- export + refresh btn -->
+    <div class="exportRefreshContainer">
+
+
+      <button class="btn btn-dark mr-2" (click)="getWishlist()">Refresh</button>
+      <button class="btn btn-dark mr-2" (click)="exportSelectedItems()" [disabled]="allItemsUnselected"
+        data-toggle="modal" data-target="#exportModal">Export Selection</button>
+      <button class="btn btn-dark mr - 5" [disabled]="allItemsUnselected" (click)="exportPdf()">Export PDF</button>
+    </div>
+
+    <div *ngIf="wishlist && wishlist.length > 0; else noWishes">
+      <!-- controls btns -->
+      <div class="controlsContainer mb-3">
+        <button class="btn btn-link" (click)="selectAll()" [disabled]="allItemsSelected">Select All</button>
+        <button class="btn btn-link" (click)="unselectAll()" [disabled]="allItemsUnselected">Unselect All</button>
+        <button class="btn btn-link" data-toggle="modal" data-target="#deleteAllItemsModal"
+          [disabled]="allItemsUnselected" data-toggle="modal" data-target="#deleteModal">Delete Selection</button>
+      </div>
+      <!-- filter area -->
+      <div class="filter">
+        <!-- sorting -->
+        <button type="button" class="btn btn-primary dropdown-toggle sortButton" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Sort by
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" (click)="sortWishes('title')">Title</a>
+          <a class="dropdown-item" (click)="sortWishes('booktitle')">Booktitle</a>
+          <a class="dropdown-item" (click)="sortWishes('priority')">Priority</a>
+          <a class="dropdown-item" (click)="sortWishes('date')">Date</a>
+          <a class="dropdown-item" (click)="sortWishes('counter')">Number of wishes</a>
+        </div>
+        <!-- Search form -->
+        <div>
+          <input (input)="searchWishes()" id="wishSearch" class="form-control" type="text" placeholder="Search"
+            aria-label="Search">
+        </div>
+      </div>
+      <!-- wishlist items -->
+      <ol cdkDropList [cdkDropListData]="wishlist" (cdkDropListDropped)="drop($event)">
+        <li *ngFor="let item of wishlistFiltered; let idx=index" class="pop mb-2" [cdkDragData]="item" cdkDrag>
+          <app-wishlist-item #wishItem [item]="item" [index]="idx" [selected]="isItemSelected(item.id)"
+            (deleteEvent)="deleteItem($event)" (updateEvent)="updateWishlist()" (selectEvent)="toggleSelection($event)">
+          </app-wishlist-item>
+        </li>
+      </ol>
+    </div>
+    <!-- template if wishlist empty -->
+    <ng-template #noWishes>
+      <div>
+        The wishlist seems to be empty.
+      </div>
+    </ng-template>
+    <!-- modal for export status -->
+    <div class="modal fade" id="exportModal" tabindex="-1" data-backdrop="static" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div [hidden]="!exportSuccess && !exportError">
+          <div class="modal-content" [class.exportError]="exportError" [class.exportSuccess]="exportSuccess">
+            <div class="modal-header" [class.alert-success]="exportSuccess" [class.alert-danger]="exportError">
+              <h5 *ngIf="exportSuccess">Export successful!</h5>
+              <h5 *ngIf="exportError">Export failed!</h5>
+            </div>
+            <div class="modal-body">
+              <div *ngIf="exportSuccess">
+                <p>An email was sent to the deposited email address.</p>
+              </div>
+              <div *ngIf="exportError">
+                <p>An error occurred while exporting yout wishlist. Please try again.</p>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-dark" data-dismiss="modal">OK</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal for deleting selected items -->
+    <div class="modal fade" id="deleteModal" tabindex="-1" data-backdrop="static" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <p>Do you want to delete the selected items?</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">No</button>
+            <button type="button" class="btn btn-dark" data-dismiss="modal" (click)="deleteSelectedItems()">Yes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

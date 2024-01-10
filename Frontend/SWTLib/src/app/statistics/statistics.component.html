@@ -1,0 +1,178 @@
+<app-nav></app-nav>
+
+<!-- alert if user unauthorized -->
+<div *ngIf="!isAuthorized" class="alert alert-danger" role="alert">
+  You are not authorized to access the SWT statistics.
+</div>
+
+
+<div *ngIf="isAuthorized" class="container-fluid">
+  <div class="row" id="stats">
+    <!-- Sidebar Nav -->
+    <nav class="col-2 d-none d-md-block bg-light sidebar">
+      <!-- Library Nav Part-->
+      <div class="sidebar-sticky">
+        <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+          Library
+        </h6>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link icon" (click)="getAllTags()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512">
+                <path
+                  d="M416 64H257.6L76.5 251.6c-8 8-12.3 18.5-12.5 29-.3 11.3 3.9 22.6 12.5 31.2l123.7 123.6c8 8 20.8 12.5 28.8 12.5s22.8-3.9 31.4-12.5L448 256V96l-32-32zm-30.7 102.7c-21.7 6.1-41.3-10-41.3-30.7 0-17.7 14.3-32 32-32 20.7 0 36.8 19.6 30.7 41.3-2.9 10.3-11.1 18.5-21.4 21.4z" />
+              </svg>
+              Tags
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link icon" (click)="getAllKeywords()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512">
+                <path
+                  d="M96.4 416h77.1l50.9-96.6V96h-160v223.4h77.1L96.4 416zm224 0h77.1l50-96.6V96H288.4v223.4h82l-50 96.6z" />
+              </svg>
+              Keywords
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link icon" (click)="getAllOwner()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512">
+                <path
+                  d="M256 256c52.805 0 96-43.201 96-96s-43.195-96-96-96-96 43.201-96 96 43.195 96 96 96zm0 48c-63.598 0-192 32.402-192 96v48h384v-48c0-63.598-128.402-96-192-96z" />
+              </svg>
+              Owner
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link icon" (click)="topAndFlop = true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512">
+                <path
+                  d="M256 256c52.805 0 96-43.201 96-96s-43.195-96-96-96-96 43.201-96 96 43.195 96 96 96zm0 48c-63.598 0-192 32.402-192 96v48h384v-48c0-63.598-128.402-96-192-96z" />
+              </svg>
+              Top and Flop
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+
+    <!-- Content -->
+    <section *ngIf="!topAndFlop" class="col-10">
+      <!-- Timeline -->
+      <div *ngIf="showTimeLinePlot" class="row">
+        <div class="col-3 pt-3 pl-3">
+          <div class="overflow">
+            <form id="plotOptionsForm">
+              <div *ngFor="let option of plotOptions"><label for="{{option}}"><input type="checkbox" name="{{option}}">
+                  {{option}}</label></div>
+            </form>
+          </div>
+          <button class="btn btn-light" (click)="requestTimeline(false)" type="submit">by Week</button>
+          <button class="btn btn-light" (click)="requestTimeline(true)" type="submit">by Year</button>
+        </div>
+
+        <div class="col-9">
+          <plotly-plot [data]="timeline.data" [layout]="timeline.layout" [useResizeHandler]="true"
+            [config]="{staticPlot: true}"></plotly-plot>
+        </div>
+      </div>
+
+      <!-- Piechart -->
+      <div *ngIf="!showTimeLinePlot">
+        <plotly-plot [data]="graph.data" [layout]="graph.layout" [useResizeHandler]="true"
+          [config]="{staticPlot: true}"></plotly-plot>
+      </div>
+
+      <!-- Buttons for Lower Menu -->
+      <button class="btn btn-light" (click)="toggleChartType()" *ngIf="showTimeLinePlot">Switch to Pie Chart</button>
+      <button class="btn btn-light" (click)="toggleChartType()" *ngIf="!showTimeLinePlot">Switch to Timeline</button>
+    </section>
+
+    <!-- Top and Flop statistics -->
+    <section *ngIf="topAndFlop" class="col-10">
+      <h3 class="topAndFlop">Top and Flop Books</h3>
+      <br>
+
+      <form class="topAndFlop" [formGroup]="form">
+        <div class="form-group content">
+
+          <div class="timeFrameField">
+            <label for="fromDate">Time Frame:</label><br>
+            <input type="date" formControlName="fromDate" class="form-control"
+              min="{{ currentDate | date: 'yyyy-MM-dd' }}" max="{{ maxDate | date: 'yyyy-MM-dd' }}" required>
+            <label> - </label>
+            <input type="date" formControlName="untilDate" class="form-control"
+              min="{{ currentDate | date: 'yyyy-MM-dd' }}" max="{{ maxDate | date: 'yyyy-MM-dd' }}" required>
+          </div>
+          <div class="showField">
+            <label for="mostPopular">Show:</label>
+            <select formControlName="mostPopular" class="form-control" required>
+              <option value="true" selected>Most Popular</option>
+              <option value="false">Least Popular</option>
+            </select>
+          </div>
+
+          <div class="quantityField">
+            <label for="displayNum">Quantity:</label><br>
+            <select formControlName="displayNum" class="form-control" required>
+              <option value="25" selected>25</option>
+              <option value="50">50</option>
+              <option value="100">100</option>
+            </select>
+          </div>
+
+          <!-- For the Tag system-->
+          <label>Tags:</label>
+          <div class="input-group mb-3 tagsField">
+            <div class="input-group-prepend">
+              <span class="input-group-text btn" id="inputGroup-sizing-default" (click)="addTag()">Add</span>
+            </div>
+            <input placeholder="Select Tags" list="taglist" type="text" formControlName="currentTag"
+              class="form-control" aria-label="tagsInput" aria-describedby="inputGroup-sizing-default">
+
+            <datalist id="taglist">
+              <option *ngFor="let t of allTags" [value]="t.name">{{t.name}}</option>
+            </datalist>
+          </div>
+          <div>
+            <button *ngFor="let t of selectedTags" type="button" (click)="removeTag(t)"
+              class="tag btn btn-success">{{t}}<span class="badge">x</span></button>
+          </div>
+          <button class="btn btn-primary" (click)="getTopAndFlop()">Search</button>
+        </div>
+        <!-- Table for the Top and Flops-->
+        <div>
+          <table id="topAndFlopList" class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Title</th>
+                <th scope="col">#Physicals</th>
+                <th scope="col">#Borrowed</th>
+                <th scope="col">#Reserved</th>
+                <th scope="col">Average waiting time</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let t of topFlopList">
+                <td> {{t.medium.booktitle}}
+                </td>
+                <td> {{t.physicals}}
+                </td>
+                <td> {{t.borrowNumb}}
+                </td>
+                <td> {{t.resNumb}}
+                </td>
+                <td> {{t.averageWaitingTime}}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </form>
+    </section>
+
+  </div>
+</div>

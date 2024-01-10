@@ -1,0 +1,387 @@
+<app-nav></app-nav>
+<div class="fixedHeader bg-light">
+  <h5 class="p-1">{{ titel }}</h5>
+  <!--book create btn-->
+  <button type="button" class="btn btn-success" *ngIf="bookCreationState" (click)="onBookSubmit()">
+    Submit Book
+  </button>
+
+  <button type="button" class="btn btn-danger" *ngIf="!bookCreationState" data-toggle="modal"
+    data-target="#deletePopup">
+    Delete Book
+  </button>
+
+  <button type="button" class="btn btn-primary" *ngIf="!bookCreationState" data-toggle="modal"
+    data-target="#changePopup">
+    Change Book Details
+  </button>
+
+</div>
+
+<div class="container">
+  <br>
+  <br>
+  <br>
+
+  <div [formGroup]="bookProfileForm" class="form-group">
+
+    <label>
+      ISBN:
+      <br />
+      <input type="text" formControlName="isbn" class="form-control" />
+    </label>
+    <br>
+    <button *ngIf="bookCreationState" class="btn btn-primary" (click)="completeBookDetails()">Auto Complete Book
+      Details</button>
+    <hr>
+    <br>
+    <h3>Basic Details</h3>
+    <label>
+      Book Title:*
+      <br />
+      <input type="text" formControlName="bookTitle" class="form-control" />
+    </label>
+    <br>
+    <label>
+      Sub Title:
+      <br />
+      <input type="text" formControlName="title" class="form-control" />
+    </label>
+    <div formArrayName="authors">
+      <div *ngFor="let address of authors.controls; let i=index">
+        <!-- The repeated alias template -->
+        <label>
+          Author:
+          <br>
+          <input type="text" [formControlName]="i" class="form-control">
+        </label>
+        <button type="button" class="btn btn-light" (click)="deleteAuthor(i)"
+          *ngIf="authors.controls.length > 1">Delete</button>
+      </div>
+      <button (click)="addAuthor('')" class="btn btn-light">Add Author</button>
+    </div>
+    <div formArrayName="editors">
+      <div *ngFor="let address of editors.controls; let i=index">
+        <!-- The repeated alias template -->
+        <label>
+          Editor:
+          <br>
+          <input type="text" [formControlName]="i" class="form-control">
+        </label>
+        <button type="button" class="btn btn-light" (click)="deleteEditor(i)"
+          *ngIf="editors.controls.length > 1">Delete</button>
+      </div>
+      <button (click)="addEditor('')" class="btn btn-light">Add Editor</button>
+    </div>
+    <br>
+    <label>
+      Abstract:
+      <br />
+      <textarea rows="6" formControlName="abstract"></textarea>
+    </label>
+    <br>
+    <div formArrayName="keywords">
+      <div *ngFor="let address of keywords.controls; let i=index">
+        <!-- The repeated alias template -->
+        <label>
+          Keyword:
+          <br>
+          <input type="text" [formControlName]="i" class="form-control">
+        </label>
+        <button type="button" class="btn btn-light" (click)="deleteKeyword(i)"
+          *ngIf="keywords.controls.length > 1">Delete</button>
+      </div>
+      <button class="btn btn-light" (click)="addKeyword('')">Add Keyword</button>
+    </div>
+    <!--publication-->
+    <hr>
+    <br>
+    <h3>Publication Details</h3>
+
+    <label>
+      Name of Publisher:
+      <br />
+      <input type="text" formControlName="publisher" class="form-control" />
+    </label>
+    <br />
+    <label>
+      Address of Publication:
+      <br />
+      <input type="text" formControlName="address" class="form-control" />
+    </label>
+    <br />
+    <label>
+      Year of Publication:
+      <br />
+      <input type="text" formControlName="year" class="form-control" />
+    </label>
+    <br />
+    <label>
+      How Published:
+      <br />
+      <input type="text" formControlName="howPublished" class="form-control" />
+    </label>
+    <hr>
+    <br>
+
+    <!--further details-->
+    <h3>Further Book Details</h3>
+
+    <label>
+      URL of Cover Image:
+      <br />
+      <input type="text" formControlName="coverURL" class="form-control" />
+    </label>
+    <br />
+    <label>
+      Book Language:
+      <br />
+      <input type="text" formControlName="language" class="form-control" />
+    </label>
+    <br />
+    <label>
+      Number of Chapters:
+      <br />
+      <input type="text" formControlName="chapter" class="form-control" />
+    </label>
+    <br />
+    <label>
+      Edition:
+      <br />
+      <input type="text" formControlName="edition" class="form-control" />
+    </label>
+    <br />
+    <label>
+      Number of Pages:
+      <br />
+      <input type="text" formControlName="pages" class="form-control" />
+    </label>
+    <br />
+    <label>
+      Institution:
+      <br />
+      <input type="text" formControlName="institution" class="form-control" />
+    </label>
+    <br />
+    <label>
+      Organization:
+      <br />
+      <input type="text" formControlName="organization" class="form-control" />
+    </label>
+    <br />
+    <label>
+      Series:
+      <br />
+      <input type="text" formControlName="series" class="form-control" />
+    </label>
+    <br />
+    <label>
+      Number in Series:
+      <br />
+      <input type="text" formControlName="number" class="form-control" />
+    </label>
+    <br />
+    <label>
+      Type:
+      <br />
+      <input type="text" formControlName="type" class="form-control" />
+    </label>
+    <hr>
+    <br>
+    <!--identification-->
+    <h3>Identification Details</h3>
+    <label>
+      Doi:
+      <br />
+      <input type="text" formControlName="doi" class="form-control" />
+    </label>
+    <br />
+    <label>
+      EAN:
+      <br />
+      <input type="text" formControlName="ean" class="form-control" />
+    </label>
+    <br />
+    <hr>
+  </div>
+
+  <!--Tag-->
+
+  <br>
+  <h3>Tags</h3>
+  <div class="row">
+    <div class="col-md-6">
+      <h4> Choose Tags for this book:</h4>
+      <div class="scrollbox">
+        <div *ngFor="let tag of allTags">
+          <b>{{tag.name}}</b>
+          <div style="float: right">
+            <button class="btn btn-primary" (click)="openUpdateModal(tag.name)">Update</button>
+            <button class="btn btn-danger" (click)="openDeleteModal(tag.name)">Delete</button>
+          </div>
+          <br>
+          <input *ngIf="checkIfTagInBook(tag.id)" type="checkbox" class="tagCheck" name="{{tag.name}}"
+            value="{{tag.id}}" checked>
+          <input *ngIf="!checkIfTagInBook(tag.id)" type="checkbox" class="tagCheck" name="{{tag.name}}"
+            value="{{tag.id}}">
+          <div class="clear"></div>
+          <hr>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2"></div>
+    <div class="col-md-4">
+      <h4>Create new Tag</h4>
+      <div [formGroup]="tagForm">
+
+        <label>
+          Tag Name:*
+          <br />
+          <input type="text" formControlName="name" />
+        </label>
+        <br />
+        <label>
+          Description:*
+          <br />
+          <textarea rows="4" formControlName="description"></textarea>
+        </label>
+        <br>
+        <button (click)="newTag()" class="btn btn-success">Create Tag</button>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <hr>
+  <hr>
+  <!--physical-->
+
+  <br>
+  <h3>Physical Books</h3>
+  <div class="row">
+    <div class="col-md-6">
+      <h4>Physical Book Instances:</h4>
+      <div class="scrollbox">
+        <div *ngIf="book.physicals == []">
+          <br>
+          <br>
+          <h4>No physical added yet.</h4>
+        </div>
+        <div *ngFor="let physical of book.physicals">
+          <b>Owner: {{physical.owner.name}}</b>
+          <div style="float: right">
+            <button class="btn btn-danger" (click)="openDeletePhysicalModal(physical.displayId)">Delete</button>
+          </div>
+          <br>
+          <hr>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2"></div>
+    <div class="col-md-4">
+      <h4>Create new physical Book</h4>
+      <div [formGroup]="physicalBookForm">
+        <div id='addPhysicalBook'></div>
+        <br>
+        <h3>Book Location</h3>
+        <label>
+          Location of Book:*
+          <br />
+          <input type="text" formControlName="location" placeholder="Enter location" />
+          <input type="text" class="locationWindow" formControlName="department" placeholder="Enter department" />
+          <input type="text" formControlName="room" placeholder="Enter room" />
+        </label>
+        <br />
+        <div class="checkbox">
+          <label>
+            Is in Handapparat?:
+            <input type="checkbox" id="isInHandapperat" (click)="displayRVK()" name="isInHandapparat"
+              value="InHandapparat" formControlName="isInHandapparat" />
+          </label>
+          <br />
+          <div id="rvkLabel" style="display:none">
+            <label>
+              <br />
+              <!-- only if is Handapperat-->
+              RVK Signature:*
+              <br />
+              <input type="text" formControlName="rvkSignature" />
+            </label>
+            <p>Book owner is the university library</p>
+          </div>
+        </div>
+        <br />
+        <div id="ownerInput">
+          <h3>Book Owner Details</h3>
+          <label>
+            Book Owner Name:*
+            <br />
+            <select size="5" formControlName="name" required>
+              <option *ngFor="let staffmember of allStaffmembers">{{staffmember.name}}; {{staffmember.email}}</option>
+            </select>
+          </label>
+        </div>
+      </div>
+      <br>
+      <button (click)="newPhysicalBook()" type="button" class="btn btn-success">Add physical book</button>
+    </div>
+    <br>
+  </div>
+</div>
+
+<!-- Delete Pop-up -->
+<div class="modal fade" id="deletePopup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">
+          Do you want to delete the book?
+        </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        If you want to delete the book irrevocable click <b>Delete Book</b>.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+          Cancel
+        </button>
+        <button (click)="deleteBook()" data-dismiss="modal" type="button" class="btn btn-danger">
+          Delete Book
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Change Pop-up -->
+<div class="modal fade" id="changePopup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">
+          Do you want to change the books' details?
+        </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        If you want to change the books' details irrevocable, click
+        <b>Change Book Details</b>.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+          Cancel
+        </button>
+        <button (click)="onBookSubmit()" data-dismiss="modal" type="button" class="btn btn-primary">
+          Change Book Details
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

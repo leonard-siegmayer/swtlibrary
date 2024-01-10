@@ -1,0 +1,14 @@
+SUBJECT: Lehrstuhl Softwaretechnik und Programmiersprachen: Buchbestellung
+TEXT:
+Sehr geehrte Damen und Herren,
+
+wir möchten gerne folgende Bücher bei Ihnen bestellen:
+
+    $WISHLIST
+
+Mit freundlichen Grüßen,
+
+$SIGNATURE
+
+Anmerkung: Dies ist eine automatisch generierte E-Mail.
+Bei Nachfragen wenden Sie sich bitte an: $ADMINMAIL

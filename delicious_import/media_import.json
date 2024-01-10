@@ -1,0 +1,8470 @@
+[
+  {
+    "isbn": "0471469122",
+    "ean": "9780471469124",
+    "type": "Book",
+    "booktitle": "The Art of Software Testing",
+    "pages": 256,
+    "authors": [
+      "Glenford J. Myers",
+      "Corey Sandler",
+      "Tom Badgett",
+      "Todd M. Thomas"
+    ],
+    "publisher": "Wiley",
+    "edition": "2",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Reference"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 2004,
+    "howPublished": "Hardcover",
+    "language": "ca"
+  },
+  {
+    "isbn": "3943747042",
+    "ean": "9783943747041",
+    "type": "Book",
+    "booktitle": "Eclipse IDE: Eclipse IDE based on Eclipse 4.2 and 4.3",
+    "title": "(vogella series) (Volume 2)",
+    "pages": 372,
+    "authors": [
+      "Lars Vogel"
+    ],
+    "publisher": "Lars Vogel",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      }
+    ],
+    "year": 2013,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "9810220588",
+    "ean": "9789810220587",
+    "type": "Book",
+    "booktitle": "Book Of Traces, The",
+    "pages": 586,
+    "authors": [
+      "V Diekert"
+    ],
+    "publisher": "Wspc",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      },
+      {
+        "name": "Science & Math"
+      }
+    ],
+    "year": 1995,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "1586039296",
+    "ean": "9781586039295",
+    "type": "Book",
+    "booktitle": "Handbook of Satisfiability: Volume 185 Frontiers in Artificial Intelligence and Applications",
+    "pages": 980,
+    "authors": [
+      "A. Biere",
+      "M. Heule",
+      "H. Van Maaren",
+      "T. Walsh"
+    ],
+    "publisher": "IOS Press",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Science & Math"
+      }
+    ],
+    "year": 2009,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "3893195769",
+    "ean": "9783893195763",
+    "type": "Book",
+    "booktitle": "Grundlagen der Transaktionsverarbeitung",
+    "pages": 290,
+    "authors": [
+      "Gottfried Vossen",
+      "Margret Gross-Hardt"
+    ],
+    "publisher": "Addison Wesley Verlag",
+    "keywords": [
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Gebundene Ausgabe"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 1997,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "1461478634",
+    "ean": "9781461478638",
+    "type": "Book",
+    "booktitle": "Correct-by-Construction Approaches for SoC Design",
+    "pages": 144,
+    "authors": [
+      "Roopak Sinha",
+      "Parthasarathi Roop",
+      "Samik Basu"
+    ],
+    "publisher": "Springer",
+    "edition": "2014",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Engineering & Transportation"
+      }
+    ],
+    "year": 2013,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "0596004036",
+    "ean": "9780596004033",
+    "type": "Book",
+    "booktitle": "Kerberos. The Definitive Guide: Cross-Platform Authentication & Single-Sign-On",
+    "pages": 272,
+    "authors": [
+      "Jason Garman"
+    ],
+    "publisher": "O'Reilly Media",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2003,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3486585819",
+    "ean": "9783486585810",
+    "type": "Book",
+    "booktitle": "Grundlagen und Techniken des Compilerbaus",
+    "pages": 202,
+    "authors": [
+      "Niklaus Wirth"
+    ],
+    "publisher": "Oldenbourg",
+    "edition": "2., bearbeitete Auflage",
+    "keywords": [
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Angewandte Mathematik"
+      },
+      {
+        "name": "Assembler"
+      },
+      {
+        "name": "Mathematik"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Taschenbuch"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 2008,
+    "howPublished": "Broschiert",
+    "language": "de"
+  },
+  {
+    "isbn": "0521784514",
+    "ean": "9780521784511",
+    "type": "Book",
+    "booktitle": "Introduction to Lattices and Order",
+    "pages": 310,
+    "authors": [
+      "B. A. Davey",
+      "H. A. Priestley"
+    ],
+    "publisher": "Cambridge University Press",
+    "edition": "2",
+    "keywords": [
+      {
+        "name": "Science & Math"
+      }
+    ],
+    "year": 2002,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "981024021X",
+    "ean": "9789810240219",
+    "type": "Book",
+    "booktitle": "Handbook of Graph Grammars and Computing by Graph Transformations: Concurrency, Parallelism, and Distribution",
+    "pages": 455,
+    "authors": [
+      "H. Ehrig",
+      "H-J Kreowski",
+      "U. Montanari",
+      "Grzegorz Rozenberg"
+    ],
+    "publisher": "World Scientific Pub Co Inc",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      },
+      {
+        "name": "Science & Math"
+      }
+    ],
+    "year": 1999,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "3642137539",
+    "ean": "9783642137532",
+    "type": "Book",
+    "booktitle": "Time for Verification: Essays in Memory of Amir Pnueli",
+    "title": "Lecture Notes in Computer Science / Theoretical Computer Sci",
+    "pages": 413,
+    "publisher": "Springer, Berlin",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 2010,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0201485672",
+    "ean": "9780201485677",
+    "type": "Book",
+    "booktitle": "Refactoring: Improving the Design of Existing Code",
+    "title": "Object Technology Series",
+    "pages": 464,
+    "authors": [
+      "Martin Fowler"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "illustrated edition",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1999,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "1565921836",
+    "ean": "9781565921832",
+    "type": "Book",
+    "booktitle": "Java in a Nutshell. A Desktop Quick Reference for Java Programmers: A Desktop Reference for Java Programmers",
+    "title": "Nutshell Handbook",
+    "pages": 460,
+    "authors": [
+      "David Flanagan"
+    ],
+    "publisher": "O'Reilly Media, Inc, USA",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1996,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0262026775",
+    "ean": "9780262026772",
+    "type": "Book",
+    "booktitle": "Distributed Algorithms: An Intuitive Approach",
+    "pages": 248,
+    "authors": [
+      "Wan Fokkink"
+    ],
+    "publisher": "The MIT Press",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Reference"
+      }
+    ],
+    "year": 2013,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "3642153747",
+    "ean": "9783642153747",
+    "type": "Book",
+    "booktitle": "CONCUR 2010 - Concurrency Theory: 21th International Conference, CONCUR 2010, Paris, France, August 31-September 3, 2010, Proceedings",
+    "pages": 600,
+    "authors": [
+      "Paul Gastin",
+      "Francois Laroussinie"
+    ],
+    "publisher": "Springer",
+    "edition": "1st Edition.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2010,
+    "howPublished": "Paperback",
+    "language": "ca"
+  },
+  {
+    "isbn": "0981531644",
+    "ean": "9780981531649",
+    "type": "Book",
+    "booktitle": "Programming in Scala: A Comprehensive Step-by-Step Guide, 2nd Edition",
+    "pages": 852,
+    "authors": [
+      "Martin Odersky",
+      "Lex Spoon",
+      "Bill Venners"
+    ],
+    "publisher": "Artima Inc",
+    "edition": "2",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2011,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "1558605770",
+    "ean": "9781558605770",
+    "type": "Book",
+    "booktitle": "Computer Networks: A Systems Approach",
+    "pages": 600,
+    "authors": [
+      "Larry L. Peterson"
+    ],
+    "publisher": "Academic Press",
+    "edition": "2",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2000,
+    "howPublished": "Paperback",
+    "language": "ca"
+  },
+  {
+    "isbn": "144932391X",
+    "ean": "9781449323912",
+    "type": "Book",
+    "booktitle": "Real World OCaml: Functional programming for the masses",
+    "pages": 510,
+    "authors": [
+      "Yaron Minsky",
+      "Anil Madhavapeddy",
+      "Jason Hickey"
+    ],
+    "publisher": "O'Reilly Media",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2013,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "0262081717",
+    "ean": "9780262081719",
+    "type": "Book",
+    "booktitle": "Algebraic Theory of Processes",
+    "pages": 272,
+    "authors": [
+      "Matthew Hennessy"
+    ],
+    "publisher": "Mit Pr",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      }
+    ],
+    "year": 1988,
+    "howPublished": "Hardcover",
+    "language": "ca"
+  },
+  {
+    "isbn": "0596002858",
+    "ean": "9780596002855",
+    "type": "Book",
+    "booktitle": "Learning Java, w. CD-ROM",
+    "pages": 826,
+    "authors": [
+      "Patrick Niemeyer",
+      "Jonathan B. Knudsen"
+    ],
+    "publisher": "O'Reilly Associates",
+    "edition": "2 Pap/Cdr",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2002,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0135399254",
+    "ean": "9780135399255",
+    "type": "Book",
+    "booktitle": "Design and Validation of Computer Protocols",
+    "title": "Prentice Hall Software Series",
+    "pages": 512,
+    "authors": [
+      "Gerard Holzmann"
+    ],
+    "publisher": "Prentice Hall International",
+    "edition": "Facsimile",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1990,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0321356683",
+    "ean": "9780321356680",
+    "type": "Book",
+    "booktitle": "Effective Java",
+    "pages": 384,
+    "authors": [
+      "Joshua Bloch"
+    ],
+    "publisher": "Prentice Hall",
+    "edition": "2",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2008,
+    "howPublished": "Paperback",
+    "language": "ca"
+  },
+  {
+    "isbn": "059652918X",
+    "ean": "9780596529185",
+    "type": "Book",
+    "booktitle": "Using Moodle",
+    "pages": 288,
+    "authors": [
+      "Jason Cole",
+      "Helen Foster"
+    ],
+    "publisher": "O'Reilly Media",
+    "edition": "2nd edition.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Nonfiction"
+      }
+    ],
+    "year": 2008,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3540713883",
+    "ean": "9783540713883",
+    "type": "Book",
+    "booktitle": "Foundations of Software Science and Computational Structures: 10th International Conference, FOSSACS 2007, Held as Part of the Joint European Conferences on Theory and Practice of Software, ETAPS 2007, Braga, Portugal, March 24-April 1, 2007, Proceedings",
+    "pages": 379,
+    "authors": [
+      "Helmut Seidl"
+    ],
+    "publisher": "Springer",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      },
+      {
+        "name": "Engineering"
+      }
+    ],
+    "year": 2007,
+    "howPublished": "Paperback",
+    "language": "ca"
+  },
+  {
+    "isbn": "0750679492",
+    "ean": "9780750679497",
+    "type": "Book",
+    "booktitle": "Modeling and Verification Using UML Statecharts: A Working Guide to Reactive System Design, Runtime Monitoring and Execution-Based Model Checking with: ... and Execution-based Model Checking",
+    "pages": 400,
+    "authors": [
+      "Doron Drusinsky"
+    ],
+    "publisher": "Newnes (an imprint of Butterworth-Heinemann Ltd )",
+    "keywords": [
+      {
+        "name": "Professional & Technical"
+      }
+    ],
+    "year": 2006,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "1932394230",
+    "ean": "9781932394238",
+    "type": "Book",
+    "booktitle": "Junit Recipes: Practical Methods for Programmer Testing",
+    "pages": 752,
+    "authors": [
+      "J. B. Rainsberger"
+    ],
+    "publisher": "Manning",
+    "edition": "illustrated edition",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2004,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0596510330",
+    "ean": "9780596510336",
+    "type": "Book",
+    "booktitle": "Version Control with Subversion",
+    "pages": 432,
+    "authors": [
+      "C. Michael Pilato",
+      "Ben Collins-Sussman",
+      "Brian W. Fitzpatrick"
+    ],
+    "publisher": "O'Reilly Media",
+    "edition": "2. A.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2008,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3540712089",
+    "ean": "9783540712084",
+    "type": "Book",
+    "booktitle": "Tools and Algorithms for the Construction and Analysis of Systems: 13th International Conference, TACAS 2007 Held as Part of the Joint European Conferences on Theory and Practice of Software, ETAPS 2007 Braga, Portugal, March 24 - April 1, 2007 Proceedings",
+    "pages": 738,
+    "authors": [
+      "Orna Grumberg",
+      "Michael Huth"
+    ],
+    "publisher": "Springer",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 2007,
+    "howPublished": "Paperback",
+    "language": "ca"
+  },
+  {
+    "isbn": "0596102461",
+    "ean": "9780596102463",
+    "type": "Book",
+    "booktitle": "Backup and Recovery",
+    "pages": 768,
+    "authors": [
+      "W.Curtis Preston"
+    ],
+    "publisher": "O'Reilly Media",
+    "edition": "1st ed.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2007,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3827370973",
+    "ean": "9783827370976",
+    "type": "Book",
+    "booktitle": "Compiler. Prinzipien, Techniken und Tools (Pearson Studium): Prinzipien, Techniken und Werkzeuge",
+    "pages": 1256,
+    "authors": [
+      "Ravi Sethi",
+      "Monica S. Lam",
+      "Alfred V. Aho"
+    ],
+    "publisher": "PEARSON STUDIUM",
+    "edition": "2. Auflage",
+    "keywords": [
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Lehrbücher"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Gebundene Ausgabe"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 2008,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0136008860",
+    "ean": "9780136008866",
+    "type": "Book",
+    "booktitle": "Programming the Cell Processor: For Games, Graphics, and Computation",
+    "pages": 744,
+    "authors": [
+      "Matthew Scarpino"
+    ],
+    "publisher": "Prentice Hall",
+    "edition": "1 Har/Pas",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2008,
+    "howPublished": "Hardcover",
+    "language": "ca"
+  },
+  {
+    "isbn": "3540555587",
+    "ean": "9783540555582",
+    "type": "Book",
+    "booktitle": "Programming and Mathematical Method: International Summer School",
+    "pages": 407,
+    "authors": [
+      "Manfred Broy"
+    ],
+    "publisher": "Springer",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      }
+    ],
+    "year": 1992,
+    "howPublished": "Hardcover",
+    "language": "ca"
+  },
+  {
+    "isbn": "3540784977",
+    "ean": "9783540784975",
+    "type": "Book",
+    "booktitle": "Foundations of Software Science and Computational Structures: 11th International Conference, FOSSACS 2008, Held as Part of the Joint European Conferences on Theory and Practice of Software, ETAPS 2008, Budapest, Hungary, March 29 - April 6, 2008, Proceedings",
+    "pages": 505,
+    "authors": [
+      "Roberto Amadio"
+    ],
+    "publisher": "Springer",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 2008,
+    "howPublished": "Paperback",
+    "language": "ca"
+  },
+  {
+    "isbn": "0471353515",
+    "ean": "9780471353515",
+    "type": "Book",
+    "booktitle": "Practical PRAM Programming",
+    "title": "Wiley Series on Parallel and Distributed Computing",
+    "pages": 600,
+    "authors": [
+      "Joerg Keller",
+      "Christoph W. Keßler",
+      "Jesper L. Traeff"
+    ],
+    "publisher": "Wiley & Sons",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2000,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "3540664998",
+    "ean": "9783540664994",
+    "type": "Book",
+    "booktitle": "Theoretical and Practical Aspects of SPIN Model Checking: 5th and 6th International SPIN Workshops, Trento, Italy, July 5, 1999, Toulouse, France, September 21 and 24, 1999, Proceedings",
+    "pages": 277,
+    "authors": [
+      "Dennis Dams",
+      "Robert Gerth",
+      "Stefan Leue",
+      "Mieke Massinek"
+    ],
+    "publisher": "Springer",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      }
+    ],
+    "year": 1999,
+    "howPublished": "Paperback",
+    "language": "ca"
+  },
+  {
+    "isbn": "3540610421",
+    "ean": "9783540610427",
+    "type": "Book",
+    "booktitle": "Tools and Algorithms for the Construction and Analysis of Systems: Second International Workshop, TACAS '96, Passau, Germany, March 27 - 29, 1996, Proceedings.",
+    "pages": 435,
+    "authors": [
+      "Tiziana Margaria",
+      "Bernhard Steffen"
+    ],
+    "publisher": "Springer",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 1996,
+    "howPublished": "Paperback",
+    "language": "ca"
+  },
+  {
+    "isbn": "3642068316",
+    "ean": "9783642068317",
+    "type": "Book",
+    "booktitle": "Fundamentals of Algebraic Graph Transformation",
+    "title": "Monographs in Theoretical Computer Science. An EATCS Series",
+    "pages": 390,
+    "authors": [
+      "Hartmut Ehrig",
+      "Karsten Ehrig",
+      "Ulrike Prange",
+      "Gabriele Taentzer"
+    ],
+    "publisher": "Springer",
+    "edition": "Softcover reprint of hardcover 1st ed. 2006",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Reference"
+      },
+      {
+        "name": "Science & Math"
+      }
+    ],
+    "year": 2010,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "0201767929",
+    "ean": "9780201767926",
+    "type": "Book",
+    "booktitle": "An Introduction to Requirements Engineering",
+    "pages": 424,
+    "authors": [
+      "Ian Bray"
+    ],
+    "publisher": "Addison-Wesley Educational Publishers Inc",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2002,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0136291554",
+    "ean": "9780136291558",
+    "type": "Book",
+    "booktitle": "Object-oriented Software Construction.",
+    "title": "Prentice-Hall International Series in Computer Science",
+    "pages": 1296,
+    "authors": [
+      "Bertrand Meyer"
+    ],
+    "publisher": "Prentice Hall International",
+    "edition": "2. A.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1997,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3540330453",
+    "ean": "9783540330455",
+    "type": "Book",
+    "booktitle": "Foundations of Software Science and Computational Structures: 9th International Conference, Fossacs 2006, Held as Part of the Joint European ...",
+    "title": "Lecture Notes in Computer Science",
+    "pages": 447,
+    "publisher": "Springer, Berlin",
+    "edition": "1. A.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 2006,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0131202367",
+    "ean": "9780131202368",
+    "type": "Book",
+    "booktitle": "Java: How to Program",
+    "title": "Pie",
+    "pages": 1536,
+    "authors": [
+      "Harvey M. Deitel",
+      "Paul J. Deitel"
+    ],
+    "publisher": "Prentice-Hall",
+    "edition": "5th International edition",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2002,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3893318127",
+    "ean": "9783893318124",
+    "type": "Book",
+    "booktitle": "Urheberrecht im Alltag : kopieren, bearbeiten, selber machen.",
+    "pages": 0,
+    "authors": [
+      "Valentina [Hrsg.] Djordjevic"
+    ],
+    "publisher": "Bonn : Bpb,",
+    "keywords": [
+      {
+        "name": "Subjects"
+      }
+    ],
+    "year": 2012,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "0471183814",
+    "ean": "9780471183815",
+    "type": "Book",
+    "booktitle": "Software Fault Injection with CDROM: Innoculating Programs Against Errors",
+    "pages": 353,
+    "authors": [
+      "Jeffrey Voas",
+      "Gary McGraw"
+    ],
+    "publisher": "John Wiley & Sons Inc",
+    "edition": "Har/Cdr",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1997,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0321238087",
+    "ean": "9780321238085",
+    "type": "Book",
+    "booktitle": "Visual Modeling with IBM Rational Software Architect and UML",
+    "title": "Developerworks",
+    "pages": 224,
+    "authors": [
+      "Terry Quatrani",
+      "Jim Palistrant"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2006,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "1107003636",
+    "ean": "9781107003637",
+    "type": "Book",
+    "booktitle": "Introduction to Bisimulation and Coinduction",
+    "pages": 260,
+    "authors": [
+      "Davide Sangiorgi"
+    ],
+    "publisher": "Cambridge University Press",
+    "keywords": [
+      {
+        "name": "Computer & Internet"
+      }
+    ],
+    "year": 2011,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "3825207242",
+    "ean": "9783825207243",
+    "type": "Book",
+    "booktitle": "Die Technik wissenschaftlichen Arbeitens. Eine praktische Anleitung.",
+    "pages": 0,
+    "authors": [
+      "Georg Rückriem",
+      "Joachim Stary",
+      "Norbert Franck"
+    ],
+    "publisher": "UTB, Stuttgart",
+    "keywords": [
+      {
+        "name": "Subjects"
+      }
+    ],
+    "year": 2003,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "0123705916",
+    "ean": "9780123705914",
+    "type": "Book",
+    "booktitle": "The Art of Multiprocessor Programming",
+    "pages": 528,
+    "authors": [
+      "Maurice Herlihy",
+      "Nir Shavit"
+    ],
+    "publisher": "Morgan Kaufmann",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2008,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0131103628",
+    "ean": "9780131103627",
+    "type": "Book",
+    "booktitle": "The C Programming Language.",
+    "title": "Prentice Hall Software",
+    "pages": 274,
+    "authors": [
+      "Brian W. Kernighan",
+      "Dennis Ritchie"
+    ],
+    "publisher": "Prentice Hall International",
+    "edition": "2nd ed.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1988,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0077097572",
+    "ean": "9780077097578",
+    "type": "Book",
+    "booktitle": "Java: The First Semester",
+    "pages": 300,
+    "authors": [
+      "Quentin Charatan",
+      "Aaron Kans"
+    ],
+    "publisher": "McGraw Hill Higher Education",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2001,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "1441909400",
+    "ean": "9781441909404",
+    "type": "Book",
+    "booktitle": "Designing Embedded Systems with the SIGNAL Programming Language: Synchronous, Reactive Specification",
+    "pages": 260,
+    "authors": [
+      "Abdoulaye Gamatie"
+    ],
+    "publisher": "Springer, Berlin",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 2009,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0201710501",
+    "ean": "9780201710502",
+    "type": "Book",
+    "booktitle": "Java Gently. Java 2 featuring Swing.: Programming Principles Explained",
+    "title": "International Computer Science Series",
+    "pages": 688,
+    "authors": [
+      "Judith Bishop"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "3. A.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2000,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "393751435X",
+    "ean": "9783937514352",
+    "type": "Book",
+    "booktitle": "DNS/DHCP: Grundlagen und Praxis",
+    "pages": 376,
+    "authors": [
+      "Konstantinos Agouros"
+    ],
+    "publisher": "Open Source Press",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Netzwerke"
+      },
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Gebundene Ausgabe"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 2007,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0321173856",
+    "ean": "9780321173850",
+    "type": "Book",
+    "booktitle": "A Guide to LaTeX: Tools and Technologies for Computer Typesetting",
+    "pages": 624,
+    "authors": [
+      "Helmut Kopka",
+      "Patrick W. Daly"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "4. A.",
+    "keywords": [
+      {
+        "name": "Arts & Photography"
+      },
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2003,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0133499456",
+    "ean": "9780133499452",
+    "type": "Book",
+    "booktitle": "Computer Networks",
+    "pages": 813,
+    "authors": [
+      "Andrew S. Tanenbaum"
+    ],
+    "publisher": "Pearson US Imports & PHIPEs",
+    "edition": "3rd",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1996,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0201038048",
+    "ean": "9780201038040",
+    "type": "Book",
+    "booktitle": "The Art of Computer Programming, Volume 4A: Combinatorial Algorithms, Part 1",
+    "pages": 912,
+    "authors": [
+      "Donald E. Knuth"
+    ],
+    "publisher": "Addison-Wesley Professional",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2011,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "0321278658",
+    "ean": "9780321278654",
+    "type": "Book",
+    "booktitle": "Extreme Programming Explained: Embrace Change",
+    "pages": 224,
+    "authors": [
+      "Kent Beck",
+      "Cynthia Andres"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "2nd ed.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2004,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0672331098",
+    "ean": "9780672331091",
+    "type": "Book",
+    "booktitle": "Ubuntu Unleashed: Covering 9.10 and 10.4",
+    "pages": 864,
+    "authors": [
+      "Andrew Hudson",
+      "Paul Hudson",
+      "Matthew Helmke"
+    ],
+    "publisher": "Sams",
+    "edition": "2010.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2009,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "1608455645",
+    "ean": "9781608455645",
+    "type": "Book",
+    "booktitle": "A Primer on Memory Consistency and Cache Coherence",
+    "title": "Synthesis Lectures on Computer Architecture",
+    "pages": 210,
+    "authors": [
+      "Daniel Sorin",
+      "Mark Hill",
+      "David Wood"
+    ],
+    "publisher": "Not Avail",
+    "keywords": [
+      {
+        "name": "Computer & Internet"
+      }
+    ],
+    "year": 2011,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "020161586X",
+    "ean": "9780201615869",
+    "type": "Book",
+    "booktitle": "The Practice of Programming",
+    "title": "Addison-Wesley Professional Computing Series",
+    "pages": 288,
+    "authors": [
+      "Brian W. Kernighan",
+      "Rob Pike"
+    ],
+    "publisher": "Addison-Wesley",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 1999,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "",
+    "ean": "9780201702255",
+    "type": "Book",
+    "booktitle": "Writing Effective Use Cases",
+    "title": "Crystal Series for Software Development",
+    "pages": 304,
+    "authors": [
+      "Alistair Cockburn"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "year": 2000,
+    "language": "de"
+  },
+  {
+    "isbn": "0821835718",
+    "ean": "9780821835715",
+    "type": "Book",
+    "booktitle": "Mathematical Techniques for Analyzing Concurrent and Probabilistic Systems",
+    "title": "Crm Monograph Series",
+    "pages": 215,
+    "authors": [
+      "Marta Kwiatkowska",
+      "Gethin Norman",
+      "David Parker"
+    ],
+    "publisher": "American Mathematical Society",
+    "edition": "illustrated edition",
+    "keywords": [
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 2004,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "3540233423",
+    "ean": "9783540233428",
+    "type": "Book",
+    "booktitle": "A Practical Theory of Reactive Systems: Incremental Modeling of Dynamic Behaviors",
+    "title": "Texts in Theoretical Computer Science: An Eatcs Series",
+    "pages": 418,
+    "authors": [
+      "Reino Kurki-Suonio"
+    ],
+    "publisher": "Springer, Berlin",
+    "edition": "1. A.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2005,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0321549252",
+    "ean": "9780321549259",
+    "type": "Book",
+    "booktitle": "Surreptitious Software: Obfuscation, Watermarking, and Tamperproofing for Software Protection: Obfuscation, Watermarking, and Tamperproofing for Software Protection",
+    "pages": 792,
+    "authors": [
+      "Christian Collberg",
+      "Jasvir Nagra"
+    ],
+    "publisher": "Addison-Wesley Professional",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      }
+    ],
+    "year": 2009,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "0077096770",
+    "ean": "9780077096779",
+    "type": "Book",
+    "booktitle": "Software Engineering: A Practitioner's Approach: European Adaption",
+    "pages": 915,
+    "authors": [
+      "Pressman"
+    ],
+    "publisher": "Mcgraw-Hill Higher Education",
+    "edition": "5. A.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2000,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "1598291246",
+    "ean": "9781598291247",
+    "type": "Book",
+    "booktitle": "Transactional Memory",
+    "title": "Synthesis Lectures on Computer Architecture",
+    "pages": 222,
+    "authors": [
+      "Jim Larus",
+      "Ravi Rajwar"
+    ],
+    "publisher": "Morgan and Claypool Publishers",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      }
+    ],
+    "year": 2007,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0262162288",
+    "ean": "9780262162289",
+    "type": "Book",
+    "booktitle": "Advanced Topics in Types and Programming Languages",
+    "pages": 608,
+    "authors": [
+      "Benjamin C. Pierce"
+    ],
+    "publisher": "The MIT Press",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2004,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "3540709517",
+    "ean": "9783540709510",
+    "type": "Book",
+    "booktitle": "Formal Methods: Applications and Technology: 11th International Workshop on Formal Methods for Industrial Critical Systems, FMICS 2006, and 5th ... Selected",
+    "title": "Lecture Notes in Computer Science",
+    "pages": 363,
+    "publisher": "Springer-Verlag Gmbh",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2007,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0138017859",
+    "ean": "9780138017859",
+    "type": "Book",
+    "booktitle": "Crafting a Compiler",
+    "pages": 720,
+    "authors": [
+      "Charles N. Fischer",
+      "Richard J. LeBlanc",
+      "Ron K. Cytron"
+    ],
+    "publisher": "Prentice Hall",
+    "edition": "Global ed",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2009,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0130183806",
+    "ean": "9780130183804",
+    "type": "Book",
+    "booktitle": "Internetworking with TCP/IP Vol.1: Principles, Protocols, and Architecture",
+    "pages": 750,
+    "authors": [
+      "Douglas E. Comer"
+    ],
+    "publisher": "Prentice Hall",
+    "edition": "4",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Engineering"
+      }
+    ],
+    "year": 2000,
+    "howPublished": "Hardcover",
+    "language": "ca"
+  },
+  {
+    "isbn": "0321205685",
+    "ean": "9780321205681",
+    "type": "Book",
+    "booktitle": "User Stories Applied: For Agile Software Development",
+    "pages": 304,
+    "authors": [
+      "Mike Cohn"
+    ],
+    "publisher": "Addison-Wesley Professional",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      }
+    ],
+    "year": 2004,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "3540330569",
+    "ean": "9783540330561",
+    "type": "Book",
+    "booktitle": "Tools and Algorithms for the Construction and Analysis of Systems: 12th International Conference, TACAS 2006, Held as Part of the Joint European Conferences on Theory and Practice of Software, ETAPS 2006, Vienna, Austria, March 25 - April 2, 2006, Proceedings",
+    "pages": 506,
+    "authors": [
+      "Holger Hermanns",
+      "Jens Palsberg"
+    ],
+    "publisher": "Springer",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2006,
+    "howPublished": "Paperback",
+    "language": "ca"
+  },
+  {
+    "isbn": "3540731229",
+    "ean": "9783540731221",
+    "type": "Book",
+    "booktitle": "OpenMP",
+    "title": "Informatik Im Fokus",
+    "pages": 161,
+    "authors": [
+      "Rainer Lienhart",
+      "Simon Hoffmann"
+    ],
+    "publisher": "Springer, Berlin",
+    "edition": "1., Aufl. 2008. Korr. Nachdruck",
+    "keywords": [
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "C++"
+      },
+      {
+        "name": "Bibliografien"
+      },
+      {
+        "name": "C & C++"
+      },
+      {
+        "name": "Blick ins Buch"
+      },
+      {
+        "name": "Lehrbücher"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Taschenbuch"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 2008,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0863418252",
+    "ean": "9780863418259",
+    "type": "Book",
+    "booktitle": "SysML for Systems Engineering",
+    "title": "Professional Applications of Computing",
+    "pages": 352,
+    "authors": [
+      "J. Holt",
+      "S. Perry"
+    ],
+    "publisher": "IET",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Professional & Technical"
+      }
+    ],
+    "year": 2007,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "3319153978",
+    "ean": "9783319153971",
+    "type": "Book",
+    "booktitle": "Directed Algebraic Topology and Concurrency",
+    "title": "Springerbriefs in Applied Sciences and Technology / Springer",
+    "pages": 167,
+    "authors": [
+      "Lisbeth Fajstrup",
+      "Eric Goubault",
+      "Emmanuel Haucourt",
+      "Samuel Mimram",
+      "Martin Raussen"
+    ],
+    "publisher": "Springer",
+    "edition": "1st ed. 2016",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Engineering & Transportation"
+      },
+      {
+        "name": "Science & Math"
+      }
+    ],
+    "year": 2016,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "0821845209",
+    "ean": "9780821845202",
+    "type": "Book",
+    "booktitle": "Mathematical Intuitionism: Introduction to Proof Theory",
+    "title": "Translations of Mathematical Monographs",
+    "pages": 228,
+    "authors": [
+      "A. G. Dragalin"
+    ],
+    "publisher": "American Mathematical Society",
+    "keywords": [
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 1988,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3827400422",
+    "ean": "9783827400420",
+    "type": "Book",
+    "booktitle": "Lehrbuch der Software-Technik,  Software-Entwicklung, m. CD-ROM",
+    "pages": 1009,
+    "authors": [
+      "Helmut Balzert"
+    ],
+    "publisher": "Spektrum Akad. Vlg., Hdg.",
+    "keywords": [
+      {
+        "name": "Software-Entwicklung"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Gebundene Ausgabe"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 1996,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "1933988657",
+    "ean": "9781933988658",
+    "type": "Book",
+    "booktitle": "The Well-Grounded Rubyist",
+    "pages": 520,
+    "authors": [
+      "David A. Black"
+    ],
+    "publisher": "Manning Publications",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2009,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "012088478X",
+    "ean": "9780120884780",
+    "type": "Book",
+    "booktitle": "Engineering a Compiler, Second Edition",
+    "pages": 824,
+    "authors": [
+      "Keith Cooper",
+      "Linda Torczon"
+    ],
+    "publisher": "Morgan Kaufmann",
+    "edition": "2",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      }
+    ],
+    "year": 2011,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "",
+    "ean": "9780136008866",
+    "type": "Book",
+    "booktitle": "Programming the Cell Processor: For Games, Graphics, and Computation",
+    "pages": 744,
+    "authors": [
+      "Matthew Scarpino"
+    ],
+    "publisher": "Prentice Hall International",
+    "edition": "1 Har/Psc",
+    "year": 2008,
+    "language": "de"
+  },
+  {
+    "isbn": "0321228111",
+    "ean": "9780321228116",
+    "type": "Book",
+    "booktitle": "Patterns for Parallel Programming",
+    "title": "Software Patterns",
+    "pages": 384,
+    "authors": [
+      "Timothy G. Mattson",
+      "Beverly A. Sanders",
+      "Berna L. Massingill"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "05001",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2004,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "3540602186",
+    "ean": "9783540602187",
+    "type": "Book",
+    "booktitle": "CONCUR '95 Concurrency Theory: 6th International Conference, Philadelphia, PA, USA, August 21 - 24, 1995. Proceedings",
+    "pages": 547,
+    "publisher": "Springer, Berlin",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1995,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "1449329276",
+    "ean": "9781449329273",
+    "type": "Book",
+    "booktitle": "Understanding Computation: From Simple Machines to Impossible Programs",
+    "pages": 332,
+    "authors": [
+      "Tom Stuart"
+    ],
+    "publisher": "O'Reilly Media",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      }
+    ],
+    "year": 2013,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "0071163530",
+    "ean": "9780071163538",
+    "type": "Book",
+    "booktitle": "Java Elements",
+    "pages": 360,
+    "authors": [
+      "D Bailey"
+    ],
+    "publisher": "Mcgraw Hill Higher Education",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2000,
+    "howPublished": "Paperback",
+    "language": "ca"
+  },
+  {
+    "isbn": "3540527052",
+    "ean": "9783540527053",
+    "type": "Book",
+    "booktitle": "Softwaretechnik:: Methodisches Programmieren im Großen",
+    "pages": 387,
+    "authors": [
+      "Manfred Nagl"
+    ],
+    "publisher": "Springer",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1990,
+    "howPublished": "Hardcover",
+    "language": "ca"
+  },
+  {
+    "isbn": "1558607552",
+    "ean": "9781558607552",
+    "type": "Book",
+    "booktitle": "Design Methods for Reactive Systems. Yourdon, Statemate, and the UML.: Yourdon, Statemate, and the UML",
+    "title": "(Morgan Kaufmann) (The Morgan Kaufmann Series in Software Engineering and Programming)",
+    "pages": 500,
+    "authors": [
+      "R. J. Wieringa",
+      "Roel Wieringa"
+    ],
+    "publisher": "Morgan Kaufman Publ Inc",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      }
+    ],
+    "year": 2003,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0201571684",
+    "ean": "9780201571684",
+    "type": "Book",
+    "booktitle": "The Unified Modeling Language User Guide",
+    "title": "Addison-Wesley Object Technology",
+    "pages": 512,
+    "authors": [
+      "Grady Booch",
+      "James Rumbaugh",
+      "Ivar Jacobson"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "year": 1998,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0201633922",
+    "ean": "9780201633924",
+    "type": "Book",
+    "booktitle": "Programming with POSIX Threads",
+    "title": "Addison-Wesley Professional Computing",
+    "pages": 400,
+    "authors": [
+      "David R. Butenhof"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "annotated edition",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1997,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3540962352",
+    "ean": "9783540962359",
+    "type": "Book",
+    "booktitle": "Fairness",
+    "pages": 295,
+    "publisher": "Springer-Verlag Berlin and Heidelberg GmbH & Co. KG",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1986,
+    "howPublished": "Hardcover",
+    "language": "ca"
+  },
+  {
+    "isbn": "0201357526",
+    "ean": "9780201357523",
+    "type": "Book",
+    "booktitle": "Foundations of Multithreaded, Parallel, and Distributed Programming",
+    "pages": 664,
+    "authors": [
+      "Gregory R. Andrews"
+    ],
+    "publisher": "Addison Wesley Pub Co Inc",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2000,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "2880746221",
+    "ean": "9782880746223",
+    "type": "Book",
+    "booktitle": "Programmation synchrone de systèmes réactifs avec Esterel et les SyncCharts",
+    "pages": 467,
+    "authors": [
+      "Luigi Zaffalon"
+    ],
+    "publisher": "PPUR",
+    "keywords": [
+      {
+        "name": "Subjects"
+      },
+      {
+        "name": "Französische Bücher"
+      },
+      {
+        "name": "Taschenbuch"
+      }
+    ],
+    "year": 2005,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0596003226",
+    "ean": "9780596003227",
+    "type": "Book",
+    "booktitle": "Radius: Securing Public Access to Private Resources",
+    "pages": 206,
+    "authors": [
+      "Jonathan Hassell"
+    ],
+    "publisher": "O'Reilly Media",
+    "edition": "illustrated edition",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2002,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3540975322",
+    "ean": "9783540975328",
+    "type": "Book",
+    "booktitle": "Verification of Sequential and Concurrent Programmes",
+    "pages": 457,
+    "authors": [
+      "Krzysztof R. Apt",
+      "Ernst-Rudiger Olderog"
+    ],
+    "publisher": "Springer-Verlag Berlin and Heidelberg GmbH & Co. K",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      }
+    ],
+    "year": 1991,
+    "howPublished": "Hardcover",
+    "language": "ca"
+  },
+  {
+    "isbn": "0201325799",
+    "ean": "9780201325799",
+    "type": "Book",
+    "booktitle": "Real-Time Uml: Developing Efficient Objects for Embedded Systems",
+    "title": "Addison-Wesley Object Technology Series",
+    "pages": 363,
+    "authors": [
+      "Bruce Powel Douglass"
+    ],
+    "publisher": "Addison Wesley",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1998,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0321482751",
+    "ean": "9780321482754",
+    "type": "Book",
+    "booktitle": "Agile Software Development: The Cooperative Game",
+    "pages": 504,
+    "authors": [
+      "Alistair Cockburn"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "2nd ed.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2006,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0821841513",
+    "ean": "9780821841518",
+    "type": "Book",
+    "booktitle": "Discrete Mathematics",
+    "pages": 388,
+    "authors": [
+      "Martin Aigner"
+    ],
+    "publisher": "American Mathematical Society",
+    "edition": "illustrated edition",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 2007,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "3540212981",
+    "ean": "9783540212980",
+    "type": "Book",
+    "booktitle": "Foundations of Software Science and Computation Structures: 7th International Conference, FOSSACS 2004, Held as Part of the Joint European Conferences on Theory and Practice of Software, ETAPS 2004, Barcelona, Spain, March 29 - April 2, 2004, Proceedings",
+    "pages": 529,
+    "authors": [
+      "Igor Walukiewicz"
+    ],
+    "publisher": "Springer",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 2004,
+    "howPublished": "Paperback",
+    "language": "ca"
+  },
+  {
+    "isbn": "1420064673",
+    "ean": "9781420064674",
+    "type": "Book",
+    "booktitle": "Requirements Engineering for Software and Systems",
+    "title": "Auerbach Series on Applied Software Engineering",
+    "pages": 241,
+    "authors": [
+      "Phillip A. Laplante"
+    ],
+    "publisher": "Auerbach Pubn",
+    "keywords": [
+      {
+        "name": "Business, Karriere & Geld"
+      },
+      {
+        "name": "Computer & Internet"
+      },
+      {
+        "name": "Architektur, Technik & Ingenieurswesen"
+      }
+    ],
+    "year": 2009,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0201775948",
+    "ean": "9780201775945",
+    "type": "Book",
+    "booktitle": "Beyond Software Architecture: Creating and Sustaining Winning Solutions",
+    "title": "Addison-Wesley Signature",
+    "pages": 352,
+    "authors": [
+      "Luke Hohmann"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2003,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0138141819",
+    "ean": "9780138141813",
+    "type": "Book",
+    "booktitle": "Software Engineering: Theory and Practice",
+    "pages": 792,
+    "authors": [
+      "Shari Lawrence Pfleeger",
+      "Joanne Atlee"
+    ],
+    "publisher": "Prentice Hall",
+    "edition": "4th revised edition. International Version.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2009,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "1430246502",
+    "ean": "9781430246503",
+    "type": "Book",
+    "booktitle": "Expert F# 3.0",
+    "title": "Expert Apress",
+    "pages": 624,
+    "authors": [
+      "Don Syme"
+    ],
+    "publisher": "Apress",
+    "edition": "New.",
+    "keywords": [
+      {
+        "name": "Computer & Internet"
+      }
+    ],
+    "year": 2012,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0735622671",
+    "ean": "9780735622678",
+    "type": "Book",
+    "booktitle": "More About Software Requirements: Thorny Issues and Practical Advice",
+    "pages": 224,
+    "authors": [
+      "Karl Wiegers"
+    ],
+    "publisher": "Microsoft Press",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2006,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "0201360462",
+    "ean": "9780201360462",
+    "type": "Book",
+    "booktitle": "Mastering the Requirements Process",
+    "pages": 416,
+    "authors": [
+      "Suzanne Robertson",
+      "James Robertson"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1999,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0131774115",
+    "ean": "9780131774117",
+    "type": "Book",
+    "booktitle": "The Craft of Software Testing: Subsystems Testing Including Object-Based and Object-Oriented Testing",
+    "title": "Prentice Hall Series in Innovative Technology",
+    "pages": 553,
+    "authors": [
+      "Brian Marick"
+    ],
+    "publisher": "Prentice Hall",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1995,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0321125215",
+    "ean": "9780321125217",
+    "type": "Book",
+    "booktitle": "Domain-Driven Design: Tackling Complexity in the Heart of Software",
+    "pages": 560,
+    "authors": [
+      "Eric Evans"
+    ],
+    "publisher": "Addison-Wesley Professional",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      }
+    ],
+    "year": 2003,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "",
+    "ean": "9783540631958",
+    "type": "Book",
+    "booktitle": "Mathematical Methods in Program Development",
+    "pages": 528,
+    "authors": [
+      "Manfred Broy",
+      "Birgit Schieder"
+    ],
+    "publisher": "Springer",
+    "edition": "1",
+    "year": 1997,
+    "language": "ca"
+  },
+  {
+    "isbn": "0735618798",
+    "ean": "9780735618794",
+    "type": "Book",
+    "booktitle": "Software Requirements 2",
+    "pages": 544,
+    "authors": [
+      "Karl Wiegers"
+    ],
+    "publisher": "Microsoft Press",
+    "edition": "2nd ed.",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2003,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "020165783X",
+    "ean": "9780201657838",
+    "type": "Book",
+    "booktitle": "UML Distilled: A Brief Guide to the Standard Object Modeling Language",
+    "title": "Addison-Wesley Object Technology",
+    "pages": 185,
+    "authors": [
+      "Martin Fowler"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "2nd",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1999,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "389319150X",
+    "ean": "9783893191505",
+    "type": "Book",
+    "booktitle": "Compilerbau 1",
+    "pages": 0,
+    "authors": [
+      "Alfred V, Ravi Sethi und Jeffrey D Ullman: Aho"
+    ],
+    "publisher": "addison-wesley Publ,",
+    "keywords": [
+      {
+        "name": "Kategorien"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Format (binding_browse-bin)"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 1990,
+    "howPublished": "Unbekannter Einband",
+    "language": "de"
+  },
+  {
+    "isbn": "0321334876",
+    "ean": "9780321334879",
+    "type": "Book",
+    "booktitle": "Effective C++: 55 Specific Ways to Improve Your Programs and Designs",
+    "title": "3rd Edition",
+    "pages": 320,
+    "authors": [
+      "Scott Meyers"
+    ],
+    "publisher": "Addison-Wesley Professional",
+    "edition": "3",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2005,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "8120326857",
+    "ean": "9788120326859",
+    "type": "Book",
+    "booktitle": "Concepts Techniques and Models of Computer Programing",
+    "pages": 0,
+    "authors": [
+      "Van-Roy / Haridi"
+    ],
+    "publisher": "TBS",
+    "keywords": [
+      {
+        "name": "Subjects"
+      }
+    ],
+    "year": 2004,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "3540674012",
+    "ean": "9783540674016",
+    "type": "Book",
+    "booktitle": "Temporal Logic and State Systems",
+    "title": "Texts in Theoretical Computer Science",
+    "pages": 436,
+    "authors": [
+      "Fred Kröger",
+      "Stephan Merz"
+    ],
+    "publisher": "Springer, Berlin",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 2008,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "3540440437",
+    "ean": "9783540440437",
+    "type": "Book",
+    "booktitle": "CONCUR 2002 - Concurrency Theory: 13th International Conference, Brno, Czech Republic, August 20-23, 2002. Proceedings",
+    "title": "Lecture Notes in Computer Science",
+    "pages": 611,
+    "publisher": "Springer, Berlin",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Medicine"
+      }
+    ],
+    "year": 2002,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3540604200",
+    "ean": "9783540604204",
+    "type": "Book",
+    "booktitle": "Handbook of Formal Languages: Volume 1. Word, Language, Grammar",
+    "pages": 873,
+    "authors": [
+      "Grzegorz Rozenberg",
+      "Arto Salomaa"
+    ],
+    "publisher": "Springer",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      },
+      {
+        "name": "Science & Math"
+      }
+    ],
+    "year": 1997,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "0132074893",
+    "ean": "9780132074896",
+    "type": "Book",
+    "booktitle": "Agile Software Development with Scrum",
+    "pages": 158,
+    "authors": [
+      "Ken Schwaber",
+      "Mike Beedle"
+    ],
+    "publisher": "PEARSON STUDIUM",
+    "edition": "International edition",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2008,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0444828303",
+    "ean": "9780444828309",
+    "type": "Book",
+    "booktitle": "Handbook of Process Algebra",
+    "pages": 1356,
+    "authors": [
+      "J.A. Bergstra",
+      "A. Ponse",
+      "S.A. Smolka"
+    ],
+    "publisher": "Elsevier Science",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 2001,
+    "howPublished": "Hardcover",
+    "language": "ca"
+  },
+  {
+    "isbn": "0201309777",
+    "ean": "9780201309775",
+    "type": "Book",
+    "booktitle": "Generative Programming: Methods, Tools, and Applications: Methods, Techniques and Applications",
+    "pages": 864,
+    "authors": [
+      "Krzysztof Czarnecki",
+      "Krysztof Czarnecki",
+      "Ulrich Eisenecker"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2000,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3897228300",
+    "ean": "9783897228306",
+    "type": "Book",
+    "booktitle": "Semantik von Programmiersprachen",
+    "pages": 239,
+    "authors": [
+      "Rudolf Berghammer"
+    ],
+    "publisher": "Logos Verlag Berlin",
+    "keywords": [
+      {
+        "name": "Programmierung & Webdesign"
+      },
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Taschenbuch"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 2002,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0262533022",
+    "ean": "9780262533027",
+    "type": "Book",
+    "booktitle": "Using OpenMP: Portable Shared Memory Parallel Programming",
+    "title": "Scientific and Engineering Computation",
+    "pages": 353,
+    "authors": [
+      "Barbara Chapman",
+      "Gabriele Jost",
+      "Ruud Van Der Pas"
+    ],
+    "publisher": "Mit Pr",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2007,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3868940057",
+    "ean": "9783868940053",
+    "type": "Book",
+    "booktitle": "Einführung in die Programmierung mit C++",
+    "pages": 1224,
+    "authors": [
+      "Bjarne Stroustrup"
+    ],
+    "publisher": "Pearson Studium",
+    "edition": "1., Auflage",
+    "keywords": [
+      {
+        "name": "C++"
+      },
+      {
+        "name": "C & C++"
+      },
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Lehrbücher"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Gebundene Ausgabe"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 2010,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "1934356999",
+    "ean": "9781934356999",
+    "type": "Book",
+    "booktitle": "The Definitive ANTLR 4 Reference",
+    "pages": 328,
+    "authors": [
+      "Terence Parr"
+    ],
+    "publisher": "Pragmatic Bookshelf",
+    "edition": "2nd Revised edition",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2013,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "0470093552",
+    "ean": "9780470093559",
+    "type": "Book",
+    "booktitle": "Concurrency: State Models and Java Programs",
+    "pages": 434,
+    "authors": [
+      "Jeff Magee",
+      "Jeff Kramer"
+    ],
+    "publisher": "John Wiley & Sons",
+    "edition": "2. Auflage",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2006,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0321127420",
+    "ean": "9780321127426",
+    "type": "Book",
+    "booktitle": "Patterns of Enterprise Application Architecture",
+    "pages": 560,
+    "authors": [
+      "Martin Fowler"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2002,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "020159627X",
+    "ean": "9780201596274",
+    "type": "Book",
+    "booktitle": "Problem Frames and Methods. Analysing and Structuring Software Development Problems.",
+    "title": "ACM Press Books",
+    "pages": 416,
+    "authors": [
+      "Michael Jackson"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2000,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3893314326",
+    "ean": "9783893314324",
+    "type": "Book",
+    "booktitle": "Freie Software",
+    "pages": 0,
+    "authors": [
+      "Volker Grassmuck"
+    ],
+    "keywords": [
+      {
+        "name": "Subjects"
+      }
+    ],
+    "howPublished": "Perfect Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "3540495967",
+    "ean": "9783540495963",
+    "type": "Book",
+    "booktitle": "Übersetzerbau: Virtuelle Maschinen",
+    "pages": 192,
+    "authors": [
+      "Reinhard Wilhelm",
+      "Helmut Seidl"
+    ],
+    "publisher": "Springer, Berlin",
+    "edition": "Neuauflage.",
+    "keywords": [
+      {
+        "name": "Programmierung & Webdesign"
+      },
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Lehrbücher nach Studiengängen"
+      },
+      {
+        "name": "Blick ins Buch"
+      },
+      {
+        "name": "Lehrbücher"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Taschenbuch"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 2007,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0521692695",
+    "ean": "9780521692694",
+    "type": "Book",
+    "booktitle": "Programming in Haskell",
+    "pages": 184,
+    "authors": [
+      "Graham Hutton"
+    ],
+    "publisher": "Cambridge University Press",
+    "edition": "illustrated edition",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2007,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0387944591",
+    "ean": "9780387944593",
+    "type": "Book",
+    "booktitle": "Temporal Verification of Reactive Systems: Safety",
+    "pages": 512,
+    "authors": [
+      "Amir Pnueli",
+      "Zohar Manna"
+    ],
+    "publisher": "Springer, Berlin",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 1995,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "3827328861",
+    "ean": "9783827328861",
+    "type": "Book",
+    "booktitle": "Windows 7 im Unternehmen: Das Handbuch für Administratoren. Inkl. CD",
+    "pages": 1104,
+    "authors": [
+      "Manuela Reiss",
+      "Jochen Ruhland",
+      "Holger Schwichtenberg"
+    ],
+    "publisher": "Addison-Wesley",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Windows 7"
+      },
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Windows"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Gebundene Ausgabe"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 2010,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "3868340343",
+    "ean": "9783868340341",
+    "type": "Book",
+    "booktitle": "Wissenschaftliches Arbeiten",
+    "pages": 0,
+    "authors": [
+      "Christian Schäfer, Marion Schröder, Uwe Kern Helmut Balzert"
+    ],
+    "publisher": "W3L GmbH",
+    "edition": "2. Auflage.",
+    "keywords": [
+      {
+        "name": "Subjects"
+      }
+    ],
+    "year": 2011,
+    "howPublished": "Perfect Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "3540733671",
+    "ean": "9783540733676",
+    "type": "Book",
+    "booktitle": "Computer Aided Verification: 19th International Conference, CAV 2007, Berlin, Germany, July 3-7, 2007, Proceedings",
+    "pages": 562,
+    "authors": [
+      "Werner Damm",
+      "Holger Hermanns"
+    ],
+    "publisher": "Springer",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 2007,
+    "howPublished": "Paperback",
+    "language": "ca"
+  },
+  {
+    "isbn": "0132071487",
+    "ean": "9780132071482",
+    "type": "Book",
+    "booktitle": "Artificial Intelligence",
+    "pages": 1152,
+    "authors": [
+      "Stuart Russell",
+      "Peter Norvig"
+    ],
+    "publisher": "Prentice Hall International",
+    "edition": "3rd revised edition.",
+    "keywords": [
+      {
+        "name": "Computer & Internet"
+      }
+    ],
+    "year": 2010,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0470025700",
+    "ean": "9780470025703",
+    "type": "Book",
+    "booktitle": "Model-Driven Software Development",
+    "pages": 444,
+    "authors": [
+      "Markus Völter",
+      "Thomas Stahl",
+      "Jorn Bettin",
+      "Arno Haase",
+      "Simon Helsen"
+    ],
+    "publisher": "John Wiley & Sons",
+    "edition": "1. Auflage",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2006,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3540558225",
+    "ean": "9783540558224",
+    "type": "Book",
+    "booktitle": "CONCUR '92: Third International Conference on Concurrency Theory, Stony Brook, NY, USA, August 24-27, 1992. Proceedings",
+    "pages": 580,
+    "authors": [
+      "Walter R. Cleaveland"
+    ],
+    "publisher": "Springer",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1992,
+    "howPublished": "Paperback",
+    "language": "ca"
+  },
+  {
+    "isbn": "020139815X",
+    "ean": "9780201398151",
+    "type": "Book",
+    "booktitle": "Software Engineering, engl. Ed.",
+    "title": "International Computer Science Series",
+    "pages": 720,
+    "authors": [
+      "Ian Sommerville"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "6th",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2000,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0321228626",
+    "ean": "0785342228625",
+    "type": "Book",
+    "booktitle": "The SPIN Model Checker: Primer and Reference Manual",
+    "pages": 608,
+    "authors": [
+      "Gerard J. Holzmann"
+    ],
+    "publisher": "Addison-Wesley Professional",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 2003,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "0201362996",
+    "ean": "9780201362992",
+    "type": "Book",
+    "booktitle": "The LaTeX Companion",
+    "title": "Addison-Wesley Series on Tools and Techniques for Computer T",
+    "pages": 1120,
+    "authors": [
+      "Frank Mittelbach",
+      "Michel Goossens",
+      "Johannes Braams",
+      "David Carlisle",
+      "Chris Rowley"
+    ],
+    "publisher": "Addison-Wesley Professional",
+    "edition": "2nd ed.",
+    "keywords": [
+      {
+        "name": "Arts & Photography"
+      },
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2004,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "354073113X",
+    "ean": "9783540731139",
+    "type": "Book",
+    "booktitle": "Multicore: Parallele Programmierung",
+    "title": "Informatik Im Fokus",
+    "pages": 164,
+    "authors": [
+      "Gudula Rünger",
+      "Thomas Rauber"
+    ],
+    "publisher": "Springer, Berlin",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Informatik"
+      },
+      {
+        "name": "Bautechnik & Architektur"
+      },
+      {
+        "name": "Lehrbücher"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Taschenbuch"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 2007,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0769523307",
+    "ean": "9780769523309",
+    "type": "Book",
+    "booktitle": "Guide to the Software Engineering Body of Knowledge (SWEBOK(R)): 2004 Version",
+    "pages": 204,
+    "authors": [
+      "IEEE Computer Society",
+      "Alain Abran",
+      "James W. Moore",
+      "Pierre Bourque",
+      "Robert Dupuis"
+    ],
+    "publisher": "IEEE Computer Society Press",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      }
+    ],
+    "year": 2005,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "0123748569",
+    "ean": "9780123748560",
+    "type": "Book",
+    "booktitle": "Data Mining: Practical Machine Learning Tools and Techniques",
+    "title": "Morgan Kaufmann Series in Data Management Systems",
+    "pages": 664,
+    "authors": [
+      "Ian H. Witten",
+      "Eibe Frank",
+      "Mark A. Hall"
+    ],
+    "publisher": "Morgan Kaufmann",
+    "edition": "3. Auflage.",
+    "keywords": [
+      {
+        "name": "Computer & Internet"
+      }
+    ],
+    "year": 2011,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "8131716600",
+    "ean": "9788131716601",
+    "type": "Book",
+    "booktitle": "Foundations of Software Testing",
+    "pages": 689,
+    "authors": [
+      "Aditya P. Mathur"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2008,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "354021299X",
+    "ean": "9783540212997",
+    "type": "Book",
+    "booktitle": "Tools and Algorithms for the Construction and Analysis of Systems: 10th International Conference, TACAS 2004, Held as Part of the Joint European ...",
+    "title": "Lecture Notes in Computer Science,",
+    "pages": 608,
+    "publisher": "Springer, Berlin",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2004,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0201896834",
+    "ean": "9780201896831",
+    "type": "Book",
+    "booktitle": "Art of Computer Programming, Volume 1: Fundamental Algorithms",
+    "title": "3rd Edition",
+    "pages": 672,
+    "authors": [
+      "Donald E. Knuth"
+    ],
+    "publisher": "Addison-Wesley Professional",
+    "edition": "3",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      },
+      {
+        "name": "Science & Math"
+      }
+    ],
+    "year": 1997,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "0471197440",
+    "ean": "9780471197447",
+    "type": "Book",
+    "booktitle": "Elements of Network Protocol Design",
+    "pages": 506,
+    "authors": [
+      "Mohamed G. Gouda"
+    ],
+    "publisher": "John Wiley & Sons",
+    "edition": "1. Auflage",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1998,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0521663504",
+    "ean": "9780521663502",
+    "type": "Book",
+    "booktitle": "Purely Functional Data Structures",
+    "pages": 232,
+    "authors": [
+      "Chris Okasaki"
+    ],
+    "publisher": "Cambridge University Press",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 1999,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "1846286913",
+    "ean": "9781846286919",
+    "type": "Book",
+    "booktitle": "Semantics with Applications: An Appetizer",
+    "title": "Undergraduate Topics in Computer Science",
+    "pages": 286,
+    "authors": [
+      "Hanne Riis Nielson",
+      "Flemming Nielson"
+    ],
+    "publisher": "Springer",
+    "edition": "2007",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2007,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "0262162091",
+    "ean": "9780262162098",
+    "type": "Book",
+    "booktitle": "Types and Programming Languages",
+    "pages": 645,
+    "authors": [
+      "Benjamin C. Pierce"
+    ],
+    "publisher": "The MIT Press",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2002,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "3836213710",
+    "ean": "9783836213714",
+    "type": "Book",
+    "booktitle": "Java ist auch eine Insel: Programmieren mit der Java Standard Edition Version 6: Programmieren mit der Java Platform, Standard Edition - Version 6",
+    "title": "Galileo Computing",
+    "pages": 1475,
+    "authors": [
+      "Christian Ullenboom"
+    ],
+    "publisher": "Galileo Computing",
+    "edition": "8",
+    "keywords": [
+      {
+        "name": "Java"
+      },
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Blick ins Buch"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Gebundene Ausgabe"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 2009,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "052154310X",
+    "ean": "9780521543101",
+    "type": "Book",
+    "booktitle": "Logic in Computer Science: Modelling and Reasoning about Systems",
+    "pages": 440,
+    "authors": [
+      "Michael Huth",
+      "Mark Ryan"
+    ],
+    "publisher": "Cambridge University Press",
+    "edition": "2",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2004,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3540607617",
+    "ean": "9783540607618",
+    "type": "Book",
+    "booktitle": "Partial-Order Methods for the Verification of Concurrent Systems: An Approach to the State-Explosion Problem",
+    "pages": 143,
+    "authors": [
+      "Patrice Godefroid"
+    ],
+    "publisher": "Springer",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 1996,
+    "howPublished": "Paperback",
+    "language": "ca"
+  },
+  {
+    "isbn": "0201379406",
+    "ean": "9780201379402",
+    "type": "Book",
+    "booktitle": "The Object Constraint Language: Precise Modeling with UML",
+    "title": "Addison-Wesley Object Technology Series",
+    "pages": 112,
+    "authors": [
+      "Jos Warmer",
+      "Anneke G. Kleppe"
+    ],
+    "publisher": "Addison Wesley",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1999,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3540976647",
+    "ean": "9783540976646",
+    "type": "Book",
+    "booktitle": "The Temporal Logic of Reactive and Concurrent Systems Specification",
+    "pages": 441,
+    "authors": [
+      "Zohar Manna",
+      "Amir Pnueli"
+    ],
+    "publisher": "Springer-Verlag",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      }
+    ],
+    "year": 1992,
+    "howPublished": "Hardcover",
+    "language": "ca"
+  },
+  {
+    "isbn": "3642040802",
+    "ean": "9783642040801",
+    "type": "Book",
+    "booktitle": "CONCUR 2009 - Concurrency Theory: 20th International Conference, CONCUR 2009, Bologna, Italy, September 1-4, 2009, Proceedings",
+    "title": "Lecture Notes in Computer Science",
+    "pages": 638,
+    "publisher": "Springer, Berlin",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2009,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3519121018",
+    "ean": "9783519121015",
+    "type": "Book",
+    "booktitle": "The Foundations of Program Verification",
+    "pages": 230,
+    "authors": [
+      "Jacques Loeckx",
+      "Kurt Sieber",
+      "Ryan D. Stansifer"
+    ],
+    "publisher": "Teubner B.G. GmbH",
+    "edition": "2. A.",
+    "keywords": [
+      {
+        "name": "Kategorien"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Gebundene Ausgabe"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 1996,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0521762685",
+    "ean": "9780521762687",
+    "type": "Book",
+    "booktitle": "Relational Mathematics",
+    "title": "Encyclopedia of Mathematics and its Applications",
+    "pages": 582,
+    "authors": [
+      "Gunther Schmidt"
+    ],
+    "publisher": "Cambridge University Press",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Science & Math"
+      }
+    ],
+    "year": 2010,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "",
+    "ean": "9780471972082",
+    "type": "Book",
+    "booktitle": "Requirements Engineering: Processes and Techniques",
+    "title": "Worldwide Series in Computer Science",
+    "pages": 294,
+    "authors": [
+      "Gerald Kotonya",
+      "Ian Sommerville"
+    ],
+    "publisher": "John Wiley & Sons",
+    "edition": "1. Auflage",
+    "year": 1998,
+    "language": "de"
+  },
+  {
+    "isbn": "9781430219125",
+    "ean": "9781430219125",
+    "type": "Book",
+    "booktitle": "Pro Linux System Administration",
+    "title": "Expert's Voice in Open Source",
+    "pages": 1052,
+    "authors": [
+      "James Turnbull",
+      "Peter Lieverdink",
+      "Dennis Matotek"
+    ],
+    "publisher": "Apress",
+    "edition": "New.",
+    "keywords": [
+      {
+        "name": "Computer & Internet"
+      }
+    ],
+    "year": 2009,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0849328802",
+    "ean": "9780849328800",
+    "type": "Book",
+    "booktitle": "Data Flow Analysis: Theory and Practice",
+    "pages": 395,
+    "authors": [
+      "Uday Khedker",
+      "Amitabha Sanyal",
+      "Bageshri Sathe"
+    ],
+    "publisher": "CRC Press",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2009,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "0444880747",
+    "ean": "9780444880741",
+    "type": "Book",
+    "booktitle": "Formal Models and Semantics",
+    "title": "Handbook of Theoretical Computer Science, Vol. B",
+    "pages": 1273,
+    "authors": [
+      "Jan van Leeuwen"
+    ],
+    "publisher": "Elsevier Science",
+    "edition": "1st repr. 1992",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      },
+      {
+        "name": "Science & Math"
+      }
+    ],
+    "year": 1992,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "0201342758",
+    "ean": "9780201342758",
+    "type": "Book",
+    "booktitle": "Haskell: The Craft of Functional Programming",
+    "title": "International Computer Science Series",
+    "pages": 528,
+    "authors": [
+      "Simon Thompson"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "2nd ed.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1999,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0976483246",
+    "ean": "9780976483243",
+    "type": "Book",
+    "booktitle": "Multi-core Programming: Increasing Performance Through Software Multi-threading",
+    "pages": 336,
+    "authors": [
+      "S. Akhter"
+    ],
+    "publisher": "Intel Press",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2006,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0132367254",
+    "ean": "9780132367257",
+    "type": "Book",
+    "booktitle": "Methods of IT Project Management",
+    "pages": 576,
+    "authors": [
+      "Jeffrey Brewer",
+      "Kevin Dittman"
+    ],
+    "publisher": "Prentice Hall International",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Business & Investing"
+      },
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2009,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0201485672",
+    "ean": "9780201485677",
+    "type": "Book",
+    "booktitle": "Refactoring: Improving the Design of Existing Code",
+    "pages": 464,
+    "authors": [
+      "Martin Fowler",
+      "Kent Beck",
+      "John Brant",
+      "William Opdyke",
+      "Don Roberts"
+    ],
+    "publisher": "Addison-Wesley Professional",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 1999,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "3642320260",
+    "ean": "9783642320262",
+    "type": "Book",
+    "booktitle": "Concurrent Programming: Algorithms, Principles, and Foundations",
+    "pages": 538,
+    "authors": [
+      "Michel Raynal"
+    ],
+    "publisher": "Springer",
+    "edition": "2013",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      }
+    ],
+    "year": 2012,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "0201703726",
+    "ean": "9780201703726",
+    "type": "Book",
+    "booktitle": "Documenting Software Architectures: Views and Beyond",
+    "title": "SEI Series in Software Engineering",
+    "pages": 560,
+    "authors": [
+      "Paul Clements",
+      "Felix Bachmann",
+      "Len Bass",
+      "David Garlan",
+      "James Ivers",
+      "Reed Little"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2002,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0262027712",
+    "ean": "9780262027717",
+    "type": "Book",
+    "booktitle": "Modeling and Analysis of Communicating Systems",
+    "pages": 392,
+    "authors": [
+      "Jan Friso Groote",
+      "Mohammad Reza Mousavi"
+    ],
+    "publisher": "The MIT Press",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Engineering & Transportation"
+      }
+    ],
+    "year": 2014,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "1107004977",
+    "ean": "9781107004979",
+    "type": "Book",
+    "booktitle": "Advanced Topics in Bisimulation and Coinduction",
+    "title": "Cambridge Tracts in Theoretical Computer Science",
+    "pages": 340,
+    "publisher": "Cambridge University Press",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computer & Internet"
+      }
+    ],
+    "year": 2011,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0201709449",
+    "ean": "9780201709445",
+    "type": "Book",
+    "booktitle": "Requirements Analysis and System Design: Developing Information Systems with UML",
+    "pages": 378,
+    "authors": [
+      "Leszek A. Maciszek",
+      "Leszek A. Maciaszek",
+      "Maciaszek"
+    ],
+    "publisher": "Addison Wesley",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2001,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0596009208",
+    "ean": "9780596009205",
+    "type": "Book",
+    "booktitle": "Head First Java",
+    "pages": 688,
+    "authors": [
+      "Bert Bates",
+      "Kathy Sierra"
+    ],
+    "publisher": "O'Reilly Media",
+    "edition": "2. A.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2005,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3642161634",
+    "ean": "9783642161636",
+    "type": "Book",
+    "booktitle": "Model Checking Software: 17th International SPIN Workshop, Enschede, The Netherlands, September 27-29, 2010, Proceedings",
+    "title": "Lecture Notes in Computer ... Computer Science and General Issues",
+    "pages": 263,
+    "authors": [
+      "Jaco van der Pol",
+      "Michael Weber"
+    ],
+    "publisher": "Springer, Berlin",
+    "edition": "1., st Edition.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2010,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "032171833X",
+    "ean": "9780321718334",
+    "type": "Book",
+    "booktitle": "Software Systems Architecture: Working With Stakeholders Using Viewpoints and Perspectives",
+    "title": "2nd Edition",
+    "pages": 704,
+    "authors": [
+      "Nick Rozanski",
+      "Eóin Woods"
+    ],
+    "publisher": "Addison-Wesley Professional",
+    "edition": "2",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2011,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "0201835959",
+    "ean": "9780201835953",
+    "type": "Book",
+    "booktitle": "The Mythical Man Month: Essays on Software Engineering",
+    "pages": 336,
+    "authors": [
+      "Frederick P. Brooks"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "Nachdr. 20th Anniversary Edition.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1995,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "1430218339",
+    "ean": "9781430218333",
+    "type": "Book",
+    "booktitle": "Pro Git",
+    "title": "Expert's Voice in Software Development",
+    "pages": 288,
+    "authors": [
+      "Scott Chacon"
+    ],
+    "publisher": "Apress",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2009,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "0321534077",
+    "ean": "9780321534071",
+    "type": "Book",
+    "booktitle": "Eclipse Modeling Project: A Domain-Specific Language (DSL) Toolkit",
+    "pages": 736,
+    "authors": [
+      "Richard C. Gronback"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2009,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0596521537",
+    "ean": "9780596521530",
+    "type": "Book",
+    "booktitle": "The Art of Concurrency: A Thread Monkey's Guide to Writing Parallel Applications",
+    "pages": 304,
+    "authors": [
+      "Clay Breshears"
+    ],
+    "publisher": "O'Reilly Media",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2009,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "0201749629",
+    "ean": "9780201749625",
+    "type": "Book",
+    "booktitle": "Effective STL: 50 Specific Ways to Improve Your Use of the Standard Template Library",
+    "pages": 288,
+    "authors": [
+      "Scott Meyers"
+    ],
+    "publisher": "Addison-Wesley Professional",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2001,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "3897218518",
+    "ean": "9783897218512",
+    "type": "Book",
+    "booktitle": "TYPO3 Kochbuch - Aktuell zu TYPO3 4.2, m. CD-ROM",
+    "pages": 912,
+    "authors": [
+      "Christian Trabold",
+      "Jo Hasenau",
+      "Peter Niederlag"
+    ],
+    "publisher": "O'Reilly",
+    "edition": "2. Auflage",
+    "keywords": [
+      {
+        "name": "Content Management"
+      },
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Blick ins Buch"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Gebundene Ausgabe"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      },
+      {
+        "name": "Buch"
+      }
+    ],
+    "year": 2008,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "020142293X",
+    "ean": "9780201422931",
+    "type": "Book",
+    "booktitle": "Data Communications, Computer Networks and Open Systems",
+    "title": "Electronic Systems Engineering Series",
+    "pages": 928,
+    "authors": [
+      "Fred Halsall"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "4 Sub",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1995,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0201648601",
+    "ean": "9780201648607",
+    "type": "Book",
+    "booktitle": "Using UML: Software Engineering with Objects and Components: Updated for UML 1.3",
+    "title": "Addison-Wesley Object Technology",
+    "pages": 256,
+    "authors": [
+      "Perdita Stevens",
+      "Rob Pooley"
+    ],
+    "publisher": "Longman",
+    "edition": "Rev Sub",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1999,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "193239480X",
+    "ean": "9781932394801",
+    "type": "Book",
+    "booktitle": "Ant in Action",
+    "title": "Manning",
+    "pages": 600,
+    "authors": [
+      "Steve Loughran",
+      "Erik Hatcher"
+    ],
+    "publisher": "Manning",
+    "edition": "2nd ed.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2007,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0471117099",
+    "ean": "9780471117094",
+    "type": "Book",
+    "booktitle": "Applied Cryptography: Protocols, Algorithms and Source Code in C",
+    "pages": 758,
+    "authors": [
+      "Bruce Schneier"
+    ],
+    "publisher": "John Wiley & Sons",
+    "edition": "2. Auflage",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 1995,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0321321278",
+    "ean": "9780321321275",
+    "type": "Book",
+    "booktitle": "UML 2 and the Unified Process: Practical Object-Oriented Analysis and Design",
+    "title": "Addison-Wesley Object Technology Series",
+    "pages": 624,
+    "authors": [
+      "Jim Arlow",
+      "Ila Neustadt"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "0002",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2005,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "9780201379266",
+    "ean": "9780201379266",
+    "type": "Book",
+    "booktitle": "The C++ Standard Library: A Tutorial and Reference",
+    "pages": 832,
+    "authors": [
+      "Nicolai M. Josuttis"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1999,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0201083191",
+    "ean": "9780201083194",
+    "type": "Book",
+    "booktitle": "LISP",
+    "pages": 611,
+    "authors": [
+      "Patrick Henry Winston",
+      "Berthold Klaus Paul Horn"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "0003",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1988,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0981531644",
+    "ean": "9780981531649",
+    "type": "Book",
+    "booktitle": "Programming in Scala: A Comprehensive Step-by-Step Guide, 2nd Edition",
+    "pages": 852,
+    "authors": [
+      "Martin Odersky",
+      "Lex Spoon",
+      "Bill Venners"
+    ],
+    "publisher": "Artima Inc",
+    "edition": "2",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2011,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "0137053460",
+    "ean": "9780137053469",
+    "type": "Book",
+    "booktitle": "Software Engineering",
+    "pages": 792,
+    "authors": [
+      "Ian Sommerville"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "9th revised edition. International Version.",
+    "keywords": [
+      {
+        "name": "Computer & Internet"
+      }
+    ],
+    "year": 2010,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0201633612",
+    "ean": "9780201633610",
+    "type": "Book",
+    "booktitle": "Design Patterns. Elements of Reusable Object-Oriented Software.",
+    "pages": 416,
+    "authors": [
+      "Erich Gamma",
+      "Richard Helm",
+      "Ralph E. Johnson"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "1st ed., Reprint.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1994,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "3540787992",
+    "ean": "9783540787990",
+    "type": "Book",
+    "booktitle": "Tools and Algorithms for the Construction and Analysis of Systems: 14th International Conference, TACAS 2008, Held as Part of the Joint European ...",
+    "title": "Lecture Notes in Computer Science",
+    "pages": 518,
+    "publisher": "Springer-Verlag Gmbh",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2008,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3540734198",
+    "ean": "9783540734192",
+    "type": "Book",
+    "booktitle": "Automata, Languages and Programming: 34th International Colloquium, ICALP 2007, Wroclaw, Poland, July 9-13, 2007, Proceedings",
+    "pages": 953,
+    "authors": [
+      "Lars Arge",
+      "Christian Cachin",
+      "Tomasz Jurdzinski",
+      "Andrzej Tarlecki"
+    ],
+    "publisher": "Springer",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 2007,
+    "howPublished": "Paperback",
+    "language": "ca"
+  },
+  {
+    "isbn": "1930110995",
+    "ean": "9781930110991",
+    "type": "Book",
+    "booktitle": "Junit in Action",
+    "pages": 384,
+    "authors": [
+      "Vincent Massol",
+      "Ted Husted"
+    ],
+    "publisher": "Manning",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2003,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "032143482X",
+    "ean": "9780321434821",
+    "type": "Book",
+    "booktitle": "Concurrent Programming on Windows: Architecture, Principles, and Patterns",
+    "title": "Microsoft .Net Development",
+    "pages": 1008,
+    "authors": [
+      "Joe Duffy"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2008,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0073375977",
+    "ean": "9780073375977",
+    "type": "Book",
+    "booktitle": "Software Engineering: A Practitioner's Approach",
+    "pages": 928,
+    "authors": [
+      "Roger S. Pressman",
+      "Pressman Roger"
+    ],
+    "publisher": "Mcgraw Hill Book Co",
+    "edition": "0007",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2009,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0321419499",
+    "ean": "9780321419491",
+    "type": "Book",
+    "booktitle": "Mastering the Requirements Process",
+    "pages": 592,
+    "authors": [
+      "Suzanne Robertson",
+      "James Robertson"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "2nd ed.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2006,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "3893191518",
+    "ean": "9783893191512",
+    "type": "Book",
+    "booktitle": "Compilerbau. Teil 2.",
+    "pages": 0,
+    "authors": [
+      "Alfred V Sethi, Ravi. Ullman, Jeffrey D Aho"
+    ],
+    "publisher": "Addison-Wesley",
+    "keywords": [
+      {
+        "name": "Kategorien"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Taschenbuch"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 1995,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3540414134",
+    "ean": "9783540414131",
+    "type": "Book",
+    "booktitle": "FST TCS 2000: Foundations of Software Technology and Theoretical Science: 20th Conference, New Delhi, India, December13-15, 2000 Proceedings",
+    "pages": 532,
+    "authors": [
+      "Sanjiv Kapoor",
+      "Sanjiva Prasad"
+    ],
+    "publisher": "Springer",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Medicine"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 2001,
+    "howPublished": "Paperback",
+    "language": "ca"
+  },
+  {
+    "isbn": "193435600X",
+    "ean": "0852766001407",
+    "type": "Book",
+    "booktitle": "Programming Erlang: Software for a Concurrent World",
+    "pages": 536,
+    "authors": [
+      "Joe Armstrong"
+    ],
+    "publisher": "Pragmatic Bookshelf",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2007,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "3540333762",
+    "ean": "9783540333760",
+    "type": "Book",
+    "booktitle": "Security in Pervasive Computing: Third International Conference, SPC 2006, York, UK, April 18-21, 2006, Proceedings",
+    "title": "Lecture Notes in Computer Science",
+    "pages": 243,
+    "authors": [
+      "John A. Clark",
+      "Richard F. Paige",
+      "Fiona A.C. Polack",
+      "Phillip J. Brooke"
+    ],
+    "publisher": "Springer, Berlin",
+    "edition": "1",
+    "year": 2006,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0471354902",
+    "ean": "9780471354901",
+    "type": "Book",
+    "booktitle": "Real-Time Systems and Software",
+    "pages": 224,
+    "authors": [
+      "Alan C. Shaw"
+    ],
+    "publisher": "John Wiley & Sons",
+    "edition": "1. Auflage",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2001,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3642005926",
+    "ean": "9783642005923",
+    "type": "Book",
+    "booktitle": "Fundamental Approaches to Software Engineering: 12th International Conference, FASE 2009, Held as Part of the Joint European Conferences on Theory and Practice of Software, ETAPS 2009, York, UK, March 22-29, 2009, Proceedings",
+    "pages": 488,
+    "authors": [
+      "Marsha Chechik",
+      "Martin Wirsing"
+    ],
+    "publisher": "Springer",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2009,
+    "howPublished": "Paperback",
+    "language": "ca"
+  },
+  {
+    "isbn": "",
+    "ean": "9783540741046",
+    "type": "Book",
+    "booktitle": "Decision Procedures: An Algorithmic Point of View",
+    "title": "Texts in Theoretical Computer Science. an Eatcs",
+    "pages": 304,
+    "authors": [
+      "Daniel Kroening",
+      "Ofer Strichman"
+    ],
+    "publisher": "Springer, Berlin",
+    "edition": "1",
+    "year": 2008,
+    "language": "de"
+  },
+  {
+    "isbn": "3642007678",
+    "ean": "9783642007675",
+    "type": "Book",
+    "booktitle": "Tools and Algorithms for the Construction and Analysis of Systems: 15th International Conference, TACAS 2009, Held as Part of the Joint European Conferences on Theory and Practice of Software, ETAPS 2009, York, UK, March 22-29, 2009, Proceedings",
+    "pages": 456,
+    "authors": [
+      "Stefan Kowalewski",
+      "Anna Philippou"
+    ],
+    "publisher": "Springer",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2009,
+    "howPublished": "Paperback",
+    "language": "ca"
+  },
+  {
+    "isbn": "3540762469",
+    "ean": "9783540762461",
+    "type": "Book",
+    "booktitle": "Correct Systems: Buildung a Business Process Solution: Building a Business Process Solution",
+    "title": "Applied Computing",
+    "pages": 206,
+    "authors": [
+      "Michael Holcombe",
+      "Florentin Ipate"
+    ],
+    "publisher": "Springer, Berlin",
+    "edition": "illustrated edition",
+    "keywords": [
+      {
+        "name": "Business & Investing"
+      },
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1998,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0321815742",
+    "ean": "9780321815743",
+    "type": "Book",
+    "booktitle": "Mastering the Requirements Process: Getting Requirements Right",
+    "title": "3rd Edition",
+    "pages": 768,
+    "authors": [
+      "Suzanne Robertson",
+      "James Robertson"
+    ],
+    "publisher": "Addison-Wesley Professional",
+    "edition": "3",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2012,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "0131096532",
+    "ean": "9780131096530",
+    "type": "Book",
+    "booktitle": "The C Answer Book: Solutions to the Exercises in 'The C Programming Language,' Second Edition",
+    "pages": 208,
+    "authors": [
+      "Clovis L. Tondo",
+      "Scott E. Gimpel"
+    ],
+    "publisher": "Prentice Hall",
+    "edition": "2nd",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      },
+      {
+        "name": "Science & Math"
+      }
+    ],
+    "year": 1988,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "3827328535",
+    "ean": "9783827328533",
+    "type": "Book",
+    "booktitle": "Mac OS X Server Essentials v10.6: Der offizielle Leitfaden zu Einsatz und Support von Mac OS X Server v10.6",
+    "pages": 570,
+    "authors": [
+      "Arek Dreyer",
+      "Ben Greisler"
+    ],
+    "publisher": "Addison-Wesley, München",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Mac OS"
+      },
+      {
+        "name": "Apple/Mac"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Gebundene Ausgabe"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 2010,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0321508920",
+    "ean": "9780321508928",
+    "type": "Book",
+    "booktitle": "The LaTeX Graphics Companion: Illustrating Documents with TEX and Postscript",
+    "title": "Tools and Techniques for Computer Typesetting",
+    "pages": 976,
+    "authors": [
+      "Michel Goossens",
+      "Frank Mittelbach",
+      "Sebastian Rahtz",
+      "Denis Roegel",
+      "Herbert Voss"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "2nd Revised edition (REV).",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2007,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0792398947",
+    "ean": "9780792398943",
+    "type": "Book",
+    "booktitle": "Real-Time Systems: Design Principles for Distributed Embedded Applications",
+    "title": "Kluwer International Series in Engineering & Computer Science",
+    "pages": 352,
+    "authors": [
+      "Hermann Kopetz"
+    ],
+    "publisher": "Springer Netherlands",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1997,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0321331885",
+    "ean": "9780321331885",
+    "type": "Book",
+    "booktitle": "EMF: Eclipse Modeling Framework",
+    "title": "(2nd Edition) (Eclipse)",
+    "pages": 744,
+    "authors": [
+      "David Steinberg",
+      "Frank Budinsky",
+      "Marcelo Paternostro",
+      "Ed Merks"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "2nd Revised edition (REV).",
+    "year": 2008,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3540465499",
+    "ean": "9783540465492",
+    "type": "Book",
+    "booktitle": "Parallele Programmierung",
+    "pages": 485,
+    "authors": [
+      "Thomas Rauber",
+      "Gudula Rünger"
+    ],
+    "publisher": "Springer, Berlin",
+    "edition": "2., neu bearb. u. erw. Aufl.",
+    "keywords": [
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Bibliografien"
+      },
+      {
+        "name": "Informatik"
+      },
+      {
+        "name": "Hochleistungsrechnen"
+      },
+      {
+        "name": "Blick ins Buch"
+      },
+      {
+        "name": "Lehrbücher"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Taschenbuch"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 2007,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "9810228848",
+    "ean": "9789810228842",
+    "type": "Book",
+    "booktitle": "Handbook of Graph Grammars and Computing by Graph Transformation",
+    "title": "Vol 1",
+    "pages": 553,
+    "authors": [
+      "Grzegorz Rozenberg"
+    ],
+    "publisher": "World Scientific Publishing Company",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      },
+      {
+        "name": "Science & Math"
+      }
+    ],
+    "year": 1997,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "389319181X",
+    "ean": "9783893191819",
+    "type": "Book",
+    "booktitle": "Einführung in die Automatentheorie, Formale Sprachen und Komplexitätstheorie",
+    "pages": 480,
+    "authors": [
+      "John E Hopcroft",
+      "Jeffrey Ullman"
+    ],
+    "edition": "2. Aufl.",
+    "keywords": [
+      {
+        "name": "Automatentheorie"
+      },
+      {
+        "name": "Berechenbarkeits- & Komplexitätstheorie"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Taschenbuch"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 1990,
+    "howPublished": "Broschiert",
+    "language": "de"
+  },
+  {
+    "isbn": "0201976994",
+    "ean": "9780201976991",
+    "type": "Book",
+    "booktitle": "Computer Networking: A Top-down Approach Featuring the Internet",
+    "pages": 784,
+    "authors": [
+      "James F. Kurose",
+      "Keith W. Ross"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "2nd",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2002,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "3540774254",
+    "ean": "9783540774259",
+    "type": "Book",
+    "booktitle": "Unfoldings: A Partial-Order Approach to Model Checking",
+    "title": "Monographs in Theoretical Computer Science",
+    "pages": 172,
+    "authors": [
+      "Javier Esparza",
+      "Keijo Heljanko"
+    ],
+    "publisher": "Springer, Berlin",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2008,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0262032708",
+    "ean": "9780262032704",
+    "type": "Book",
+    "booktitle": "Model Checking",
+    "pages": 314,
+    "authors": [
+      "Edmund M. Clarke",
+      "Edmund M. Jr. Clarke",
+      "Orna Grumberg"
+    ],
+    "publisher": "Mit Press",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2000,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "1852335777",
+    "ean": "9781852335779",
+    "type": "Book",
+    "booktitle": "Requirements Engineering: A Structured Project Information Approach",
+    "title": "Practitioner Series",
+    "pages": 213,
+    "authors": [
+      "M. E. C. Hull",
+      "Ken Jackson",
+      "A. J. J. Dick"
+    ],
+    "publisher": "Springer, Berlin",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      }
+    ],
+    "year": 2003,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3836212544",
+    "ean": "9783836212540",
+    "type": "Book",
+    "booktitle": "Adobe Illustrator CS4: Das Praxisbuch zum Lernen und Nachschlagen",
+    "title": "Galileo Design",
+    "pages": 792,
+    "authors": [
+      "Monika Gause"
+    ],
+    "publisher": "Galileo Design",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Layout"
+      },
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Blick ins Buch"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Gebundene Ausgabe"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      },
+      {
+        "name": "Buch"
+      }
+    ],
+    "year": 2009,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "3827312965",
+    "ean": "9783827312969",
+    "type": "Book",
+    "booktitle": "Die C++-Programmiersprache",
+    "pages": 956,
+    "authors": [
+      "Bjarne Stroustrup"
+    ],
+    "publisher": "Addison Wesley Verlag",
+    "edition": "3., aktualis. u. erw. A.",
+    "keywords": [
+      {
+        "name": "C++"
+      },
+      {
+        "name": "Blick ins Buch"
+      },
+      {
+        "name": "Gebundene Ausgabe"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 2000,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "3319127411",
+    "ean": "9783319127415",
+    "type": "Book",
+    "booktitle": "UML @ Classroom: An Introduction to Object-Oriented Modeling",
+    "title": "Undergraduate Topics in Computer Science",
+    "pages": 206,
+    "authors": [
+      "Martina Seidl",
+      "Marion Scholz",
+      "Christian Huemer",
+      "Gerti Kappel"
+    ],
+    "publisher": "Springer",
+    "edition": "2015",
+    "keywords": [
+      {
+        "name": "Business & Money"
+      },
+      {
+        "name": "Computers & Technology"
+      }
+    ],
+    "year": 2015,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "0521543274",
+    "ean": "9780521543279",
+    "type": "Book",
+    "booktitle": "The Pi-Calculus: A Theory of Mobile Processes",
+    "pages": 596,
+    "authors": [
+      "Davide Sangiorgi",
+      "David Walker"
+    ],
+    "publisher": "Cambridge University Press",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Science & Math"
+      }
+    ],
+    "year": 2003,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "383621198X",
+    "ean": "9783836211987",
+    "type": "Book",
+    "booktitle": "OpenLDAP 2.4: Aktuell zur Version 2.4, Schemata, Services, Tools, SSL, TLS, ACLs, Samba, Kerberos ...",
+    "title": "Galileo Computing",
+    "pages": 569,
+    "authors": [
+      "Oliver Liebel",
+      "John Martin Ungar"
+    ],
+    "publisher": "Galileo Computing",
+    "edition": "2",
+    "keywords": [
+      {
+        "name": "Server"
+      },
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Blick ins Buch"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Gebundene Ausgabe"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 2009,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "052182060X",
+    "ean": "9780521820608",
+    "type": "Book",
+    "booktitle": "Modern Compiler Implementation in Java",
+    "pages": 512,
+    "authors": [
+      "Andrew W. Appel",
+      "Jens Palsberg"
+    ],
+    "publisher": "Cambridge University Press",
+    "edition": "2",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2002,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "032119442X",
+    "ean": "9780321194428",
+    "type": "Book",
+    "booktitle": "MDA Explained: The Model Driven Architecture: Practice and Promise",
+    "title": "Addison-Wesley Object Technology",
+    "pages": 192,
+    "authors": [
+      "Anneke Kleppe",
+      "Wim Bast",
+      "Jos B. Warmer"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "REV and Revised.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2003,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3827411629",
+    "ean": "9783827411624",
+    "type": "Book",
+    "booktitle": "Lehrbuch der Objektmodellierung: Analyse und Entwurf mit der UML 2",
+    "pages": 600,
+    "authors": [
+      "Heide Balzert"
+    ],
+    "publisher": "Spektrum Akademischer Verlag",
+    "edition": "2. A.",
+    "keywords": [
+      {
+        "name": "Projektmanagement"
+      },
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Software-Entwicklung"
+      },
+      {
+        "name": "Lehrbücher"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Gebundene Ausgabe"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      },
+      {
+        "name": "Buch"
+      }
+    ],
+    "year": 2004,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0321349601",
+    "ean": "9780321349606",
+    "type": "Book",
+    "booktitle": "Java Concurrency in Practice",
+    "pages": 384,
+    "authors": [
+      "Brian Goetz",
+      "Joshua Bloch",
+      "Joseph Bowbeer",
+      "Doug Lea",
+      "David Holmes",
+      "Tim Peierls"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2006,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "9780262026499",
+    "ean": "9780262026499",
+    "type": "Book",
+    "booktitle": "Principles of Model Checking",
+    "pages": 984,
+    "authors": [
+      "Christel Baier",
+      "Joost-Pieter Katoen"
+    ],
+    "publisher": "The MIT Press",
+    "keywords": [
+      {
+        "name": "Computer & Internet"
+      }
+    ],
+    "year": 2008,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0131387685",
+    "ean": "9780131387683",
+    "type": "Book",
+    "booktitle": "CUDA by Example: An Introduction to General-Purpose GPU Programming",
+    "pages": 312,
+    "authors": [
+      "Jason Sanders",
+      "Edward Kandrot"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2010,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0201896850",
+    "ean": "9780201896855",
+    "type": "Book",
+    "booktitle": "Art of Computer Programming, Volume 3: Sorting and Searching",
+    "title": "2nd Edition",
+    "pages": 800,
+    "authors": [
+      "Donald E. Knuth"
+    ],
+    "publisher": "Addison-Wesley Professional",
+    "edition": "2",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 1998,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "0321357485",
+    "ean": "9780321357489",
+    "type": "Book",
+    "booktitle": "The Process of Software Architecting",
+    "pages": 432,
+    "authors": [
+      "Peter Eeles",
+      "Peter Cripps"
+    ],
+    "publisher": "Addison-Wesley Professional",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      }
+    ],
+    "year": 2009,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "0321136160",
+    "ean": "9780321136169",
+    "type": "Book",
+    "booktitle": "High Integrity Software: The SPARK Approach to Safety and Security",
+    "pages": 448,
+    "authors": [
+      "John Barnes"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "Har/Cdr",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2003,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0130914495",
+    "ean": "9780130914491",
+    "type": "Book",
+    "booktitle": "Computer Networks and Internets, w. CD-ROM",
+    "pages": 679,
+    "authors": [
+      "Douglas E. Comer"
+    ],
+    "publisher": "Prentice Hall International",
+    "edition": "3rd Bk&Cdr",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2001,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0131972596",
+    "ean": "9780131972599",
+    "type": "Book",
+    "booktitle": "Synchronization Algorithms and Concurrent Programming",
+    "pages": 440,
+    "authors": [
+      "Gadi Taubenfeld"
+    ],
+    "publisher": "Prentice Hall",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2006,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3540373764",
+    "ean": "9783540373766",
+    "type": "Book",
+    "booktitle": "CONCUR 2006 -- Concurrency Theory: 17th International Conference, CONCUR 2006. Bonn, Germany, August 27-30, 2006",
+    "title": "Lecture Notes in Computer Science",
+    "pages": 525,
+    "publisher": "Springer, Berlin",
+    "edition": "1st ed.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2006,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0521607647",
+    "ean": "9780521607643",
+    "type": "Book",
+    "booktitle": "Modern Compiler Implementation in ML",
+    "pages": 552,
+    "authors": [
+      "Andrew W. Appel"
+    ],
+    "publisher": "Cambridge University Press",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2004,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3540253335",
+    "ean": "9783540253334",
+    "type": "Book",
+    "booktitle": "Tools and Algorithms for the Construction and Analysis of Systems: 11th International Conference, TACAS 2005, Held as Part of the Joint European ...",
+    "title": "Lecture Notes in Computer Science",
+    "pages": 588,
+    "publisher": "Springer, Berlin",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2005,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3826659414",
+    "ean": "9783826659416",
+    "type": "Book",
+    "booktitle": "Gentoo Linux: Die Metadistribution",
+    "title": "mitp Anwendungen",
+    "pages": 288,
+    "authors": [
+      "Tobias Scherbaum"
+    ],
+    "publisher": "mitp",
+    "edition": "2.,  überarbeitete Auflage",
+    "keywords": [
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Taschenbuch"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 2008,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0321154959",
+    "ean": "9780321154958",
+    "type": "Book",
+    "booktitle": "Software Architecture in Practice",
+    "title": "SEI Series in Software Engineering",
+    "pages": 560,
+    "authors": [
+      "Len Bass",
+      "Paul Clements",
+      "Rick Kazman"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "2. A. 2003.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2003,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "3642175473",
+    "ean": "9783642175473",
+    "type": "Book",
+    "booktitle": "Compiler Design: Analysis and Transformation",
+    "pages": 177,
+    "authors": [
+      "Reinhard Wilhelm",
+      "Helmut Seidl",
+      "Sebastian Hack"
+    ],
+    "publisher": "Springer",
+    "edition": "1st",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      }
+    ],
+    "year": 2012,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "1558608680",
+    "ean": "9781558608689",
+    "type": "Book",
+    "booktitle": "Unit Testing in Java: How Tests Drive the Code",
+    "title": "Morgan Kaufmann Series in Software Engineering and Programmi",
+    "pages": 376,
+    "authors": [
+      "Johannes Link",
+      "Peter Frohlich"
+    ],
+    "publisher": "Morgan Kaufman Publ Inc",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2003,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0130661023",
+    "ean": "9780130661029",
+    "type": "Book",
+    "booktitle": "Computer Networks",
+    "pages": 912,
+    "authors": [
+      "Andrew S. Tanenbaum"
+    ],
+    "publisher": "Pearson Education Deutsch",
+    "edition": "4 Sub",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2002,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "3868940995",
+    "ean": "9783868940992",
+    "type": "Book",
+    "booktitle": "Software Engineering",
+    "pages": 845,
+    "authors": [
+      "Ian Sommerville"
+    ],
+    "publisher": "Pearson Studium",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Softwareentwicklung"
+      },
+      {
+        "name": "Software-Entwicklung"
+      },
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Bücher Trade-In"
+      },
+      {
+        "name": "Gebundene Ausgabe"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 2012,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0321269675",
+    "ean": "9780321269676",
+    "type": "Book",
+    "booktitle": "Using UML: Software Engineering with Objects and Components",
+    "title": "Addison-Wesley Object Technology",
+    "pages": 272,
+    "authors": [
+      "Perdita Stevens"
+    ],
+    "publisher": "Prentice Hall",
+    "edition": "0002",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2005,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3937514007",
+    "ean": "9783937514000",
+    "type": "Book",
+    "booktitle": "Datensicherung unter Linux: Grundlagen, Werkzeuge, Konzepte",
+    "pages": 320,
+    "authors": [
+      "Wolfgang Barth"
+    ],
+    "publisher": "Open Source Press",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Sicherheit & Kryptographie"
+      },
+      {
+        "name": "Theoretische Informatik"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Taschenbuch"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 2004,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3540424970",
+    "ean": "9783540424970",
+    "type": "Book",
+    "booktitle": "CONCUR 2001 - Concurrency Theory: 12th International Conference, Aalborg, Denmark, August 20-25, 2001 Proceedings",
+    "title": "Lecture Notes in Computer Science,",
+    "pages": 583,
+    "publisher": "Springer, Berlin",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Medicine"
+      }
+    ],
+    "year": 2001,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0596007698",
+    "ean": "9780596007690",
+    "type": "Book",
+    "booktitle": "Using Samba",
+    "pages": 448,
+    "authors": [
+      "Gerald Carter",
+      "Jay Ts",
+      "Robert Eckstein"
+    ],
+    "publisher": "O'Reilly Media",
+    "edition": "3rd ed.",
+    "keywords": [
+      {
+        "name": "Computer & Internet"
+      }
+    ],
+    "year": 2007,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "1584886420",
+    "ean": "9781584886426",
+    "type": "Book",
+    "booktitle": "An Introduction to Systems Biology: Design Principles of Biological Circuits",
+    "title": "Chapman and Hall/CRC Mathematical & Computational Biology",
+    "pages": 320,
+    "authors": [
+      "Uri Alon"
+    ],
+    "publisher": "Crc Pr Inc",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 2006,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0262041782",
+    "ean": "9780262041782",
+    "type": "Book",
+    "booktitle": "Self-Stabilization",
+    "pages": 207,
+    "authors": [
+      "Shlomi Dolev"
+    ],
+    "publisher": "Mit Pr",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2000,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "9810240201",
+    "ean": "9789810240202",
+    "type": "Book",
+    "booktitle": "Handbook of Graph Grammars and Computing by Graph Transformation: Applications, Languages and Tools",
+    "pages": 698,
+    "authors": [
+      "H. Ehrig",
+      "G. Engels",
+      "H-J Kreowski",
+      "Grzegorz Rozenberg"
+    ],
+    "publisher": "World Scientific Pub Co Inc",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      },
+      {
+        "name": "Science & Math"
+      }
+    ],
+    "year": 1999,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "032112247X",
+    "ean": "9780321122476",
+    "type": "Book",
+    "booktitle": "Managing Software Requirements: A Use Case Approach",
+    "title": "Addison-Wesley Object Technology Series",
+    "pages": 544,
+    "authors": [
+      "Dean Leffingwell",
+      "Don Widrig"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "0002",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2003,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "1565924916",
+    "ean": "9781565924918",
+    "type": "Book",
+    "booktitle": "LDAP System Administration",
+    "pages": 312,
+    "authors": [
+      "Gerald Carter"
+    ],
+    "publisher": "O'Reilly Media",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computer & Internet"
+      }
+    ],
+    "year": 2003,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0201896842",
+    "ean": "9780201896848",
+    "type": "Book",
+    "booktitle": "Art of Computer Programming, Volume 2: Seminumerical Algorithms",
+    "title": "3rd Edition",
+    "pages": 784,
+    "authors": [
+      "Donald E. Knuth"
+    ],
+    "publisher": "Addison-Wesley Professional",
+    "edition": "3",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 1997,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "0534939724",
+    "ean": "9780534939724",
+    "type": "Book",
+    "booktitle": "Compiler Construction: Principles and Practice",
+    "pages": 582,
+    "authors": [
+      "Kenneth C. Louden"
+    ],
+    "publisher": "Pws-Kent Pub Co",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1997,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3540725628",
+    "ean": "9783540725626",
+    "type": "Book",
+    "booktitle": "Model-Driven Testing: Using the UML Testing Profile",
+    "pages": 184,
+    "publisher": "Springer, Berlin",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2007,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "3540741127",
+    "ean": "9783540741121",
+    "type": "Book",
+    "booktitle": "The Calculus of Computation: Decision Procedures with Applications to Verification",
+    "pages": 366,
+    "authors": [
+      "Aaron R. Bradley",
+      "Zohar Manna"
+    ],
+    "publisher": "Springer, Berlin",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 2007,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "3868940073",
+    "ean": "9783868940077",
+    "type": "Book",
+    "booktitle": "Softwaretechnik: Mit Fallbeispielen aus realen Entwicklungsprojekten",
+    "pages": 687,
+    "authors": [
+      "Thomas Grechenig",
+      "Mario Bernhart",
+      "Roland Breiteneder",
+      "Karin Kappel"
+    ],
+    "publisher": "Pearson Studium",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Softwareentwicklung"
+      },
+      {
+        "name": "Software-Entwicklung"
+      },
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Lehrbücher"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Gebundene Ausgabe"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      },
+      {
+        "name": "Buch"
+      }
+    ],
+    "year": 2009,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0387292373",
+    "ean": "9780387292373",
+    "type": "Book",
+    "booktitle": "Embedded System Design",
+    "pages": 241,
+    "authors": [
+      "Peter Marwedel"
+    ],
+    "publisher": "Springer, Berlin",
+    "edition": "2nd Print (1rst ed. 2003)",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 2005,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3540007873",
+    "ean": "9783540007876",
+    "type": "Book",
+    "booktitle": "Come, Let's Play. Scenario-Based Programming Using the Play-Engine: Scenario-Based Programming Using Lscs and the Play-Engine",
+    "pages": 382,
+    "publisher": "Springer, Berlin",
+    "edition": "Har/Cdr",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Entertainment"
+      }
+    ],
+    "year": 2003,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "193435659X",
+    "ean": "9781934356593",
+    "type": "Book",
+    "booktitle": "Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages",
+    "title": "Pragmatic Programmers",
+    "pages": 328,
+    "authors": [
+      "Bruce A. Tate"
+    ],
+    "publisher": "Pragmatic Bookshelf",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2010,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "0201433117",
+    "ean": "9780201433111",
+    "type": "Book",
+    "booktitle": "The LaTeX Web Companion: Integrating TeX, HTML, and XML",
+    "pages": 560,
+    "authors": [
+      "Michel Goossens",
+      "Sebastian Rahtz",
+      "Eitan M. Gurari",
+      "Ross Moore",
+      "Robert S. Sutor"
+    ],
+    "publisher": "Addison-Wesley Professional",
+    "edition": "annotated edition",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Engineering"
+      }
+    ],
+    "year": 1999,
+    "howPublished": "Paperback",
+    "language": "ca"
+  },
+  {
+    "isbn": "0201548739",
+    "ean": "9780201548730",
+    "type": "Book",
+    "booktitle": "Operating System Concepts",
+    "title": "World Student",
+    "pages": 696,
+    "authors": [
+      "James L. Peterson",
+      "Abraham Silberschatz"
+    ],
+    "publisher": "Addison Wesley",
+    "edition": "New ed of 3 Revised ed",
+    "keywords": [
+      {
+        "name": "Subjects"
+      },
+      {
+        "name": "Taschenbuch"
+      }
+    ],
+    "year": 1990,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0321193687",
+    "ean": "9780321193681",
+    "type": "Book",
+    "booktitle": "UML Distilled: A Brief Guide to the Standard Object Modeling Languange",
+    "title": "Addison-Wesley Object Technology Series",
+    "pages": 208,
+    "authors": [
+      "Martin Fowler"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "3. A.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2003,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0201119722",
+    "ean": "9780201119725",
+    "type": "Book",
+    "booktitle": "Safeware: System Safety and Computers, Sphigs Software",
+    "pages": 704,
+    "authors": [
+      "Nancy Leveson"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1995,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0321658396",
+    "ean": "9780321658395",
+    "type": "Book",
+    "booktitle": "Agile Project Management: Creating Innovative Products",
+    "title": "Agile Software Development",
+    "pages": 432,
+    "authors": [
+      "Jim Highsmith"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "2nd Revised edition.",
+    "year": 2009,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3642232167",
+    "ean": "9783642232169",
+    "type": "Book",
+    "booktitle": "CONCUR 2011 -- Concurrency Theory: 22nd International Conference, CONCUR 2011, Aachen, Germany, September 6-9, 2011, Proceedings",
+    "title": "Lecture Notes in ... Computer Science and General Issues",
+    "pages": 574,
+    "authors": [
+      "Joost-Pieter Katoen",
+      "Barbara König"
+    ],
+    "publisher": "Springer",
+    "edition": "1st Edition.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2011,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "0764574817",
+    "ean": "9780764574818",
+    "type": "Book",
+    "booktitle": "Reversing: Secrets of Reverse Engineering",
+    "pages": 624,
+    "authors": [
+      "Eldad Eilam"
+    ],
+    "publisher": "Wiley",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Reference"
+      }
+    ],
+    "year": 2005,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "0124159931",
+    "ean": "9780124159938",
+    "type": "Book",
+    "booktitle": "Structured Parallel Programming: Patterns for Efficient Computation",
+    "pages": 432,
+    "authors": [
+      "Michael McCool",
+      "James Reinders",
+      "Arch Robison"
+    ],
+    "publisher": "Morgan Kaufmann",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2012,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "",
+    "ean": "9783540616047",
+    "type": "Book",
+    "booktitle": "CONCUR '96: Concurrency Theory: 7th International Conference, Pisa, Italy, August 26 - 29, 1996. Proceedings",
+    "title": "Lecture Notes in Computer Science",
+    "pages": 751,
+    "publisher": "Springer, Berlin",
+    "edition": "1",
+    "year": 1996,
+    "language": "de"
+  },
+  {
+    "isbn": "3540209050",
+    "ean": "9783540209058",
+    "type": "Book",
+    "booktitle": "Agile Modellierung mit UML. Codegenerierung, Testfälle, Refactoring",
+    "pages": 334,
+    "authors": [
+      "Bernhard Rumpe"
+    ],
+    "publisher": "Springer, Berlin",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Projektmanagement"
+      },
+      {
+        "name": "Bibliografien"
+      },
+      {
+        "name": "Informatik"
+      },
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Blick ins Buch"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Gebundene Ausgabe"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 2004,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "3827414105",
+    "ean": "9783827414106",
+    "type": "Book",
+    "booktitle": "Lehrbuch Grundlagen der Informatik: Konzepte und Notationen in UML 2.0, Java 5, C++ und C#. Algorithmik und Software-Technik. Anwendungen",
+    "title": "Sav Informatik",
+    "pages": 925,
+    "authors": [
+      "Helmut Balzert"
+    ],
+    "publisher": "Spektrum Akademischer Verlag",
+    "edition": "2. A.",
+    "keywords": [
+      {
+        "name": "C++"
+      },
+      {
+        "name": "C#"
+      },
+      {
+        "name": "C & C++"
+      },
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Lernmaterialien"
+      },
+      {
+        "name": "Elektrik & Elektrizität"
+      },
+      {
+        "name": "Optik"
+      },
+      {
+        "name": "Lehrbücher"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Gebundene Ausgabe"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 2004,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "032131283X",
+    "ean": "9780321312839",
+    "type": "Book",
+    "booktitle": "Principles of Concurrent and Distributed Programming: Algorithms and Models",
+    "title": "Prentice-Hall International Series in Computer Science",
+    "pages": 384,
+    "authors": [
+      "Mordechai Ben-Ari"
+    ],
+    "publisher": "Addison Wesley",
+    "edition": "2nd ed.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2006,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0201398362",
+    "ean": "9780201398366",
+    "type": "Book",
+    "booktitle": "Mobile Communications",
+    "pages": 416,
+    "authors": [
+      "Jochen Schiller"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 1999,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "311033528X",
+    "ean": "9783110335286",
+    "type": "Book",
+    "booktitle": "Wirtschaftsinformatik",
+    "title": "(De Gruyter Studium) (German Edition)",
+    "pages": 622,
+    "authors": [
+      "Hans Robert Hansen"
+    ],
+    "publisher": "De Gruyter Oldenbourg",
+    "edition": "11",
+    "keywords": [
+      {
+        "name": "Business & Money"
+      }
+    ],
+    "year": 2015,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "1558602860",
+    "ean": "9781558602861",
+    "type": "Book",
+    "booktitle": "Optimizing Compilers for Modern Architectures: A Dependence-based Approach",
+    "pages": 790,
+    "authors": [
+      "Randy Allen",
+      "Ken Kennedy"
+    ],
+    "publisher": "Morgan Kaufmann",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2001,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "0321146530",
+    "ean": "9780321146533",
+    "type": "Book",
+    "booktitle": "Test Driven Development. By Example",
+    "title": "Addison-Wesley Signature",
+    "pages": 240,
+    "authors": [
+      "Kent Beck"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2002,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0387706267",
+    "ean": "9780387706269",
+    "type": "Book",
+    "booktitle": "Compiling ESTEREL",
+    "pages": 335,
+    "authors": [
+      "Dumitru Potop-Butucaru",
+      "Stephen A. Edwards",
+      "Gerard Berry"
+    ],
+    "publisher": "Springer, Berlin",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 2007,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "9810228848",
+    "ean": "9789810228842",
+    "type": "Book",
+    "booktitle": "Foundations: Foundations Vol 1",
+    "title": "Handbook of Graph Grammars and Computing by Graph Transformation",
+    "pages": 553,
+    "publisher": "World Scientific Pub Co (",
+    "edition": "illustrated edition",
+    "keywords": [
+      {
+        "name": "Computer & Internet"
+      },
+      {
+        "name": "Fachbücher"
+      }
+    ],
+    "year": 1997,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "161729134X",
+    "ean": "9781617291340",
+    "type": "Book",
+    "booktitle": "C# in Depth, 3rd Edition",
+    "pages": 616,
+    "authors": [
+      "Jon Skeet"
+    ],
+    "publisher": "Manning Publications",
+    "edition": "Third Edition",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Reference"
+      }
+    ],
+    "year": 2013,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "3897215462",
+    "ean": "9783897215467",
+    "type": "Book",
+    "booktitle": "Java - kurz & gut",
+    "pages": 208,
+    "authors": [
+      "Robert Liguori",
+      "Patricia Liguori"
+    ],
+    "publisher": "O'Reilly",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Java"
+      },
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Blick ins Buch"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Taschenbuch"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      },
+      {
+        "name": "Buch"
+      }
+    ],
+    "year": 2008,
+    "howPublished": "Broschiert",
+    "language": "de"
+  },
+  {
+    "isbn": "0769529089",
+    "ean": "9780769529080",
+    "type": "Book",
+    "booktitle": "22nd Annual IEEE Symposium on Logic in Computer Science",
+    "title": "Lics 2007",
+    "pages": 474,
+    "publisher": "Ieee",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2008,
+    "howPublished": "Paperback",
+    "language": "ca"
+  },
+  {
+    "isbn": "0596002815",
+    "ean": "9780596002817",
+    "type": "Book",
+    "booktitle": "Learning Python.",
+    "pages": 552,
+    "authors": [
+      "Mark Lutz",
+      "David Ascher"
+    ],
+    "publisher": "O'Reilly Media",
+    "edition": "2. A.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2004,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0201539926",
+    "ean": "9780201539929",
+    "type": "Book",
+    "booktitle": "The C++ Programming Language",
+    "pages": 720,
+    "authors": [
+      "Bjarne Stroustrup"
+    ],
+    "publisher": "Addison Wesley",
+    "edition": "2. A.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1991,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "1558608338",
+    "ean": "9781558608337",
+    "type": "Book",
+    "booktitle": "Computer Networks. A Systems Approach.: A Systems Approach",
+    "pages": 813,
+    "authors": [
+      "Larry L. Peterson",
+      "Bruce S. Davie"
+    ],
+    "publisher": "Morgan Kaufmann",
+    "edition": "3. A.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2003,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0521658691",
+    "ean": "9780521658690",
+    "type": "Book",
+    "booktitle": "Communicating and Mobile Systems: The Pi Calculus",
+    "pages": 161,
+    "authors": [
+      "Robin Milner"
+    ],
+    "publisher": "Cambridge University Press",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      }
+    ],
+    "year": 1999,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3540209042",
+    "ean": "9783540209041",
+    "type": "Book",
+    "booktitle": "Modellierung mit UML: Sprache, Konzepte und Methodik",
+    "title": "Xpert.Press",
+    "pages": 319,
+    "authors": [
+      "Bernhard Rumpe"
+    ],
+    "publisher": "Springer, Berlin",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Projektmanagement"
+      },
+      {
+        "name": "Bibliografien"
+      },
+      {
+        "name": "Informatik"
+      },
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Blick ins Buch"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Gebundene Ausgabe"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 2004,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "3540744061",
+    "ean": "9783540744061",
+    "type": "Book",
+    "booktitle": "CONCUR 2007 - Concurrency Theory: 18th International Conference, CONCUR 2007, Lisbon, Portugal, September 3-8, 2007, Proceedings",
+    "title": "Lecture Notes in Computer Science",
+    "pages": 507,
+    "publisher": "Springer, Berlin",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0321491696",
+    "ean": "9780321491695",
+    "type": "Book",
+    "booktitle": "Compilers: Principles, Techniques, and Tools",
+    "pages": 1000,
+    "authors": [
+      "Alfred V. Aho",
+      "Monica S. Lam",
+      "Ravi Sethi",
+      "Jeffrey D. Ullman"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "2nd ed.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2007,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3540631410",
+    "ean": "9783540631415",
+    "type": "Book",
+    "booktitle": "CONCUR'97: Concurrency Theory: 8th International Conference, Warsaw, Poland, July 1-4, 1997, Proceedings",
+    "title": "Lecture Notes in Computer Science",
+    "pages": 421,
+    "publisher": "Springer, Berlin",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1997,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0123704901",
+    "ean": "9780123704900",
+    "type": "Book",
+    "booktitle": "Computer Architecture. A Quantitative Approach",
+    "pages": 704,
+    "authors": [
+      "John L. Hennessy",
+      "David A. Patterson"
+    ],
+    "publisher": "Academic Press",
+    "edition": "4th rev. ed.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2006,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0596007124",
+    "ean": "9780596007126",
+    "type": "Book",
+    "booktitle": "Head First Design Patterns",
+    "pages": 688,
+    "authors": [
+      "Eric Freeman",
+      "Elisabeth Freeman",
+      "Bert Bates",
+      "Kathy Sierra"
+    ],
+    "publisher": "O'Reilly Media",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2004,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "1846288401",
+    "ean": "9781846288401",
+    "type": "Book",
+    "booktitle": "Practical Distributed Processing",
+    "title": "Undergraduate Topics in Computer Science",
+    "pages": 262,
+    "authors": [
+      "Phil Brooke",
+      "Richard F. Paige"
+    ],
+    "publisher": "Springer, Berlin",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2007,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0201775956",
+    "ean": "9780201775952",
+    "type": "Book",
+    "booktitle": "Designing Software Product Lines with UML: From Use Cases to Pattern-Based Software Architectures",
+    "title": "Addison-Wesley Object Technology",
+    "pages": 736,
+    "authors": [
+      "Hassan Gomaa"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "illustrated edition",
+    "keywords": [
+      {
+        "name": "Computer & Internet"
+      }
+    ],
+    "year": 2004,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "1593271743",
+    "ean": "9781593271749",
+    "type": "Book",
+    "booktitle": "The Art of Debugging with GDB, DDD, and Eclipse",
+    "pages": 280,
+    "authors": [
+      "Norman Matloff",
+      "Peter Jay Salzman"
+    ],
+    "publisher": "No Starch Press",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2008,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "3897213850",
+    "ean": "9783897213852",
+    "type": "Book",
+    "booktitle": "Eclipse.",
+    "pages": 336,
+    "authors": [
+      "Steven Holzner"
+    ],
+    "publisher": "O'Reilly",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Java"
+      },
+      {
+        "name": "Eclipse"
+      },
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Blick ins Buch"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Taschenbuch"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 2004,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0134841972",
+    "ean": "9780134841977",
+    "type": "Book",
+    "booktitle": "Introduction to Functional Programming",
+    "title": "Prentice Hall International Series in Computing Science",
+    "pages": 293,
+    "authors": [
+      "Richard Bird"
+    ],
+    "publisher": "Prentice-Hall",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1992,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3540610537",
+    "ean": "9783540610533",
+    "type": "Book",
+    "booktitle": "Compiler Construction: 6th International Conference, CC '96, Linköping, Sweden, April 24 - 26, 1996. Proceedings.",
+    "pages": 355,
+    "authors": [
+      "Tibor Gyimothy"
+    ],
+    "publisher": "Springer",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 1996,
+    "howPublished": "Paperback",
+    "language": "ca"
+  },
+  {
+    "isbn": "1447141555",
+    "ean": "9781447141556",
+    "type": "Book",
+    "booktitle": "Programming Language Concepts",
+    "title": "Undergraduate Topics in Computer Science",
+    "pages": 278,
+    "authors": [
+      "Peter Sestoft"
+    ],
+    "publisher": "Springer",
+    "edition": "2012",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      }
+    ],
+    "year": 2012,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "0123742609",
+    "ean": "9780123742605",
+    "type": "Book",
+    "booktitle": "An Introduction to Parallel Programming",
+    "pages": 392,
+    "authors": [
+      "Peter Pacheco"
+    ],
+    "publisher": "Morgan Kaufmann",
+    "keywords": [
+      {
+        "name": "Computer & Internet"
+      }
+    ],
+    "year": 2011,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0672329786",
+    "ean": "9780672329784",
+    "type": "Book",
+    "booktitle": "Python Essential Reference",
+    "title": "4th Edition",
+    "pages": 717,
+    "authors": [
+      "David M. Beazley"
+    ],
+    "publisher": "Addison-Wesley Professional",
+    "edition": "4",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2009,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "1449398588",
+    "ean": "9781449398583",
+    "type": "Book",
+    "booktitle": "Node: Up and Running: Scalable Server-Side Code with JavaScript",
+    "pages": 204,
+    "authors": [
+      "Tom Hughes-Croucher",
+      "Mike Wilson"
+    ],
+    "publisher": "O'Reilly Media",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2012,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "3658055316",
+    "ean": "9783658055318",
+    "type": "Book",
+    "booktitle": "Architektur- und Entwurfsmuster der Softwaretechnik: Mit lauffähigen Beispielen in Java",
+    "title": "German Edition",
+    "pages": 406,
+    "authors": [
+      "Joachim Goll"
+    ],
+    "publisher": "Springer Vieweg",
+    "edition": "2., aktualisierte Aufl. 2014",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      }
+    ],
+    "year": 2014,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "1558606548",
+    "ean": "9781558606548",
+    "type": "Book",
+    "booktitle": "High Performance Communication Networks 2E: International Student Edition",
+    "pages": 693,
+    "authors": [
+      "Jean Walrand",
+      "Pravin Varaiya"
+    ],
+    "publisher": "Morgan Kaufmann",
+    "edition": "2",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Engineering"
+      }
+    ],
+    "year": 1999,
+    "howPublished": "Paperback",
+    "language": "ca"
+  },
+  {
+    "isbn": "1593272901",
+    "ean": "9781593272906",
+    "type": "Book",
+    "booktitle": "Practical Malware Analysis: The Hands-On Guide to Dissecting Malicious Software",
+    "pages": 800,
+    "authors": [
+      "Michael Sikorski",
+      "Andrew Honig"
+    ],
+    "publisher": "No Starch Press",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      }
+    ],
+    "year": 2012,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "0132422077",
+    "ean": "9780132422079",
+    "type": "Book",
+    "booktitle": "Introduction Formal Specification and Z",
+    "title": "Prentice-Hall International Series in Computer Science",
+    "pages": 448,
+    "authors": [
+      "Ben Potter"
+    ],
+    "publisher": "Allyn & Bacon",
+    "edition": "0002",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2006,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0321525949",
+    "ean": "9780321525949",
+    "type": "Book",
+    "booktitle": "Advanced Programming in the UNIX Environment, Second Edition",
+    "title": "Addison-Wesley Professional Computing Series",
+    "pages": 960,
+    "authors": [
+      "W. Richard Stevens",
+      "Stephen A. Rago"
+    ],
+    "publisher": "Addison-Wesley Professional",
+    "edition": "2",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      }
+    ],
+    "year": 2005,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "3519121018",
+    "ean": "9783519121015",
+    "type": "Book",
+    "booktitle": "The Foundations of Program Verification",
+    "pages": 0,
+    "publisher": "John Wiley & Sons",
+    "keywords": [
+      {
+        "name": "Subjects"
+      }
+    ],
+    "year": 1987,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "0262720140",
+    "ean": "9780262720144",
+    "type": "Book",
+    "booktitle": "Handbook of Theoretical Computer Science, Vol. A: Algorithms and Complexity",
+    "pages": 1006,
+    "authors": [
+      "Jan van Leeuwen"
+    ],
+    "publisher": "The MIT Press",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      }
+    ],
+    "year": 1994,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "0792393112",
+    "ean": "9780792393115",
+    "type": "Book",
+    "booktitle": "Synchronous Programming of Reactive Systems",
+    "title": "Kluwer International Series in Engineering & Computer Science",
+    "pages": 192,
+    "authors": [
+      "Nicolas Halbwachs"
+    ],
+    "publisher": "Springer, Berlin",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1992,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "3642332773",
+    "ean": "9783642332777",
+    "type": "Book",
+    "booktitle": "Understanding Petri Nets: Modeling Techniques, Analysis Methods, Case Studies",
+    "pages": 230,
+    "authors": [
+      "Wolfgang Reisig"
+    ],
+    "publisher": "Springer",
+    "edition": "2013",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Reference"
+      }
+    ],
+    "year": 2013,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "020130998X",
+    "ean": "9780201309980",
+    "type": "Book",
+    "booktitle": "The Unified Modeling Language Reference Manual, w. CD-ROM",
+    "title": "Addison-Wesley Object Technology",
+    "pages": 576,
+    "authors": [
+      "James Rumbaugh",
+      "Ivar Jacobson",
+      "Grady Booch"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "Har/Cdr",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1999,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0201379244",
+    "ean": "9780201379242",
+    "type": "Book",
+    "booktitle": "Kerberos: A Network Authentication System",
+    "title": "Addison-Wesley Networking Basics Series",
+    "pages": 192,
+    "authors": [
+      "Brian Tung"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1999,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0130676152",
+    "ean": "9780130676153",
+    "type": "Book",
+    "booktitle": "A Practical Guide to Feature-Driven Development",
+    "title": "Coad Series",
+    "pages": 304,
+    "authors": [
+      "Stephen R. Palmer",
+      "Mac Felsing",
+      "Steve Palmer"
+    ],
+    "publisher": "Prentice Hall International",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2002,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3540243720",
+    "ean": "9783540243724",
+    "type": "Book",
+    "booktitle": "Software Product Line Engineering. Foundations, Principles, and Techniques.",
+    "pages": 468,
+    "authors": [
+      "Klaus Pohl",
+      "Günter Böckle",
+      "Frank van der Linden"
+    ],
+    "publisher": "Springer, Berlin",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Business & Investing"
+      },
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2005,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0262660717",
+    "ean": "9780262660716",
+    "type": "Book",
+    "booktitle": "Basic Category Theory for Computer Scientists",
+    "title": "Foundations of Computing",
+    "pages": 114,
+    "authors": [
+      "Benjamin C. Pierce"
+    ],
+    "publisher": "The MIT Press",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Science & Math"
+      }
+    ],
+    "year": 1991,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "007121366X",
+    "ean": "9780071213660",
+    "type": "Book",
+    "booktitle": "Data Communications and Networking Update",
+    "title": "Computer science series",
+    "pages": 0,
+    "authors": [
+      "Behrouz A. Forouzan"
+    ],
+    "publisher": "McGraw-Hill Education (ISE Editions)",
+    "edition": "2nd edition",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2002,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0124104096",
+    "ean": "9780124104099",
+    "type": "Book",
+    "booktitle": "Programming Language Pragmatics, Fourth Edition",
+    "pages": 992,
+    "authors": [
+      "Michael L. Scott"
+    ],
+    "publisher": "Morgan Kaufmann",
+    "edition": "4",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Reference"
+      }
+    ],
+    "year": 2015,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "0321313798",
+    "ean": "9780321313799",
+    "type": "Book",
+    "booktitle": "Software Engineering 8 (International Computer Science Series): Update",
+    "pages": 864,
+    "authors": [
+      "Ian Sommerville"
+    ],
+    "publisher": "Addison Wesley",
+    "edition": "8th ed.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2006,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0321228626",
+    "ean": "9780321228628",
+    "type": "Book",
+    "booktitle": "The Spin Model Checker: Primer and Reference Manual",
+    "pages": 608,
+    "authors": [
+      "Gerard J. Holzmann"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 2003,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0470233990",
+    "ean": "9780470233993",
+    "type": "Book",
+    "booktitle": "Operating System Concepts",
+    "pages": 992,
+    "authors": [
+      "Abraham Silberschatz",
+      "Peter Baer Galvin",
+      "Greg Gagne"
+    ],
+    "publisher": "Wiley John + Sons",
+    "edition": "8th edition. International Student Version.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2009,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3540002960",
+    "ean": "9783540002963",
+    "type": "Book",
+    "booktitle": "Verification of Reactive Systems: Formal Methods and Algorithms",
+    "title": "Texts in Theoretical Computer Science",
+    "pages": 600,
+    "authors": [
+      "Klaus Schneider"
+    ],
+    "publisher": "Springer, Berlin",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 2003,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "1558603484",
+    "ean": "9781558603486",
+    "type": "Book",
+    "booktitle": "Distributed Algorithms",
+    "title": "The Morgan Kaufmann Series in Data Management Systems",
+    "pages": 904,
+    "authors": [
+      "Nancy A. Lynch"
+    ],
+    "publisher": "Morgan Kaufmann",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Engineering & Transportation"
+      },
+      {
+        "name": "Reference"
+      },
+      {
+        "name": "Science & Math"
+      }
+    ],
+    "year": 1996,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "3827411610",
+    "ean": "9783827411617",
+    "type": "Book",
+    "booktitle": "Lehrbuch der Softwaretechnik: Softwaremanagement",
+    "pages": 721,
+    "authors": [
+      "Helmut Balzert"
+    ],
+    "publisher": "Spektrum Akademischer Verlag",
+    "edition": "2. Aufl.",
+    "keywords": [
+      {
+        "name": "Überblick"
+      },
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Softwareentwicklung"
+      },
+      {
+        "name": "Bibliografien"
+      },
+      {
+        "name": "Optik"
+      },
+      {
+        "name": "Technologiemanagement"
+      },
+      {
+        "name": "EDV-Recht"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Gebundene Ausgabe"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 2008,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0124171370",
+    "ean": "9780124171374",
+    "type": "Book",
+    "booktitle": "Multicore and GPU Programming: An Integrated Approach",
+    "pages": 698,
+    "authors": [
+      "Gerassimos Barlas"
+    ],
+    "publisher": "Morgan Kaufmann",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Reference"
+      }
+    ],
+    "year": 2014,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "1558603204",
+    "ean": "9781558603202",
+    "type": "Book",
+    "booktitle": "Advanced Compiler Design and Implementation",
+    "pages": 856,
+    "authors": [
+      "Steven S. Muchnick",
+      "Muchnick"
+    ],
+    "publisher": "Morgan Kaufmann",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1997,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "1491904909",
+    "ean": "9781491904909",
+    "type": "Book",
+    "booktitle": "User Story Mapping: Discover the Whole Story, Build the Right Product",
+    "pages": 324,
+    "authors": [
+      "Jeff Patton",
+      "Peter Economy"
+    ],
+    "publisher": "O'Reilly Media",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Reference"
+      }
+    ],
+    "year": 2014,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "0471043281",
+    "ean": "9780471043287",
+    "type": "Book",
+    "booktitle": "The Art of Software Testing",
+    "pages": 192,
+    "authors": [
+      "Glenford J. Myers"
+    ],
+    "publisher": "John Wiley & Sons Canada, Ltd.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Reference"
+      }
+    ],
+    "year": 1979,
+    "howPublished": "Hardcover",
+    "language": "ca"
+  },
+  {
+    "isbn": "3540450262",
+    "ean": "9783540450269",
+    "type": "Book",
+    "booktitle": "Formal Modeling and Analysis of Timed Systems: 4th International Conference, FORMATS 2006, Paris, France, September 25-27, 2006, Proceedings",
+    "title": "Lecture Notes in Computer Science",
+    "pages": 369,
+    "publisher": "Springer, Berlin",
+    "edition": "1st ed.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2006,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3540253882",
+    "ean": "9783540253884",
+    "type": "Book",
+    "booktitle": "Foundations of Software Science and Computational Structures: 8th International Conference, FOSSACS 2005, Held as Part of the Joint European ... 2005",
+    "title": "Lecture Notes in Computer Science",
+    "pages": 521,
+    "publisher": "Springer, Berlin",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 2005,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0201530821",
+    "ean": "9780201530827",
+    "type": "Book",
+    "booktitle": "Computational Complexity",
+    "pages": 523,
+    "authors": [
+      "Christos H. Papadimitriou"
+    ],
+    "publisher": "Addison-Wesley",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      },
+      {
+        "name": "Science & Math"
+      }
+    ],
+    "year": 1993,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "3540208542",
+    "ean": "9783540208549",
+    "type": "Book",
+    "booktitle": "Interactive Theorem Proving and Program Development",
+    "pages": 500,
+    "authors": [
+      "Yves Bertot"
+    ],
+    "publisher": "Springer",
+    "edition": "2004",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Reference"
+      },
+      {
+        "name": "Science & Math"
+      }
+    ],
+    "year": 2004,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "3540407537",
+    "ean": "9783540407539",
+    "type": "Book",
+    "booktitle": "CONCUR 2003 - Concurrency Theory: 14th International Conference, Marseille, France, September 3-5, 2003, Proceedings",
+    "pages": 524,
+    "authors": [
+      "Roberto Amadio",
+      "Denis Lugiez"
+    ],
+    "publisher": "Springer",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 2003,
+    "howPublished": "Paperback",
+    "language": "ca"
+  },
+  {
+    "isbn": "0132350882",
+    "ean": "9780132350884",
+    "type": "Book",
+    "booktitle": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "title": "Robert C. Martin",
+    "pages": 464,
+    "authors": [
+      "Robert C. Martin"
+    ],
+    "publisher": "Prentice Hall International",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2008,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "1449316387",
+    "ean": "9781449316389",
+    "type": "Book",
+    "booktitle": "Version Control with Git: Powerful tools and techniques for collaborative software development",
+    "pages": 456,
+    "authors": [
+      "Jon Loeliger",
+      "Matthew McCullough"
+    ],
+    "publisher": "O'Reilly Media",
+    "edition": "Second Edition",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2012,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "047122474X",
+    "ean": "9780471224747",
+    "type": "Book",
+    "booktitle": "Wireless Local Area Networks: The New Wireless Revolution",
+    "pages": 400,
+    "publisher": "John Wiley & Sons",
+    "edition": "1. Auflage",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Professional & Technical"
+      }
+    ],
+    "year": 2002,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "3319051547",
+    "ean": "9783319051543",
+    "type": "Book",
+    "booktitle": "Agile!: The Good, the Hype and the Ugly",
+    "pages": 170,
+    "authors": [
+      "Bertrand Meyer"
+    ],
+    "publisher": "Springer",
+    "edition": "2014",
+    "keywords": [
+      {
+        "name": "Business & Money"
+      },
+      {
+        "name": "Computers & Technology"
+      }
+    ],
+    "year": 2014,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "3540442618",
+    "ean": "9783540442615",
+    "type": "Book",
+    "booktitle": "Interactive Markov Chains: The Quest for Quantified Quality",
+    "pages": 229,
+    "authors": [
+      "Holger Hermanns"
+    ],
+    "publisher": "Springer",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Medicine"
+      },
+      {
+        "name": "Professional & Technical"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 2002,
+    "howPublished": "Paperback",
+    "language": "ca"
+  },
+  {
+    "isbn": "0321383001",
+    "ean": "9780321383006",
+    "type": "Book",
+    "booktitle": "Requirements Management Using IBM Rational RequisitePro",
+    "pages": 360,
+    "authors": [
+      "Peter Zielczynski"
+    ],
+    "publisher": "Addison Wesley Pub Co Inc",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2007,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3898642577",
+    "ean": "9783898642576",
+    "type": "Book",
+    "booktitle": "Software-Produktlinien: Methoden, Einführung und Praxis",
+    "pages": 320,
+    "authors": [
+      "Günter                 Böckle",
+      "Peter                 Knauber",
+      "Klaus                    Pohl",
+      "Klaus Schmid"
+    ],
+    "publisher": "Dpunkt Verlag",
+    "edition": "1., Aufl.",
+    "keywords": [
+      {
+        "name": "Softwareentwicklung"
+      },
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Software-Entwicklung"
+      },
+      {
+        "name": "Gebundene Ausgabe"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 2004,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0596005903",
+    "ean": "9780596005900",
+    "type": "Book",
+    "booktitle": "Linux Device Drivers, 3rd Edition",
+    "pages": 640,
+    "authors": [
+      "Jonathan Corbet",
+      "Alessandro Rubini",
+      "Greg Kroah-Hartman"
+    ],
+    "publisher": "O'Reilly Media",
+    "edition": "3",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2005,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "0521513383",
+    "ean": "9780521513388",
+    "type": "Book",
+    "booktitle": "Pearls of Functional Algorithm Design",
+    "pages": 286,
+    "authors": [
+      "Richard Bird"
+    ],
+    "publisher": "Cambridge University Press",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2010,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "3642084745",
+    "ean": "9783642084744",
+    "type": "Book",
+    "booktitle": "Principles of Program Analysis",
+    "pages": 472,
+    "authors": [
+      "Flemming Nielson",
+      "Hanne R. Nielson",
+      "Chris Hankin"
+    ],
+    "publisher": "Springer",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2010,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "3936546495",
+    "ean": "9783936546491",
+    "type": "Book",
+    "booktitle": "Die Kunst des Penetration Testing - Handbuch für professionelle Hacker: Sicherheitslücken finden, Gefahrenquellen schließen",
+    "pages": 960,
+    "authors": [
+      "Marc Ruef"
+    ],
+    "publisher": "C & l Computer- U. Literaturverlag",
+    "edition": "1. Auflage",
+    "keywords": [
+      {
+        "name": "Netzwerke"
+      },
+      {
+        "name": "Sicherheit & Kryptographie"
+      },
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Gebundene Ausgabe"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 2007,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0262533057",
+    "ean": "9780262533058",
+    "type": "Book",
+    "booktitle": "Introduction to Algorithms, Third Edition",
+    "title": "International Edition",
+    "pages": 1312,
+    "authors": [
+      "Thomas H. Cormen",
+      "Charles E. Leiserson",
+      "Ronald L. Rivest",
+      "Clifford Stein"
+    ],
+    "publisher": "The MIT Press",
+    "edition": "third edition",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Reference"
+      }
+    ],
+    "year": 2009,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "0201704315",
+    "ean": "9780201704310",
+    "type": "Book",
+    "booktitle": "Modern C++ Design: Generic Programming and Design Patterns Applied",
+    "pages": 352,
+    "authors": [
+      "Andrei Alexandrescu"
+    ],
+    "publisher": "Addison-Wesley Professional",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2001,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "3540440437",
+    "ean": "9783540440437",
+    "type": "Book",
+    "booktitle": "CONCUR 2002 - Concurrency Theory: 13th International Conference, Brno, Czech Republic, August 20-23, 2002. Proceedings",
+    "title": "Lecture Notes in Computer Science",
+    "pages": 611,
+    "publisher": "Springer, Berlin",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Medicine"
+      }
+    ],
+    "year": 2002,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0596514808",
+    "ean": "9780596514808",
+    "type": "Book",
+    "booktitle": "Intel Threading Building Blocks: Outfitting C++ for Multi-Core Processor Parallelism",
+    "pages": 336,
+    "authors": [
+      "James Reinders"
+    ],
+    "publisher": "O'Reilly Media",
+    "edition": "Anniversary and.",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2007,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0470036664",
+    "ean": "9780470036662",
+    "type": "Book",
+    "booktitle": "Domain-Specific Modeling: Enabling Full Code Generation",
+    "pages": 427,
+    "authors": [
+      "Steven Kelly",
+      "Juha-Pekka Tolvanen"
+    ],
+    "publisher": "John Wiley & Sons",
+    "edition": "1. Auflage",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2008,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "3540606483",
+    "ean": "9783540606482",
+    "type": "Book",
+    "booktitle": "Handbook of Formal Languages: Volume 2. Linear Modeling: Background and Application",
+    "pages": 550,
+    "authors": [
+      "Grzegorz Rozenberg",
+      "Arto Salomaa"
+    ],
+    "publisher": "Springer",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      },
+      {
+        "name": "Science & Math"
+      }
+    ],
+    "year": 2001,
+    "howPublished": "Hardcover",
+    "language": "us"
+  },
+  {
+    "isbn": "0136512747",
+    "ean": "9780136512745",
+    "type": "Book",
+    "booktitle": "Real Time Systems: An Introduction",
+    "title": "Prentice Hall International Series in Computer Science",
+    "pages": 441,
+    "authors": [
+      "Nimal Nissanke"
+    ],
+    "publisher": "Prentice Hall",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 1997,
+    "howPublished": "Lehrbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0764574817",
+    "ean": "9780764574818",
+    "type": "Book",
+    "booktitle": "Reversing: Secrets of Reverse Engineering",
+    "pages": 624,
+    "authors": [
+      "Eldad Eilam"
+    ],
+    "publisher": "Wiley",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Reference"
+      }
+    ],
+    "year": 2005,
+    "howPublished": "Paperback",
+    "language": "us"
+  },
+  {
+    "isbn": "3772375782",
+    "ean": "9783772375781",
+    "type": "Book",
+    "booktitle": "Network Hacking: Professionelle Angriffs- und Verteidigungstechniken",
+    "pages": 576,
+    "authors": [
+      "Peter B. Kraft",
+      "Andreas Weyert"
+    ],
+    "publisher": "Franzis",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Netzwerke"
+      },
+      {
+        "name": "Sicherheit & Kryptographie"
+      },
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Blick ins Buch"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Gebundene Ausgabe"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 2007,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0201360470",
+    "ean": "9780201360479",
+    "type": "Book",
+    "booktitle": "Requirements Engineering and Rapid Development: An Object-Oriented Approach",
+    "pages": 288,
+    "authors": [
+      "Ian S. Graham",
+      "Len Graham"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      },
+      {
+        "name": "Science"
+      }
+    ],
+    "year": 1998,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0201477114",
+    "ean": "9780201477115",
+    "type": "Book",
+    "booktitle": "Computer Networking: A Top-Down Approach Featuring the Internet",
+    "pages": 712,
+    "authors": [
+      "James F. Kurose",
+      "Keith W. Ross"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "year": 2000,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "3836211971",
+    "ean": "9783836211970",
+    "type": "Book",
+    "booktitle": "OpenVPN: Das Praxisbuch aktuell zur Version 2.1",
+    "title": "Galileo Computing",
+    "pages": 284,
+    "authors": [
+      "Dirk Becker"
+    ],
+    "publisher": "Galileo Computing",
+    "edition": "1",
+    "keywords": [
+      {
+        "name": "Vernetzung & Internet"
+      },
+      {
+        "name": "General AAS"
+      },
+      {
+        "name": "Blick ins Buch"
+      },
+      {
+        "name": "Alter (feature_two_browse-bin)"
+      },
+      {
+        "name": "Gebundene Ausgabe"
+      },
+      {
+        "name": "Condition (condition-type)"
+      },
+      {
+        "name": "Normale Größe"
+      }
+    ],
+    "year": 2008,
+    "howPublished": "Gebundene Ausgabe",
+    "language": "de"
+  },
+  {
+    "isbn": "0201707101",
+    "ean": "9780201707106",
+    "type": "Book",
+    "booktitle": "The Rational Unified Process: An Introduction",
+    "title": "Addison-Wesley Object Technology",
+    "pages": 320,
+    "authors": [
+      "Philippe Kruchten"
+    ],
+    "publisher": "Addison-Wesley Longman, Amsterdam",
+    "edition": "2nd",
+    "keywords": [
+      {
+        "name": "Computers & Internet"
+      }
+    ],
+    "year": 2000,
+    "howPublished": "Taschenbuch",
+    "language": "de"
+  },
+  {
+    "isbn": "0672329468",
+    "ean": "9780672329463",
+    "type": "Book",
+    "booktitle": "Linux Kernel Development",
+    "title": "3rd Edition",
+    "pages": 440,
+    "authors": [
+      "Robert Love"
+    ],
+    "publisher": "Addison-Wesley Professional",
+    "edition": "3",
+    "keywords": [
+      {
+        "name": "Computers & Technology"
+      },
+      {
+        "name": "Education & Reference"
+      }
+    ],
+    "year": 2010,
+    "howPublished": "Paperback",
+    "language": "us"
+  }
+]

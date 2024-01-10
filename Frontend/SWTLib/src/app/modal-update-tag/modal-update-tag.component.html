@@ -1,0 +1,19 @@
+<div class="modal-header" id="updateModal">
+  <h4 class="modal-title" id="modal-basic-title">Update Tag</h4>
+</div>
+<div class="modal-body">
+  <label>
+    Tag Name:
+    <br>
+    <input [(ngModel)]="tag.name" type="text">
+  </label>
+  <br>
+  <label>
+    Tag Name:
+    <br>
+    <textarea rows="4" [(ngModel)]="tag.description"></textarea>
+  </label>
+  <br>
+  <button type="button" (click)="cancel()" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+  <button (click)="passBack()" type="submit" class="btn btn-primary" data-dismiss="modal">Update Data</button>
+</div>

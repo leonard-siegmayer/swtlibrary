@@ -1,0 +1,44 @@
+<div>
+  <h4>Advanced Search</h4>
+  <form (ngSubmit)="onSubmit()">
+    <div class="row m-1">
+      <div class="col-sm-2  col-4">
+        <select name="filter1" [(ngModel)]="category1" class="form-control">
+          <option *ngFor="let filter of filters" [value]="filter">{{filter}}</option>
+        </select>
+      </div>
+      <div class="col-sm-4 col-8">
+        <input type="text" name="value1" [(ngModel)]="value1" class="form-control">
+      </div>
+      <div class="col-sm-2  col-4 ">
+        <select name="filter2" [(ngModel)]="category2" class="form-control">
+          <option *ngFor="let filter of filters" [value]="filter">{{filter}}</option>
+        </select>
+      </div>
+      <div class="col-sm-4  col-8 ">
+        <input type="text" name="value2" [(ngModel)]="value2" class="form-control">
+      </div>
+    </div>
+    <div class="row m-1">
+      <div class="col-sm-2  col-4">
+        <select name="filter3" [(ngModel)]="category3" class="form-control">
+          <option *ngFor="let filter of filters" [value]="filter">{{filter}}</option>
+        </select>
+      </div>
+      <div class="col-sm-4 col-8">
+        <input type="text" name="value3" [(ngModel)]="value3" class="form-control">
+      </div>
+      <div class="col-sm-2  col-4 ">
+        <select name="filter4" [(ngModel)]="category4" class="form-control">
+          <option *ngFor="let filter of filters" [value]="filter">{{filter}}</option>
+        </select>
+      </div>
+      <div class="col-sm-4  col-8 ">
+        <input type="text" name="value4" [(ngModel)]="value4" class="form-control">
+      </div>
+    </div>
+    <button type="submit" class="btn btn-light m-3">Search</button>
+  </form>
+
+
+</div>

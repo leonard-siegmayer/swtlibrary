@@ -1,0 +1,25 @@
+// style profile pic also in child component
+::ng-deep .profilePic {
+  max-width: 15%;
+  width: 5rem;
+  border-radius: 0.5em;
+  border: none;
+  margin-right: 1rem;
+}
+
+.createNoteContainer {
+  display: flex;
+  align-items: flex-start;
+
+  .noteForm {
+    width: 100%;
+  }
+}
+
+ul {
+  padding: 0;
+
+  li {
+    list-style-type: none;
+  }
+}

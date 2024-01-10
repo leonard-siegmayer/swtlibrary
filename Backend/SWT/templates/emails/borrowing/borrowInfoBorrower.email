@@ -1,0 +1,13 @@
+SUBJECT: SWTLib: You successfully borrowed a medium.
+TEXT:
+Dear $USER,
+
+you successfully borrowed the following medium:
+
+    $PHYSICAL
+
+Please remember to return it within the specified period of time.
+
+Kind Regards,
+
+$SIGNATURE

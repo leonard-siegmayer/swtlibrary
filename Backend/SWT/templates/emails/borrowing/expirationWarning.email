@@ -1,0 +1,15 @@
+SUBJECT: SWTLib: Borrowing expires for medium/media
+
+TEXT:
+Dear $USER,
+
+we want to inform you about the expiration of the following media:
+
+    $BORROWEDMEDIA
+
+Please return them as soon as possible or request an extension of the borrowing.
+
+
+Kind Regards,
+
+$SIGNATURE

@@ -1,0 +1,6 @@
+Book Title
+ID
+Borrower
+Borrower Email
+Return date
+Owner

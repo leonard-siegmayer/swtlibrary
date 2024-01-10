@@ -1,0 +1,47 @@
+// place btns in same line as header
+h3 {
+  display: inline-block;
+}
+
+.exportRefreshContainer {
+  float: right;
+}
+
+.controlsContainer {
+  button {
+    padding: 0;
+    margin-right: 1rem;
+  }
+}
+
+// list styling
+ol {
+  padding: 0;
+
+  li {
+    list-style-type: none;
+  }
+}
+
+// border for export feedback modal
+.exportSuccess {
+  border: 2px solid #c3e6cb;
+}
+
+.exportError {
+  border: 2px solid #f5c6cb;
+}
+
+.filter {
+  background-color: rgba(245, 245, 245, 0);
+  margin-bottom: 10px;
+
+  .sortButton {
+    float: left;
+    margin-right: 20px;
+  }
+
+  input {
+    width: auto;
+  }
+}

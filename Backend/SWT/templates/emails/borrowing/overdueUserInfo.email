@@ -1,0 +1,20 @@
+SUBJECT: SWTLib Reminder: You have to return $TITLE
+TEXT:
+Dear $USER,
+
+as of today you have not returned the following medium:
+
+    $PHYSICAL
+
+This medium is overdue since $OVERDUEDAYS days. You have to return it immediately.
+
+Additionally a mail has been sent to the Administrator of SWTLib:
+
+    Admin Mail: $ADMINMAIL
+
+Contact him or her immediately to solve this issue.
+
+
+Kind Regards,
+
+$SIGNATURE

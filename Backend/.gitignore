@@ -1,0 +1,5 @@
+# gitignore for the backend
+SWT/target/*
+SWT/.project
+
+/.metadata/

@@ -1,0 +1,74 @@
+.overflow {
+  height: 350px;
+  overflow: auto;
+}
+
+.borderCirle {
+  border-radius: 50%;
+  margin-left: 10px;
+  border-color: rgba(177, 175, 175, 0.986);
+  border-width: thin;
+  border-style: solid;
+}
+
+h3 {
+  margin: 20px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+td:nth-child(1), th:nth-child(1){
+  width: 35%;
+  text-align: left;
+}
+
+td, th {
+  text-align: center;
+}
+
+
+label {
+  font-weight: bold;
+  margin-top: 7px;
+}
+
+.timeFrameField {
+  float: left;
+  width: 55%;
+  input {
+    width: 48%;
+    display: inline-block;
+  }
+  label {
+    margin: 6px 0px 2px 1px;
+  }
+}
+
+.showField {
+  label {
+    margin: 6px 0px 2px 1px;
+  }
+  width: 25%;
+  display: inline-block;
+  margin: 0px;
+  margin-right: 10px;
+}
+
+.quantityField {
+  label {
+    margin: 6px 0px 2px 1px;
+  }
+  width: 15%;
+  display: inline-block;
+}
+
+.tagsField {
+  width: 40%;
+}
+
+.tag {
+  margin-right: 5px !important;
+  margin-bottom: 5px !important;
+}

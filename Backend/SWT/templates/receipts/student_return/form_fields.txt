@@ -1,0 +1,5 @@
+Book Title
+ID
+Owner
+Borrowing Date
+Issuer

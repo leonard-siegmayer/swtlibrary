@@ -1,0 +1,16 @@
+<div>
+  <h6>Jahr</h6>
+  <form (ngSubmit)="searchYear()">
+    <div class="row m-0 mb-3">
+      <div class="col-6 p-0">
+        <label for="gte">Von:</label>
+        <input [(ngModel)]="gteYear" name="gteYear" required type="number" class="form-control">
+      </div>
+      <div class="col-6 p-0">
+        <label for="lt">Bis:</label>
+        <input [(ngModel)]="ltYear" name="ltYear" required class="form-control">
+      </div>
+      <button type="submit" class="btn btn-light">Search</button>
+    </div>
+  </form>
+</div>

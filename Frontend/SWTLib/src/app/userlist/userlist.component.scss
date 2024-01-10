@@ -1,0 +1,12 @@
+.pills {
+  .active {
+    background-color: #343a40;
+  }
+
+  // force "line break" for all + other pill
+  .specialNavItem {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}

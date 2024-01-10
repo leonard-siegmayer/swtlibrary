@@ -1,0 +1,6 @@
+<button *ngIf="!loggedIn" (click)="login()" class="btn-swt btn m-2">Login</button>
+
+<div *ngIf="loggedIn" class="p-2">
+    <a routerLink="/profile">{{username}}</a>
+    <button (click)="logout()" class="btn-swt btn m-2">Logout</button>
+</div>

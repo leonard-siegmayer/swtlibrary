@@ -1,0 +1,74 @@
+<app-nav></app-nav>
+<div class="container mt-3">
+  <!-- alert if user is not logged in -->
+  <h2>Settings</h2>
+  <div *ngIf="!user" class="alert alert-danger" role="alert">
+    Please log in first.
+  </div>
+  <div id="emailPreferences">
+    <h3>Email Preferences</h3>
+    <p>Please send me an email notification when...</p>
+    <!-- Displays the Button and info Texts for the E-mail settings -->
+    <div class="custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input settingCheckBox" id="borrowInfoBorrower"
+        (change)="preferenceChanged('borrowInfoBorrower')" [checked]="settings.getBorrowInfoAsBorrower">
+      <label class="custom-control-label" for="borrowInfoBorrower">...I borrowed a book.</label>
+    </div>
+    <div class="custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input settingCheckBox" id="returnInfoBorrower"
+        (change)="preferenceChanged('returnInfoBorrower')" [checked]="settings.getReturnInfoAsBorrower">
+      <label class="custom-control-label" for="returnInfoBorrower">...I returned a book</label>
+    </div>
+    <div class="custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input settingCheckBox" id="extensionInfoBorrower"
+        (change)="preferenceChanged('extensionInfoBorrower')" [checked]="settings.getExtensionInfoAsBorrower">
+      <label class="custom-control-label" for="extensionInfoBorrower">...I extended a borrowing.</label>
+    </div>
+    <div class="custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input settingCheckBox" id="overdueInfoBorrower"
+        (change)="preferenceChanged('overdueInfoBorrower')" [checked]="settings.getOverdueInfoAsBorrower">
+      <label class="custom-control-label" for="overdueInfoBorrower">...a book I borrowed is overdue.</label>
+    </div>
+    <div class="custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input settingCheckBox" id="expireInfoBorrower"
+        (change)="preferenceChanged('expireInfoBorrower')" [checked]="settings.getExpireInfoAsBorrower">
+      <label class="custom-control-label" for="expireInfoBorrower">...one of my borrowings is about to expire.</label>
+    </div>
+    <div class="custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input settingCheckBox" id="borrowInfoOwner"
+        (change)="preferenceChanged('borrowInfoOwner')" [checked]="settings.getBorrowInfoAsOwner">
+      <label class="custom-control-label" for="borrowInfoOwner">...someone borrowed my book.</label>
+    </div>
+    <div class="custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input settingCheckBox" id="returnInfoOwner"
+        (change)="preferenceChanged('returnInfoOwner')" [checked]="settings.getReturnInfoAsOwner">
+      <label class="custom-control-label" for="returnInfoOwner">...someone returned my book.</label>
+    </div>
+    <div class="custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input settingCheckBox" id="extensionInfoOwner"
+        (change)="preferenceChanged('extensionInfoOwner')" [checked]="settings.getExtensionInfoAsOwner">
+      <label class="custom-control-label" for="extensionInfoOwner">...someone who borrowed my book extended the
+        borrowing.</label>
+    </div>
+    <div class="custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input settingCheckBox" id="overdueInfoOwner"
+        (change)="preferenceChanged('overdueInfoOwner')" [checked]="settings.getOverdueInfoAsOwner">
+      <label class="custom-control-label" for="overdueInfoOwner">...a book someone borrowed from me is overdue.</label>
+    </div>
+    <div class="custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input settingCheckBox" id="infoReservation"
+        (change)="preferenceChanged('infoReservation')" [checked]="settings.getReservationInfo">
+      <label class="custom-control-label" for="infoReservation">...a reserved book is ready to borrow.</label>
+    </div>
+    <div class="custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input settingCheckBox" id="missedReservationInfo"
+        (change)="preferenceChanged('missedReservationInfo')" [checked]="settings.getMissedReservationInfo">
+      <label class="custom-control-label" for="missedReservationInfo">...I missed to borrow a reserved book .</label>
+    </div>
+    <!-- update button -->
+    <div id="updateEmailPreferencesButton">
+      <button class="btn btn-success" (click)="updateEmailPreferences()" [disabled]="!changed">Update
+        Preferences</button>
+    </div>
+  </div>
+</div>

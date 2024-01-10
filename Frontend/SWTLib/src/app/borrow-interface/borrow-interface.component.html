@@ -1,0 +1,207 @@
+<!-- alert box about user role -->
+<div *ngIf="!user" class="alert alert-danger">
+  You are not logged in and therefore you can not borrow any books. Please <a href="#" class="alert-link"
+    (click)=login()>log in</a>.
+</div>
+<div *ngIf="user && user.role === role.ROLE_STUDENT" class="alert alert-warning">
+  You are logged in with a student account and therefore you can only request books. These requests have to be approved
+  by the SWT chair afterwards.
+</div>
+<!-- table for physical books -->
+<div class="table-responsive">
+  <table class="table table-hover table-bordered">
+    <thead class="thead-dark">
+      <th>Status</th>
+      <th>Location</th>
+      <th>Owner</th>
+      <th>Signature</th>
+      <th>Reservations</th>
+      <th></th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of availableItems">
+        <ng-container [ngTemplateOutlet]="tableRow" [ngTemplateOutletContext]="{item:item, status: 'available'}">
+        </ng-container>
+      </tr>
+      <tr *ngFor="let item of requestedItems">
+        <ng-container [ngTemplateOutlet]="tableRow" [ngTemplateOutletContext]="{item:item, status: 'requested'}">
+        </ng-container>
+      </tr>
+      <tr *ngFor="let item of borrowedItems">
+        <ng-container [ngTemplateOutlet]="tableRow" [ngTemplateOutletContext]="{item: item, status: 'borrowed'}">
+        </ng-container>
+      </tr>
+      <!-- template for the rest of a table row depending on status of item -->
+      <ng-template #tableRow let-item="item" let-status="status">
+        <!-- availability status -->
+        <td *ngIf="item.physical.status != 'RESERVED'" [ngSwitch]="item.physical.status">
+          <div *ngSwitchCase="'AVAILABLE'" class="statusContainer">
+            <span class="dot available"></span>Available
+          </div>
+          <div *ngSwitchCase="'UNAVAILABLE'" class="statusContainer">
+            <span class="dot borrowed"></span>Unavailable
+          </div>
+          <div *ngSwitchCase="'REQUESTED'" class="statusContainer">
+            <span class="dot requested"></span>Requested
+          </div>
+          <div *ngSwitchDefault class="statusContainer">
+            <span class="dot borrowed"></span>
+            <div class="statusText">
+              Borrowed<br>
+              Due:
+              {{ item.borrowings[0].dueDate | date: 'yyyy-MM-dd' }}<br>
+              <div *ngIf="user && (user.role === role.ROLE_ADMIN || user.role === role.ROLE_STAFF)">
+                By: {{ item.borrowings[0].borrower.name }}
+              </div>
+            </div>
+          </div>
+        </td>
+        <td *ngIf="item.physical.status == 'RESERVED'">
+          <div class="statusContainer">
+            <span class="dot requested"></span>Reserved
+          </div>
+        </td>
+        <!-- general information about physical item -->
+        <td *ngIf="item.physical.location; else notAvailable">{{ item.physical.location }}
+          {{ item.physical.department }} {{ item.physical.room }}</td>
+        <td *ngIf="item.physical.owner; else notAvailable">{{ item.physical.owner.name }}</td>
+        <td *ngIf="item.physical.signature; else notAvailable">{{ item.physical.signature }}</td>
+        <td>{{ item.physical.resCount }}</td>
+        <ng-template #notAvailable>
+          <td>N/A</td>
+        </ng-template>
+        <!-- Borrow Btn cell -->
+        <!-- check if user is logged in -->
+        <ng-container *ngIf="user; else disabledBtn">
+          <!-- user logged in; display msg if user already borrowed/ requested the book -->
+          <ng-container *ngIf="isItemRequested(item) || isItemBorrowed(item); else borrowBtn">
+            <td *ngIf="isItemRequested(item)">You already requested this book.</td>
+            <td *ngIf="isItemBorrowed(item)">You currently borrow this book.</td>
+
+          </ng-container>
+          <!-- user logged in; display btn if book is available -->
+          <ng-template #borrowBtn>
+            <ng-container [ngSwitch]="user.role">
+              <td *ngSwitchCase="role.ROLE_STUDENT">
+                <button type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#borrowingModal"
+                  (click)="startBorrowProcess(item.physical.id)" [disabled]="status === 'borrowed'">Request</button>
+              </td>
+              <td *ngSwitchDefault>
+                <button *ngIf="item.physical.status == 'RESERVED' || item.physical.status == 'BORROWED'"
+                  class="btn btn-dark" (click)="open(content) + (selectedPhysical = item.physical)">Reserve</button>
+                <button
+                  *ngIf="item.physical.status != 'RESERVED' && item.physical.status != 'BORROWED' && item.physical.status != 'UNAVAILABLE'"
+                  type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#borrowingModal"
+                  (click)="startBorrowProcess(item.physical.id)" [disabled]="status === 'borrowed'">Borrow</button>
+                <button *ngIf="item.physical.status == 'UNAVAILABLE'" type="button" class="btn btn-dark btn-block"
+                  data-toggle="modal" data-target="#borrowingModal" disabled>Unavailable</button>
+              </td>
+            </ng-container>
+          </ng-template>
+        </ng-container>
+        <!-- user is not logged in -->
+        <ng-template #disabledBtn>
+          <td><button type="button" class="btn btn-dark btn-block" disabled>Borrow</button></td>
+        </ng-template>
+
+      </ng-template>
+    </tbody>
+  </table>
+</div>
+<!-- Modal: user dialogue -->
+<div *ngIf="user">
+  <div class="modal fade" id="borrowingModal" tabindex="-1" data-backdrop="static" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div [hidden]="!successRes">
+            <ng-container [ngSwitch]="user.role">
+              <p *ngSwitchCase="role.ROLE_STUDENT">
+                Your request was successful.<br>
+                Please contact a member of the <a target="_blank" href="https://www.uni-bamberg.de/swt/team/">SWT
+                  chair</a> to get your approval.
+              </p>
+              <p *ngSwitchDefault>Your request was successful. You can now pickup the book.</p>
+
+            </ng-container>
+          </div>
+          <div [hidden]="!errorRes">
+            <p>
+              Sorry, we could not execute your request. Please try again.
+            </p>
+          </div>
+          <div [hidden]="errorRes ||successRes">
+            How long would you like to keep the book?<br>
+            The maximum is {{ maxDays }} days.
+            <form class="mt-3">
+              <div class="form-group">
+                <input type="date" [formControl]="datePickerForm" class="form-control"
+                  min="{{ currentDate | date: 'yyyy-MM-dd' }}" max="{{ maxDate | date: 'yyyy-MM-dd' }}">
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-dismiss="modal"
+            [hidden]="!errorRes && !successRes">OK</button>
+          <div [hidden]="errorRes ||successRes">
+            <button type="button" class="btn btn-dark mr-2" data-dismiss="modal">Cancel</button>
+            <ng-container [ngSwitch]="user.role">
+              <button *ngSwitchCase="role.ROLE_STUDENT" type="button" class="btn btn-dark" (click)="borrow()"
+                [disabled]="datePickerForm.invalid">Request</button>
+              <button *ngSwitchDefault type="button" class="btn btn-dark" (click)="borrow()"
+                [disabled]="datePickerForm.invalid">Borrow</button>
+
+            </ng-container>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Window to add a Purpose and a Priority to the reservation-->
+<div class="purpose" class="form-group">
+  <ng-template #content let-modal>
+    <div class="modal-header">
+      <h4 class="modal-title" id="modal-basic-title">Please state a Priority and a Purpose</h4>
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <form [formGroup]="resFormGroup">
+        <div class="form-group">
+          <label [attr.for]="'#priority_' + index">Priority: </label>
+          <select formControlName="priority" class="form-control" type="text" [id]="'priority_' + index" required>
+            <option value="" disabled selected>Select priority</option>
+            <option [value]="priority" class="form-control" *ngFor="let priority of priorities">
+              {{priority}}
+            </option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>How many Days do you want to borrow the Book(1-{{maxDays}} Days) ?</label>
+          <input type="number" formControlName="requiredTime" min="1" max="{{maxDays}}" class="form-control"
+            placeholder="Enter Days" required />
+        </div>
+        <div class="form-group">
+          <label>Purpose:</label>
+          <div class="input-group">
+            <textarea id="purpose" class="form-control" formControlName="purpose" placeholder="Enter a purpose"
+              required></textarea>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <input type="submit" class="btn btn-outline-dark" (click)="modal.close('Save click') + newReservation()"
+            value="Reserve">
+        </div>
+      </form>
+    </div>
+  </ng-template>
+
+
+
+</div>

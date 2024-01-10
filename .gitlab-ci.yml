@@ -1,0 +1,163 @@
+stages:
+  - img:build
+  - img:tag
+  - deploy:production
+
+.global_variables: &global_variables
+    DOCKER_HOST: unix:///var/run/docker.sock
+    COMPOSE_HTTP_TIMEOUT: "300"
+    SERVER_DOMAIN: "runner.swt.uni-bamberg.de"
+
+##############
+### Runner ###
+##############
+
+.runner: &runner
+  image: firecyberice/docker-toolbox:latest
+  tags:
+    - builder
+    - amd64
+
+.runtime:
+  script: &runtime
+    # Show new config
+    - docker-compose -f production.yml config
+    - echo -e "NAME=${NAME}\nURL=${URL}\nFRONTEND_IMAGE=${BACKEND_IMAGE}\nFRONTEND_IMAGE=${BACKEND_IMAGE}\nCOMPOSE_PROJECT_NAME=${COMPOSE_PROJECT_NAME}" >> .env
+    - cat .env
+    # remove old container and start with new config
+    - docker-compose -f production.yml down || true
+    - echo ${CI_BUILD_TOKEN} | docker login --username gitlab-ci-token --password-stdin ${CI_REGISTRY}
+    - docker-compose -f production.yml pull
+    - docker-compose -f production.yml up -d
+
+.building:
+  script: &building
+    - >-
+        docker build
+        --target ${BUILD_TAG}
+        --tag ${CI_REGISTRY_IMAGE}:${BUILD_TAG}
+        --label BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"`
+        --label VCS_URL="${CI_PROJECT_URL}"
+        --label VCS_REF="${CI_COMMIT_SHA}"
+        --label VERSION="${CI_COMMIT_TAG}"
+        --label PROJECT_NAME="${CI_PROJECT_NAME}"
+        --file Dockerfile.production .
+
+.tagging:
+  script: &tagging
+    - echo ${CI_BUILD_TOKEN} | docker login --username gitlab-ci-token --password-stdin ${CI_REGISTRY}
+    - docker tag ${CI_REGISTRY_IMAGE}:${BUILD_TAG} ${CI_REGISTRY_IMAGE}:${NEW_TAG}
+    - docker push ${CI_REGISTRY_IMAGE}:${NEW_TAG}
+
+###################
+### Build Image ###
+###################
+img-frontend:
+  stage: img:build
+  <<: *runner
+  variables:
+    <<: *global_variables
+    BUILD_TAG: frontend
+    DOCKER_BUILDKIT: 1
+  script: *building
+
+img-backend:
+  stage: img:build
+  <<: *runner
+  variables:
+    <<: *global_variables
+    BUILD_TAG: backend
+    DOCKER_BUILDKIT: 1
+  script: *building
+
+#################
+### Tag Image ###
+#################
+tag-latest-frontend:
+  stage: img:tag
+  only:
+    - master
+  <<: *runner
+  variables:
+    <<: *global_variables
+    NEW_TAG: latest-frontend
+    BUILD_TAG: frontend
+  script: *tagging
+
+tag-latest-backend:
+  stage: img:tag
+  only:
+    - master
+  <<: *runner
+  variables:
+    <<: *global_variables
+    NEW_TAG: latest-backend
+    BUILD_TAG: backend
+  script: *tagging
+
+tag-version-frontend:
+  stage: img:tag
+  only:
+    - tags
+  <<: *runner
+  variables:
+    <<: *global_variables
+    NEW_TAG: ${CI_COMMIT_TAG}-frontend
+    BUILD_TAG: frontend
+  script: *tagging
+
+tag-version-backend:
+  stage: img:tag
+  only:
+    - tags
+  <<: *runner
+  variables:
+    <<: *global_variables
+    NEW_TAG: ${CI_COMMIT_TAG}-backend
+    BUILD_TAG: backend
+  script: *tagging
+
+##########################
+### Manage deployments ###
+##########################
+
+##############
+# PRODUCTION #
+##############
+start_production:
+  stage: deploy:production
+  only:
+    - master
+  <<: *runner
+  variables:
+    <<: *global_variables
+    NAME:  ${CI_COMMIT_REF_SLUG}-${CI_PROJECT_NAME}
+    URL: ${CI_COMMIT_REF_SLUG}-${CI_PROJECT_NAME}-${CI_PROJECT_ID}.${SERVER_DOMAIN}
+    FRONTEND_IMAGE: ${CI_REGISTRY_IMAGE}:latest-frontend
+    BACKEND_IMAGE: ${CI_REGISTRY_IMAGE}:latest-backend
+    COMPOSE_PROJECT_NAME: ${CI_COMMIT_REF_SLUG}-${CI_PROJECT_ID}
+  environment:
+    name: production-${CI_COMMIT_REF_SLUG}
+    url: http://$CI_COMMIT_REF_SLUG-$CI_PROJECT_NAME-$CI_PROJECT_ID.$SERVER_DOMAIN
+    on_stop: stop_production
+  script: *runtime
+
+stop_production:
+  stage: deploy:production
+  only:
+    - master
+  when: manual
+  <<: *runner
+  variables:
+    <<: *global_variables
+    GIT_STRATEGY: none
+    NAME:  ${CI_COMMIT_REF_SLUG}-${CI_PROJECT_NAME}
+    URL: ${CI_COMMIT_REF_SLUG}-${CI_PROJECT_NAME}-${CI_PROJECT_ID}.${SERVER_DOMAIN}
+    FRONTEND_IMAGE: ${CI_REGISTRY_IMAGE}:latest-frontend
+    BACKEND_IMAGE: ${CI_REGISTRY_IMAGE}:latest-backend
+    COMPOSE_PROJECT_NAME: ${CI_COMMIT_REF_SLUG}-${CI_PROJECT_ID}
+  environment:
+    name: production-${CI_COMMIT_REF_SLUG}
+    action: stop
+  script:
+    - docker-compose -f production.yml down || true

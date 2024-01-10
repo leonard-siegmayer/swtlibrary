@@ -1,0 +1,16 @@
+<div *ngIf="book" class="p-3">
+  <div class="row">
+    <div class="col-3">
+      <img src="{{book.coverURL}}" alt="">
+    </div>
+    <div class="col-9">
+      <a routerLink="/book/{{book.id}}">
+        <h5>{{book.booktitle}} </h5>
+      </a>
+      <div class="info">
+        <span *ngFor="let author of book.authors" class="pr-3">{{ author.name }}</span>
+        <span *ngIf="book.year"> {{book.year}}</span>
+      </div>
+    </div>
+  </div>
+</div>

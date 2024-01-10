@@ -1,0 +1,48 @@
+import { Keyword } from './keyword';
+import { Person } from './person';
+import { Note } from './note';
+import { User } from './user';
+import { Tag } from './tag';
+import { PhysicalBook } from './physicalBook';
+import { Reservation } from './reservation';
+
+export class Book {
+  id: number;
+  coverURL: string;
+  owner: User;
+  creationDate: Date;
+  language: string;
+  notes: Note[];
+  authors: Person[];
+  editors: Person[];
+  booktitle: string;
+  title: string;
+  abstract: string;
+  keywords: Keyword[];
+  tags: Tag[];
+  address: string;
+  chapter: number;
+  edition: string;
+  howPublished: string;
+  institution: string;
+  number: number;
+  organization: string;
+  pages: number;
+  publisher: string;
+  series: string;
+  type: string;
+  year: Date;
+  doi: string;
+  ean: number;
+  isbn: number;
+  location: string;
+  department: string;
+  room: string;
+  isInHandapparat: boolean;
+  rvkSignature: string;
+  physicals: PhysicalBook[];
+  lastEdited: Date;
+  resDate: Date[];
+  borrowDate: Date[];
+  reservation: Reservation[];
+}

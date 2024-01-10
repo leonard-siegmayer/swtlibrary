@@ -1,0 +1,18 @@
+form {
+  width: 100%;
+
+  textarea {
+    resize: none;
+  }
+}
+
+// place buttons flush right
+.btnContainer {
+  display: flex;
+  align-items: flex-start;
+
+  .submitBtnContainer,
+  .editBtnContainer {
+    margin-left: auto;
+  }
+}

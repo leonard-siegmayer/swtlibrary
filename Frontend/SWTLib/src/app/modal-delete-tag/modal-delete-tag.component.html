@@ -1,0 +1,10 @@
+<div class="modal-header">
+  <h4 class="modal-title" id="modal-basic-title">Delete Tag "{{tag.name}}"</h4>
+</div>
+<div class="modal-body">
+  <br>
+  <p>Du you really want to delete Tag "{{tag.name}}"?</p>
+  <br>
+  <button type="button" (click)="cancel()" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+  <button (click)="passBack()" type="submit" class="btn btn-danger">Delete Tag</button>
+</div>

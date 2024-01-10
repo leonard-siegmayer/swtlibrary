@@ -1,0 +1,14 @@
+#logo {
+  height: 40px;
+}
+
+.swtnav-content {
+  flex-direction: row-reverse;
+  display: flex;
+  right: 0;
+}
+
+.swtnav-item {
+  display: flex !important;
+  display: inline;
+}

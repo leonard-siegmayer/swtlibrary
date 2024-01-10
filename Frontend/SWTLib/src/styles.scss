@@ -1,0 +1,7 @@
+/* You can add global styles to this file, and also import other style files */
+
+html {
+  // avoid shifting of content if scrollbar appears 
+  margin-right: calc(-1 * (100vw - 100%));
+  overflow-x: hidden;
+}

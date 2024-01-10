@@ -1,0 +1,49 @@
+// dropdown menu for edit delete btns
+.dropdown-toggle {
+  padding-bottom: 0;
+  padding-top: 0;
+  box-shadow: none;
+}
+
+.dropdown-toggle::after {
+  opacity: 0.5;
+}
+
+.editDeleteBtnContainer:hover {
+  .dropdown-toggle::after {
+    opacity: 0.8;
+  }
+}
+
+.dropdown-menu {
+  min-width: auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+
+// note itself
+.noteContainer {
+  display: flex;
+  align-items: flex-start;
+  white-space: pre-wrap;
+
+  .profilePic {
+    margin: 0.5rem 1rem 0.5rem 0em;
+  }
+
+  .staticNoteContent {
+    display: flex;
+    width: 100%;
+
+    .noteContent {
+      margin-right: 1rem;
+    }
+
+    .editDeleteBtnContainer {
+      margin-left: auto;
+    }
+  }
+
+  .editNoteContent {
+    width: 100%;
+  }
+}

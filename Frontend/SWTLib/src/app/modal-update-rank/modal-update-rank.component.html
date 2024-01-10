@@ -1,0 +1,14 @@
+<div class="modal-header" id="updateModal">
+    <h4 class="modal-title" id="modal-basic-title">Update Rank</h4>
+</div>
+<div class="modal-body form-group">
+    <label for="rank">
+        Select a rank:
+    </label>
+    <select [(ngModel)]="ranks" class="form-control" name="rank">
+        <option value="0">Remove rank</option>
+        <option *ngFor="let r of rankList" [value]="r">{{r}}</option>
+    </select>
+    <button type="button" (click)="cancel()" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+    <button type="button" (click)="submit()" class="btn btn-primary" data-dismiss="modal">Submit</button>
+</div>

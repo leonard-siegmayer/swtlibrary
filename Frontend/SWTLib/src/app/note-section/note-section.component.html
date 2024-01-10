@@ -1,0 +1,26 @@
+<div #noteSection>
+  <button type="button" class="btn btn-link mb-4" (click)="expandNotes()"
+    [disabled]="user.role === role.ROLE_STUDENT && notes.length === 0">
+    <h5>{{ "Comments (" + notes.length + ")" }}</h5>
+  </button>
+  <div *ngIf="notesExpanded">
+    <!-- write new note -->
+    <div *ngIf="user && (user.role === role.ROLE_ADMIN || user.role === role.ROLE_STAFF)">
+      <div class="createNoteContainer mt-3">
+        <img class="img-fluid profilePic" [src]="user.profilePicture" alt="Profile Picture">
+        <app-note-form class="noteForm" [bookId]="bookId" [note]="null" (updateBookEvent)="updateBook()">
+        </app-note-form>
+      </div>
+      <hr class="mb-5" [hidden]="notes.length === 0">
+    </div>
+    <!-- show all notes -->
+    <div *ngIf="user">
+      <ul>
+        <li *ngFor="let note of notes" class="mb-5">
+          <app-note [bookId]="bookId" [note]="note" [user]="user" (updateBookEvent)="updateBook()">
+          </app-note>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

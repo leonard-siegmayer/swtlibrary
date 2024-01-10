@@ -1,0 +1,28 @@
+<nav class="navbar bg-light">
+  <!-- Icon and Home Link -->
+  <a href="/">
+    <img src="assets/img/libLogo.svg" alt="" id="logo">
+  </a>
+  <div class="swtnav-content">
+
+    <!-- Login-->
+    <div class="swtnav-item">
+      <app-login></app-login>
+    </div>
+    <!-- Dropdown-->
+    <div class="dropdown swtnav-item">
+      <button class="btn btn-light dropdown-toggle" type="button" data-toggle="dropdown">Menu
+        <span class="caret"></span></button>
+      <ul class="dropdown-menu">
+        <li *ngIf="staffOrAdmin"> <a class="nav-link" routerLink="/wishlist">Wishlist</a></li>
+        <li *ngIf="staffOrAdmin"> <a class="nav-link" routerLink="/statistics">Statistics</a> </li>
+        <li *ngIf="staffOrAdmin"> <a class="nav-link" routerLink="/studentBorrow">Requests From Students</a></li>
+        <li *ngIf="staffOrAdmin"> <a class="nav-link" routerLink="/studentReturn">Borrowings From Students</a></li>
+        <li *ngIf="admin"> <a class="nav-link" routerLink="/userlist">Users</a></li>
+        <li *ngIf="staffOrAdmin"> <a class="nav-link" routerLink="/createBook">Create Book</a></li>
+        <li *ngIf="staffOrAdmin || student"><a class="nav-link" routerLink="/settings">Settings</a></li>
+        <li> <a class="nav-link" routerLink="/about">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>

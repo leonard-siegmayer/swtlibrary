@@ -1,0 +1,10 @@
+<td>{{ userEntry.name }}</td>
+<td>{{ userEntry.email }}</td>
+<td>
+  <select class="custom-select" [formControl]="formCtrl" (change)="setRole()" required>
+    <option *ngFor="let r of allRoles" [selected]="userEntry.role === r">{{ r }}</option>
+  </select>
+  <div class="requestFail" [hidden]="!requestFailed">
+    An error occurred. Please try again.
+  </div>
+</td>

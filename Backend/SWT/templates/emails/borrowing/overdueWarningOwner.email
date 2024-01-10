@@ -1,0 +1,16 @@
+SUBJECT: SWTLib: Borrowing overdue for medium.
+TEXT:
+Dear $STAFFMEMBER,
+
+we want to inform you, that the user $USER did not return the following medium:
+
+    $PHYSICAL
+
+We already sent her/him a reminder email, but in case you want to make contact yourself, use the following email address:
+
+    $USERMAIL
+
+
+Kind Regards,
+
+$SIGNATURE

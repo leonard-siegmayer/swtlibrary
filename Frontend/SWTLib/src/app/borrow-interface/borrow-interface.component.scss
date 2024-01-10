@@ -1,0 +1,38 @@
+.table {
+  margin-bottom: 0 !important;
+}
+
+td {
+  vertical-align: middle;
+}
+
+.statusContainer {
+  display: flex;
+  align-items: center;
+}
+
+.statusText {
+  display: inline-block;
+}
+
+.dot {
+  $radius: 18px;
+
+  min-height: $radius;
+  min-width: $radius;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 1rem;
+
+  &.available {
+    background-color: #449d44;
+  }
+
+  &.requested {
+    background-color: #f0ad4e;
+  }
+
+  &.borrowed {
+    background-color: #d9534f;
+  }
+}

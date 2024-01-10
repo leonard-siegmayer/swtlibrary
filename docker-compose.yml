@@ -1,0 +1,65 @@
+version: '3.7'
+networks:
+  swtnet:
+
+volumes:
+  es-data:
+  mysql:
+
+services:
+  mariadb:
+    image: mariadb:latest
+    restart: unless-stopped
+    ports:
+      - 3306:3306
+    volumes:
+      - mysql:/var/lib/mysql
+      - ./docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+    networks:
+      swtnet:
+
+  elastic:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.1.1
+    volumes:
+      - es-data:/usr/share/elasticsearch/data
+    environment:
+      - network.host=_site_
+      - cluster.name=swtlib
+      - discovery.type=single-node
+    expose:
+      - '9200'
+      - '9300'
+    networks:
+      swtnet:
+
+  backend:
+    build:
+      context: ./Backend/SWT      
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:mariadb://mariadb/${MYSQL_DATABASE}?createDatabaseIfNotExist=true
+      - SPRING_DATASOURCE_USERNAME=${MYSQL_USER}
+      - SPRING_DATASOURCE_PASSWORD=${MYSQL_PASSWORD}
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+      - ES_URL=elastic
+      - GITLAB_CLIENTID=242e1aa426023d6353dc38debc6f10eb671ea989cd5481e78017f31439254009
+      - GITLAB_CLIENTSECRET=9d79bbd969837e22208b3de844570f1794fa712fd0cc45effb4facf103da3a44
+      - FRONTEND_URL=http://localhost
+    ports:
+      - "8083:8083"
+    networks:
+      swtnet:
+    links:
+      - "elastic"
+
+  frontend:
+    build:
+      context: ./Frontend/SWTLib
+    ports:
+      - "80:80"
+    networks:
+      swtnet:

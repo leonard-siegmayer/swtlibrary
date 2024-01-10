@@ -1,0 +1,34 @@
+<form>
+  <div class="form-group">
+    <div>
+      <textarea #textarea type="text" [formControl]="formCtrl" class="form-control"
+        [ngClass]="formCtrl.hasError('maxlength') ? 'is-invalid': ''" rows="5" placeholder="Enter your comment here..."
+        [maxlength]="maxLength + 1" (input)="autoSizeTextarea()" required></textarea>
+      <!-- feedback for form violation -->
+      <div class="invalid-feedback">
+        You exceeded the character limit!
+      </div>
+      <!-- alert if editing/ creating note fails -->
+      <div class="alert alert-danger mt-2" role="alert" [hidden]="!errorResponse">
+        <div *ngIf="!note">
+          An error occured while creating your comment. Please try again.
+        </div>
+        <div *ngIf="note">
+          An error occured while updating your comment. Please try again.
+        </div>
+      </div>
+    </div>
+    <div class="btnContainer mt-3">
+      <!-- submit if no existing note was passed to component -->
+      <div *ngIf="!note" class="submitBtnContainer">
+        <button type="submit" class="btn btn-dark" (click)="createNote()" [disabled]="formCtrl.invalid">Submit</button>
+      </div>
+      <!-- edit if existing note was passed to component -->
+      <div *ngIf="note" class="editBtnContainer">
+        <button class="btn btn-dark mr-2" (click)="closeForm()">Abort</button>
+        <button type="submit" class="btn btn-dark" (click)="editNote()"
+          [disabled]="formCtrl.invalid || formCtrl.pristine">Save</button>
+      </div>
+    </div>
+  </div>
+</form>

@@ -1,0 +1,14 @@
+SUBJECT: SWTLib: Your medium has been returned.
+TEXT:
+Dear $STAFFMEMBER,
+
+The user $USER returned your medium
+
+    $PHYSICAL
+
+It is now available for borrowing again.
+
+
+Kind Regards,
+
+$SIGNATURE

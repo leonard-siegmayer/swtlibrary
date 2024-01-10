@@ -1,0 +1,41 @@
+<app-nav></app-nav>
+
+<div [ngClass]="inCatalogue ? 'catalogue' : 'start'">
+  <!-- Landing Page Header -->
+  <header>
+    <img src="assets/img/libLogo.svg" alt="" class="logo" />
+    <div class="container">
+      <button class="btn toggleButton" (click)="toggleAdvancedSearch()">
+        <img class="toggle" src="assets/img/toggle2.svg" alt="" />
+      </button>
+      <!-- Advanced Search -->
+      <div class="filter-text" [ngClass]="isAdvancedSearch ? '' : 'hidden'">
+        <app-filter-text #advSearch (searchResults)="onSearch($event)" (queryObject)="setQuery($event)">
+        </app-filter-text>
+      </div>
+      <!-- Easy Search -->
+      <div class="searchbar" [ngClass]="isAdvancedSearch ? 'hidden' : ''">
+        <app-searchbar (searchResults)="onSearch($event)" (queryObject)="setQuery($event)"></app-searchbar>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="main row">
+      <!-- Click Filter -->
+      <aside class="filter-click col-sm-3 col-12" *ngIf="data">
+        <app-filter-click [query]="queryObject" (searchResults)="onSearch($event)"></app-filter-click>
+      </aside>
+      <!-- Search Results -->
+      <section class="search-results col-sm-9 col-12">
+        <div class="container" *ngIf="data">
+          <app-book-search-result *ngFor="let book of data" [book]="book"></app-book-search-result>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="down" (click)="toggleCatalogue()">
+    <img src="assets/img/down.svg" alt="" />
+  </div>
+</div>

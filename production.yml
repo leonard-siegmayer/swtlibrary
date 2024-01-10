@@ -1,0 +1,87 @@
+version: '3.7'
+
+networks:
+  swtnet:
+  net-proxy:
+    external: true
+    name: "net-proxy"
+
+volumes:
+  es-data:
+  mysql:
+
+services:
+  mariadb:
+    image: mariadb:latest
+    restart: unless-stopped
+    ports:
+      - 3306:3306
+    volumes:
+      - mysql:/var/lib/mysql
+      - ./docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+    networks:
+      swtnet:
+
+  elastic:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.1.1
+    restart: unless-stopped
+    volumes:
+      - es-data:/usr/share/elasticsearch/data
+    environment:
+      - network.host=_site_
+      - cluster.name=swtlib
+      - discovery.type=single-node
+#      path.repo: [ "snapshots" ]
+    expose:
+      - '9200'
+      - '9300'
+    networks:
+      swtnet:
+
+  backend:
+    image: ${BACKEND_IMAGE}
+    restart: unless-stopped
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:mariadb://mariadb/${MYSQL_DATABASE}?createDatabaseIfNotExist=true
+      - SPRING_DATASOURCE_USERNAME=${MYSQL_USER}
+      - SPRING_DATASOURCE_PASSWORD=${MYSQL_PASSWORD}
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+      - ES_URL=elastic
+      - GITLAB_CLIENTID=${PROD_GITLAB_CLIENTID}
+      - GITLAB_CLIENTSECRET=${PROD_GITLAB_CLIENTSECRET}
+      - FRONTEND_URL=http://${URL}
+    networks:
+      net-proxy:
+      swtnet:
+    labels:
+      traefik.enable: "true"
+      traefik.backend.loadbalancer.stickiness: "true"
+      traefik.frontend.passHostHeader: "true"
+      traefik.port: "8083"
+      traefik.frontend.whiteList.sourceRange: "10.0.0.0/8,172.16.0.0/12,192.168.0.0/16,141.13.0.0/16"
+      traefik.frontend.rule: "Host:backend.${URL}"
+      traefik.http.frontend.entryPoints: "http"
+#      traefik.http.frontend.redirect.entryPoint: "https"
+#      traefik.https.frontend.entryPoints: "https"
+
+  frontend:
+    image: ${FRONTEND_IMAGE}
+    restart: unless-stopped
+    networks:
+      net-proxy:
+      swtnet:
+    labels:
+      traefik.enable: "true"
+      traefik.backend.loadbalancer.stickiness: "true"
+      traefik.frontend.passHostHeader: "true"
+      traefik.port: "80"
+      traefik.frontend.whiteList.sourceRange: "10.0.0.0/8,172.16.0.0/12,192.168.0.0/16,141.13.0.0/16"
+      traefik.frontend.rule: "Host:${URL}"
+      traefik.http.frontend.entryPoints: "http"
+#      traefik.http.frontend.redirect.entryPoint: "https"
+#      traefik.https.frontend.entryPoints: "https"

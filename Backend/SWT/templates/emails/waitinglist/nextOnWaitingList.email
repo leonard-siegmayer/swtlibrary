@@ -1,0 +1,10 @@
+SUBJECT: SWTLib: $USER: Waitinglist for $TITLE
+TEXT:
+
+Dear $USER,
+
+You can borrow the Book: $TITLE now. Please do so in the next few days.
+
+Kind Regards,
+
+$SIGNATURE

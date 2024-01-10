@@ -1,0 +1,474 @@
+<app-nav></app-nav>
+
+<div class="container m-4">
+  <h4>{{username}}</h4>
+</div>
+
+<div class="panel-group" id="accordion">
+  <!-- Expired Media -->
+  <div *ngIf="expiredMedia" class="panel panel-default container mt-5">
+    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+      <h5 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Expired Media</a>
+      </h5>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse in">
+      <!-- filter area -->
+      <div class="filter">
+        <!-- sorting -->
+        <button type="button" class="btn btn-primary dropdown-toggle sortButton" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Sort by
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" (click)="sortExpiredBy('title')">Title</a>
+          <a class="dropdown-item" (click)="sortExpiredBy('borrowDate')">Borrow Date</a>
+          <a class="dropdown-item" (click)="sortExpiredBy('dueDate')">Due Date</a>
+        </div>
+        <!-- Search form -->
+        <div>
+          <input (input)="searchExpired()" id="expiredSearch" class="form-control" type="text" placeholder="Search"
+            aria-label="Search">
+        </div>
+      </div>
+      <div *ngFor="let item of expiredMediaFiltered" class="pt-4">
+        <!-- Book Info -->
+        <div class="row m-0 p-3 book_info border border-danger bg-light ">
+          <div class="col-2">
+            <img class="cover_small" src="{{item.medium.coverURL}}" alt="">
+          </div>
+          <div class="col-10">
+            <a class="text-danger" routerLink="/book/{{item.medium.id}}">
+              <h5>{{item.medium.booktitle}} </h5>
+            </a>
+            <div class="info">
+              <span *ngFor="let author of item.medium.authors" class="pr-3">{{ author.name }}</span>
+              <span *ngIf="item.medium.year"> {{item.medium.year}}</span>
+            </div>
+          </div>
+        </div>
+        <!-- Borrowing Info -->
+        <div class="row m-0 p-3 bg-light  border" id="request{{item.borrowingEntity.id}}">
+          <div class="col-12 col-md-4">
+            <p class="font-weight-bold text-danger">due at: {{item.borrowingEntity.dueDate}}</p>
+          </div>
+          <div class="col-12 col-md-8">
+            <form *ngIf="returnPrivilege" action="" name="form{{item.borrowingEntity.id}}">
+              <!-- Return -->
+              <div class="form-group">
+                <button (click)="returnBorrow(item.borrowingEntity.id)" class="btn btn-danger m-1">Return</button>
+              </div>
+
+            </form>
+          </div>
+        </div>
+        <!-- Feedback after Return -->
+        <div class="row m-0 p-3 bg-light" style="display: none" id="return{{item.borrowingEntity.id}}">
+          <h5>Successfully returned media.</h5>
+        </div>
+        <div class="row m-0 p-3 bg-light" style="display: none" id="failReturn{{item.borrowingEntity.id}}">
+          <h5>Some error occured during transmission of transaction.</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Requested Media -->
+  <div *ngIf="requestedMedia" class="panel panel-default container  mt-5">
+    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+      <h5 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Requested Media</a>
+      </h5>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse in">
+      <!-- filter area -->
+      <div class="filter">
+        <!-- sorting -->
+        <button type="button" class="btn btn-primary dropdown-toggle sortButton" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Sort by
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" (click)="sortRequestedBy('title')">Title</a>
+          <a class="dropdown-item" (click)="sortRequestedBy('borrowDate')">Borrow Date</a>
+          <a class="dropdown-item" (click)="sortRequestedBy('dueDate')">Due Date</a>
+        </div>
+        <!-- Search form -->
+        <div>
+          <input (input)="searchRequested()" id="requestedSearch" class="form-control" type="text" placeholder="Search"
+            aria-label="Search">
+        </div>
+      </div>
+      <div *ngFor="let item of requestedMediaFiltered" class="pt-4">
+        <!-- Book Info -->
+        <div class="row m-0 p-3 bg-light book_info">
+          <div class="col-2">
+            <img class="cover_small" src="{{item.medium.coverURL}}" alt="">
+          </div>
+          <div class="col-10">
+            <a routerLink="/book/{{item.medium.id}}">
+              <h5>{{item.medium.booktitle}} </h5>
+            </a>
+            <div class="info">
+              <span *ngFor="let author of item.medium.authors" class="pr-3">{{ author.name }}</span>
+              <span *ngIf="item.medium.year"> {{item.medium.year}}</span>
+            </div>
+          </div>
+        </div>
+        <!-- Borrowing Info-->
+        <div class="row m-0 p-3 bg-light" id="request{{item.borrowingEntity.id}}">
+          <div>
+            <p>requested: {{item.borrowingEntity.borrowDate}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Reserved Media -->
+  <div *ngIf="reservations" class="panel panel-default container mt-5">
+    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+      <h5 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Reserved Media</a>
+      </h5>
+    </div>
+    <div id="collapse6" class="panel-collapse collapse in">
+
+      <!-- filter area -->
+      <div class="filter">
+        <!-- sorting -->
+        <button type="button" class="btn btn-primary dropdown-toggle sortButton" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Sort by
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" (click)="sortReservationsBy('date')">Date</a>
+          <a class="dropdown-item" (click)="sortReservationsBy('priority')">Priority</a>
+          <a class="dropdown-item" (click)="sortReservationsBy('readyToBorrow')">Ready for Pickup</a>
+        </div>
+
+        <!-- Search form -->
+        <div>
+          <input (input)="searchReservations()" id="reservationSearch" class="form-control" type="text"
+            placeholder="Search" aria-label="Search">
+        </div>
+      </div>
+
+      <div *ngFor="let r of reservationsFiltered" class="pt-4" style="clear: left;">
+        <!-- Book Info -->
+        <div>
+          <div *ngIf="r.logicalBook" class="row m-0 p-3 bg-light book_info">
+            <div class="col-2">
+              <img class="cover_small" src="{{r.logicalBook.coverURL}}" alt="">
+            </div>
+            <div class="col-10 ">
+              <a [routerLink]="['/book/'+r.logicalBook.id]">
+                <h5>{{r.logicalBook.booktitle}}</h5>
+              </a>
+              <p>{{r.logicalBook.title}}</p>
+              <span *ngFor="let author of r.logicalBook.authors" class="pr-3">
+                {{ author.name }}
+              </span>
+              <p>{{r.logicalBook.location}}</p>
+            </div>
+          </div>
+          <!-- Reservation Info -->
+          <div class="row m-0 p-3 bg-light">
+            <div>
+              <div class="m-2">
+                <!-- ask wheather book is free -->
+                <p *ngIf="r.readyToBorrow"><span class="dot available"></span>Ready to borrow</p>
+                <!-- if not show either requested or borrowed -->
+                <p *ngIf="!r.readyToBorrow"><span class="dot borrowed"> </span>Not yet available</p>
+                <p>Priority: {{getPriorityNameByNumber(r.priority)}}</p>
+                <p>Purpose: {{r.purpose}}</p>
+                <p>Date: {{r.date}}</p>
+                <p>Requested Time: {{r.requiredTime}} Days</p>
+              </div>
+            </div>
+            <p class="historyButton">
+              <button *ngIf="r.readyToBorrow" class="btn btn-success float-right"
+                (click)="redeemBorrowing(r.id)">Borrow</button>
+            </p>
+            <div class="waitingListButton">
+              <p class="historyButton"><button class="btn btn-info float-right" (click)="cancelReservation(r.id)">Cancel
+                  Reservation</button>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Borrowed Media -->
+  <div *ngIf="borrowedMedia" class="panel panel-default container  mt-5">
+    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+      <h5 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Borrowed Media</a>
+      </h5>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse in">
+
+      <!-- filter area -->
+      <div class="filter">
+        <!-- sorting -->
+        <button type="button" class="btn btn-primary dropdown-toggle sortButton" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Sort by
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" (click)="sortBorrowingsBy('title')">Title</a>
+          <a class="dropdown-item" (click)="sortBorrowingsBy('borrowDate')">Borrow Date</a>
+          <a class="dropdown-item" (click)="sortBorrowingsBy('dueDate')">Due Date</a>
+        </div>
+
+        <!-- Search form -->
+        <div>
+          <input (input)="searchBorrowings()" id="borrowingSearch" class="form-control" type="text" placeholder="Search"
+            aria-label="Search">
+        </div>
+      </div>
+
+      <div *ngFor="let item of borrowedMediaFiltered" class="pt-4">
+        <!-- Book Info -->
+        <div class="row m-0 p-3 bg-light book_info">
+          <div class="col-2">
+            <img class="cover_small" src="{{item.medium.coverURL}}" alt="">
+          </div>
+          <div class="col-10">
+            <a routerLink="/book/{{item.medium.id}}">
+              <h5>{{item.medium.booktitle}} </h5>
+            </a>
+            <div class="info">
+              <span *ngFor="let author of item.medium.authors" class="pr-3">{{ author.name }}</span>
+              <span *ngIf="item.medium.year"> {{item.medium.year}}</span>
+            </div>
+          </div>
+        </div>
+        <!-- Borrowing Info-->
+        <div class="row m-0 p-3 bg-light" id="request{{item.borrowingEntity.id}}">
+          <div class="col-12 col-md-4">
+            <p>due at: {{item.borrowingEntity.dueDate}}</p>
+          </div>
+          <div class="col-12 col-md-8">
+            <form *ngIf="returnPrivilege" action="" name="form{{item.borrowingEntity.id}}">
+              <!-- Extend -->
+              <div class="form-group row">
+                <div class="col-12 col-sm-9">
+                  <input class="form-control" type="date" aria-describedby="dateHelp" name="date"
+                    pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}"
+                    max="{{ getMaxExtensionDate(item.borrowingEntity.borrowDate) | date: 'yyyy-MM-dd' }}"
+                    min="{{ getDueDate(item.borrowingEntity.dueDate) | date: 'yyyy-MM-dd'}}">
+                  <div class="invalid-feedback">
+                    Date does not fit expected format: yyyy.mm.dd
+                  </div>
+                  <small id="dateHelp" class="form-text text-muted">Due Date</small>
+                </div>
+                <div class="col-12 col-sm-3">
+                  <button
+                    [disabled]="item.borrowingEntity.physical.resCount > 0 || item.borrowingEntity.physical.status == 'UNAVAILABLE'"
+                    (click)="extendBorrow(item.borrowingEntity.id)" class="btn btn-warning m-1">Extend</button>
+                </div>
+              </div>
+              <!-- Return -->
+              <div class="form-group">
+                <button (click)="returnBorrow(item.borrowingEntity.id)" class="btn btn-danger m-1">Return</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- Feedback after Return -->
+        <div class="row m-0 p-3 bg-light" style="display: none" id="return{{item.borrowingEntity.id}}">
+          <h5>Successfully returned media.</h5>
+        </div>
+        <div class="row m-0 p-3 bg-light" style="display: none" id="failReturn{{item.borrowingEntity.id}}">
+          <h5>Some error occured during transmission of transaction.</h5>
+        </div>
+        <!-- Feedback after Extend -->
+        <div class="row m-0 p-3 bg-light" style="display: none" id="extend{{item.borrowingEntity.id}}">
+          <h5>Successfully extended media.</h5>
+        </div>
+        <div class="row m-0 p-3 bg-light" style="display: none" id="failExtend{{item.borrowingEntity.id}}">
+          <h5>Some error occured during transmission of transaction.</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Own Media -->
+  <div *ngIf="ownMedia" class="panel panel-default container mt-5">
+    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+      <h5 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Own Media</a></h5>
+    </div>
+    <div id="collapse4" class="panel-collapse collapse in">
+
+      <!-- filter area -->
+      <div class="filter">
+        <!-- sorting -->
+        <button type="button" class="btn btn-primary dropdown-toggle sortButton" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Sort by
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" (click)="sortOwnMediaBy('title')">Title</a>
+          <a class="dropdown-item" (click)="sortOwnMediaBy('location')">Location</a>
+          <a class="dropdown-item" (click)="sortOwnMediaBy('status')">Status</a>
+          <a class="dropdown-item" (click)="sortOwnMediaBy('dueDate')">Due Date</a>
+          <a class="dropdown-item" (click)="sortOwnMediaBy('borrower')">Borrower Name</a>
+        </div>
+
+        <!-- Search form -->
+        <input (input)="searchOwnMedia()" id="ownMediaSearch" class="form-control" type="text" placeholder="Search"
+          aria-label="Search">
+
+        <!-- Checkbox to hide available media -->
+        <div class="custom-control custom-checkbox checkbox">
+          <input type="checkbox" class="custom-control-input" id="hideAvailableCheckbox" [(ngModel)]="hideAvailable">
+          <label class="custom-control-label" for="hideAvailableCheckbox">Hide available Media</label>
+        </div>
+        <!-- Checkbox to hide borrowed media -->
+        <div class="custom-control custom-checkbox checkbox">
+          <input type="checkbox" class="custom-control-input" id="hideBorrowedCheckbox" [(ngModel)]="hideBorrowed">
+          <label class="custom-control-label" for="hideBorrowedCheckbox">Hide borrowed Media</label>
+        </div>
+
+        <!-- Button for full history -->
+        <div id="fullHistoryButton">
+          <button class="btn btn-info" (click)="showFullHistory()">Full History</button>
+        </div>
+      </div>
+
+      <div *ngFor="let extendedPhysical of ownMediaFiltered" class="pt-4">
+        <!-- Book Info -->
+        <!-- ngIf: display only books which fulfill the filter criteria -->
+        <div
+          *ngIf="(!hideBorrowed && !hideAvailable) || (!hideAvailable && extendedPhysical.borrowings.length==0) || (!hideBorrowed && extendedPhysical.borrowings.length!=0)">
+          <div *ngIf="extendedPhysical.media" class="row m-0 p-3 bg-light book_info">
+
+            <div class="col-2">
+              <img class="cover_small" src="{{extendedPhysical.media.coverURL}}" alt="">
+            </div>
+            <div class="col-10 ">
+              <a [routerLink]="['/book/'+extendedPhysical.media.id]">
+                <h5>{{extendedPhysical.media.booktitle}}</h5>
+              </a>
+              <p>{{extendedPhysical.media.title}}</p>
+              <span *ngFor="let author of extendedPhysical.media.authors" class="pr-3">
+                {{ author.name }}
+              </span>
+              <p>{{extendedPhysical.physical.location}} {{extendedPhysical.physical.department}}
+                {{extendedPhysical.physical.room}}</p>
+            </div>
+          </div>
+          <!-- Borrowing Info -->
+          <div class="row m-0 p-3 bg-light ownMediaBorrowInfo">
+            <!-- ask wheather book is free -->
+            <p *ngIf="extendedPhysical.borrowings.length==0; else borrowedOrRequested">
+              <span *ngIf="extendedPhysical.physical.status!='UNAVAILABLE'"><span
+                  class="dot available"></span>available</span>
+              <span *ngIf="extendedPhysical.physical.status=='UNAVAILABLE'"><span
+                  class="dot borrowed"></span>unavailable</span>
+            </p>
+            <p class="historyButton">
+              <button class="btn btn-info float-right" (click)="showHistory(extendedPhysical.physical.id)">Borrowing
+                History</button>
+            </p>
+            <div class="waitingListButton">
+              <p class="historyButton">
+                <button class="btn btn-info float-right" (click)="showWaitingList(extendedPhysical.physical.id)">
+                  Waiting List</button>
+              </p>
+            </div>
+
+            <!-- if not show either requested or borrowed -->
+            <ng-template #borrowedOrRequested>
+              <div *ngFor="let borrowing of extendedPhysical.borrowings">
+
+                <div *ngIf="extendedPhysical.borrowings[0].status=='BORROWED'" class="m-2">
+                  <p><span class="dot borrowed"> </span>borrowed</p>
+                  <p>due date: {{borrowing.dueDate}}</p>
+                  <p>by: {{borrowing.borrower.name}}</p>
+                </div>
+
+                <div *ngIf="extendedPhysical.borrowings[0].status=='REQUESTED'" class="m-2">
+                  <p><span class="dot requested"> </span>requested</p>
+                  <p>request date: {{borrowing.borrowDate}}</p>
+                  <p>by: {{borrowing.borrower.name}}</p>
+                </div>
+              </div>
+            </ng-template>
+          </div>
+          <div class="custom-control custom-checkbox checkbox allowToBorrowBox bg-light">
+            <input type="checkbox" class="form-check-input custom-control-input" [id]="extendedPhysical.physical.id"
+              (change)="changeAllowToBorrow(extendedPhysical, $event)"
+              [checked]="extendedPhysical.physical.status != 'UNAVAILABLE'">
+            <label class="custom-control-label" [for]="extendedPhysical.physical.id">Other users can borrow this
+              book.</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Nothing in the inbox-->
+<div *ngIf="!ownMedia&&!borrowedMedia&&!expiredMedia&&!requestedMedia&&!reservations" class="container">
+  <p>Nothing in your Inbox!</p>
+  <a href="/">Back to the Library</a>
+</div>
+
+<div class="m-5 p-5"></div>
+
+<!-- History of the borrowings of a physical -->
+<div id="borrowHistory">
+  <div>
+    <button type="button" class="close" (click)="hideHistory()">
+      <span aria-hidden="true">×</span>
+    </button>
+    <h2>Borrowing History</h2>
+    <h3>"{{ historyTitle }}"</h3>
+    <hr>
+    <table id="historyTable" class="table-striped">
+      <thead>
+        <tr>
+          <th>Borrowing ID</th>
+          <!-- title appears only in the full history -->
+          <th>Title</th>
+          <th>Username</th>
+          <th>Email</th>
+          <th>Borrow Date</th>
+          <th>Due Date</th>
+          <th>Return Date</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- Waiting list table -->
+<div id="waitingList">
+  <div>
+    <button type="button" class="close" (click)="hideWaitingList()">
+      <span aria-hidden="true">×</span>
+    </button>
+    <h2>Waiting List</h2>
+    <h3>"{{ reservationTitle }}"</h3>
+    <hr>
+    <table id="waitingListTable" class="table-striped">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Rank</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Request Date</th>
+          <th>Purpose</th>
+          <th>Requested Days</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+</div>

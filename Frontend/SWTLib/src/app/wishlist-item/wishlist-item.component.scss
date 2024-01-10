@@ -1,0 +1,67 @@
+.card-header {
+  padding: 0 0.75rem 0 0.75rem;
+
+  .header {
+    display: flex;
+    align-items: center;
+
+    .collapseBtn {
+      min-height: 48px;
+      min-width: 0;
+      box-shadow: none;
+      border: 0;
+      text-align: left;
+      padding: 0.75rem;
+
+      h5 {
+        margin: 0;
+      }
+    }
+
+    .deleteBtn {
+      flex-shrink: 0;
+      margin-left: auto;
+    }
+  }
+
+  .alert {
+    margin-top: 0.5rem;
+    padding-right: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.card-body {
+  input {
+    width: 100%;
+  }
+
+  .textareaForm {
+    margin-bottom: 0;
+
+    textarea {
+      resize: none;
+    }
+  }
+
+  a {
+    float: right;
+  }
+
+  .mdBtnContainer {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+.requestFailed {
+  border-color: #721c24;
+}
+
+#url {
+  margin-bottom: 50px;
+}
+
+#autoCompleteButton {
+  margin-top: 10px;
+}

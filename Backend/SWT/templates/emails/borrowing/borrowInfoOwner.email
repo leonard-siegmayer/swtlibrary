@@ -1,0 +1,11 @@
+SUBJECT: SWTLib: Your medium has been borrowed.
+TEXT:
+Dear $STAFFMEMBER,
+
+the user $USER borrowed the following medium:
+
+    $PHYSICAL
+
+Kind Regards,
+
+$SIGNATURE

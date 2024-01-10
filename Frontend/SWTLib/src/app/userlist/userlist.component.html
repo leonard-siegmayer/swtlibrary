@@ -1,0 +1,56 @@
+<app-nav></app-nav>
+
+<div class="container mt-3">
+  <!-- alert if user unauthorized -->
+  <div *ngIf="!user || user.role !== role.ROLE_ADMIN" class="alert alert-danger" role="alert">
+    You are not authorized.
+  </div>
+  <!-- user authorized -->
+  <div *ngIf="user && user.role === role.ROLE_ADMIN">
+    <!-- alert if data not received -->
+    <div *ngIf="!dataReceived" class="alert alert-danger" role="alert">
+      Unable to retrieve user data from server. Please try again.
+    </div>
+    <!-- data received -->
+    <div *ngIf="dataReceived">
+      <!-- filter navbar -->
+      <ul class="nav nav-pills justify-content-center pills" role="tablist">
+        <li *ngFor="let char of alphabet" class="nav-item">
+          <a class="nav-link" data-toggle="pill" href="#userTable" role="tab" aria-controls="userTable"
+            aria-selected="false" (click)="filterList(char)">{{ char }}</a>
+        </li>
+        <li class="nav-item specialNavItem">
+          <a class="nav-link active" data-toggle="pill" href="#userTable" role="tab" aria-controls="userTable"
+            aria-selected="true" (click)="filterList('all')">All</a>
+          <a class="nav-link" data-toggle="pill" href="#userTable" role="tab" aria-controls="userTable"
+            aria-selected="false" (click)="filterList('other')">Other</a>
+        </li>
+      </ul>
+      <hr>
+      <!-- user table -->
+      <div class="tab-content">
+        <div class="tab-pane show active" id="userTable" role="tabpanel">
+          <div *ngIf="filteredList.length > 0; else noUser" class="table-responsive">
+            <table class="table table-striped table-bordered">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">User</th>
+                  <th scope="col">Email</th>
+                  <th scope="col">Role</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let usr of filteredList" userlist-entry [user]="user" [userEntry]="usr"
+                  [allRoles]="allRoles" (updateEvent)="getAllUsers()"></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- template if user list is empty -->
+<ng-template #noUser>
+  There are no users matching your filter.
+</ng-template>

@@ -1,0 +1,103 @@
+<app-nav></app-nav>
+
+<div *ngIf="book" class="container">
+  <!-- tags and keywords -->
+  <div>
+    <div *ngFor="let keyword of book.keywords" class="chip keyword"
+      [routerLink]="['/search', {Keywords: keyword.name}]">
+      {{ keyword.name }}
+    </div>
+    <br>
+    <!-- structure for adding a potential advance search by tag name sinilar to keyword search in the future -->
+    <div *ngFor=" let tag of book.tags" class="chip tag">
+      <div data-toggle="tooltip" data-placement="right" title="{{ tag.description }}">
+        {{ tag.name }}</div>
+    </div>
+  </div>
+  <div class="row my-3">
+    <!-- book cover -->
+    <div class="col-md-3">
+      <img *ngIf="book.coverURL;else noCover" [src]="book.coverURL" class="img-fluid mx-auto d-block cover"
+        alt="Book Cover">
+      <ng-template #noCover>
+        <div class="card noCover">
+          <div class="card-body m-auto">
+            No Cover available
+          </div>
+        </div>
+      </ng-template>
+    </div>
+    <!-- general information -->
+    <div
+      [className]="user && (user.role === role.ROLE_ADMIN || user.role === role.ROLE_STAFF) ? 'col-md-6' : 'col-md-9'">
+      <h2>{{ book.booktitle }}</h2>
+      <h3 *ngIf="book.title">{{ book.title }}</h3>
+      <span class="author mr-3" *ngFor="let author of book.authors">
+        <a href="#" [routerLink]="['/search', {Autor: author.name}]">{{ author.name }}</a>
+      </span>
+      <p class="mt-3">{{ book.abstract }}</p>
+    </div>
+    <div class="col-md-3">
+      <!-- edit/delete-interface -->
+      <div *ngIf="user && (user.role === role.ROLE_ADMIN || user.role === role.ROLE_STAFF)" class="card">
+        <div class="card-body">
+          <a class="btn btn-dark btn-block" href="#" role="button" routerLink="/editBook/{{ book.id }}">Edit or
+            Delete</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <!-- detailed information -->
+  <div class="row">
+    <div class="col-md-6">
+      <table class="table table-borderless">
+        <tbody>
+          <tr>
+            <th>ISBN</th>
+            <td *ngIf="book.isbn;else notAvailable">{{ book.isbn }}</td>
+          </tr>
+          <tr>
+            <th>Pages</th>
+            <td *ngIf="book.pages;else notAvailable">{{ book.pages }}</td>
+          </tr>
+          <tr>
+            <th>Language</th>
+            <td *ngIf="book.language;else notAvailable">{{ book.language }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-md-6">
+      <table class="table table-borderless">
+        <tbody>
+          <tr>
+            <th>Publisher</th>
+            <td *ngIf="book.publisher;else notAvailable">{{ book.publisher }}</td>
+          </tr>
+          <tr>
+            <th>Year</th>
+            <td *ngIf="book.year;else notAvailable">{{ book.year }}</td>
+          </tr>
+          <tr>
+            <th>Edition</th>
+            <td *ngIf="book.edition;else notAvailable">{{ book.edition }}</td>
+          </tr>
+          <!-- fallback for missing information -->
+          <ng-template #notAvailable>
+            <td>N/A</td>
+          </ng-template>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <!-- Borrow-Interface -->
+  <div class="mt-5 mb-3">
+    <app-borrow-interface [id]="book.id" [user]="user"></app-borrow-interface>
+  </div>
+  <!-- Note section (only if user logged in) -->
+  <div *ngIf="user" class="mt-5 mb-3">
+    <app-note-section [bookId]="book.id" [notes]="book.notes" [user]="user" (updateBookEvent)="getBook(book.id)">
+    </app-note-section>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+SUBJECT: SWTLib: $USER: Borrowing overdue for $TITLE
+TEXT:
+Dear $STAFFMEMBER,
+
+the student $USER did not return the following medium:
+
+    $PHYSICAL
+
+This medium is overdue for $OVERDUEDAYS and the student has to return it. Please contact her or
+him as soon as possible.
+
+Student Email: $USERMAIL
+
+
+Kind Regards,
+
+$SIGNATURE

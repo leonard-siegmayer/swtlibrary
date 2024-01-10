@@ -1,0 +1,11 @@
+SUBJECT: SWTLib: $USER: Waitinglist for $TITLE
+TEXT:
+
+Dear $USER,
+
+You have exceeded your time to borrow: $TITLE.
+You are no longer on the reservation list.
+
+Kind Regards,
+
+$SIGNATURE

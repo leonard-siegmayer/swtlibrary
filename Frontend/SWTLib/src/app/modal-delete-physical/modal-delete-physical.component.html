@@ -1,0 +1,18 @@
+<div class="modal-header">
+  <h4 class="modal-title" id="modal-basic-title">Delete physical Book from "{{physical.owner.name}}"?</h4>
+</div>
+<div class="modal-body">
+  <br>
+  <h5>Physical Book Details</h5>
+  <p><b>Owner:</b> {{physical.owner.name}}</p>
+  <p><b>Location:</b> {{physical.location}}</p>
+  <p *ngIf="physical.handapparat"><b>Is in Handapperat?:</b> {{physical.handapparat}}</p>
+  <p *ngIf="!physical.handapparat"><b>Is in Handapperat?:</b> no</p>
+  <p><b>RVK Signature:</b> {{physical.rvkSignature}}</p>
+
+
+
+  <br>
+  <button type="button" (click)="cancel()" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+  <button (click)="passBack()" type="submit" class="btn btn-danger">Delete Physical</button>
+</div>

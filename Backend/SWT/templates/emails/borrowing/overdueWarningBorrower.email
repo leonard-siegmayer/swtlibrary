@@ -1,0 +1,14 @@
+SUBJECT: SWTLib: Borrowing overdue for medium/media
+TEXT:
+Dear $USER,
+
+as of today you have not returned the following media:
+
+    $BORROWEDMEDIA
+
+Those media are overdue and you must return it. Please do that as soon as possible.
+
+
+Kind Regards,
+
+$SIGNATURE
